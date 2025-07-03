@@ -9,7 +9,7 @@ docs = list(data_collection.find({}, {"_id": 0, "text": 1, "label": 1}))
 
 df = pd.DataFrame(docs)
 
-print(df.head()) 
+print(df.head())
 
 vectorizer = TfidfVectorizer()
 X = vectorizer.fit_transform(df['text'])
@@ -17,7 +17,8 @@ X = vectorizer.fit_transform(df['text'])
 model = LogisticRegression()
 model.fit(X, df['label'])
 
-joblib.dump(model, 'chatbot_model.joblib')
-joblib.dump(vectorizer, 'vectorizer.joblib')
+# ✅ ✅ ✅ Save with old pickle protocol!
+joblib.dump(model, 'chatbot_model.joblib', compress=3, protocol=4)
+joblib.dump(vectorizer, 'vectorizer.joblib', compress=3, protocol=4)
 
-print("✅ Training complete. Model & vectorizer saved.")
+print("✅ Training complete. Model & vectorizer saved with protocol 4.")
