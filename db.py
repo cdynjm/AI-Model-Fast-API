@@ -1,13 +1,19 @@
 from pymongo import MongoClient
+from dotenv import load_dotenv
+import os
+
+# Load .env
+load_dotenv()
+
+# Get from environment
+MONGO_URI = os.getenv('MONGO_URI')
+MONGO_DB = os.getenv('MONGO_DB')
 
 # Initialize MongoDB client once
-client = MongoClient(
-    "mongodb+srv://cdynjm:xxSn3JXb0CkbN5BS@cluster1.ziep46f.mongodb.net/myappdb"
-    "?retryWrites=true&w=majority&appName=Cluster1"
-)
+client = MongoClient(MONGO_URI)
 
 # Select your database
-db = client['myappdb']
+db = client[MONGO_DB]
 
 # Ensure 'data' collection exists or create it
 if 'data' not in db.list_collection_names():
