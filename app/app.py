@@ -5,19 +5,19 @@ from flask_cors import CORS
 import joblib
 import random
 
-app = Flask(__name__)
+base_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.dirname(base_dir)
+
+app = Flask(__name__, template_folder=os.path.join(project_root, 'templates'))
 CORS(app)
 
 try:
     from database.db import responses_collection
-
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    project_root = os.path.dirname(base_dir)
     model_path = os.path.join(project_root, 'models', 'chatbot_model.joblib')
     vectorizer_path = os.path.join(project_root, 'models', 'vectorizer.joblib')
     model = joblib.load(model_path)
     vectorizer = joblib.load(vectorizer_path)
-    
+
 except Exception:
     with open('error.log', 'w') as f:
         f.write(traceback.format_exc())
