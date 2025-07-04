@@ -1,14 +1,13 @@
 import os
 import traceback
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 import joblib
 import random
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS
+CORS(app)
 
-# Try to import db and load models, catch errors and log them
 try:
     from db import responses_collection
 
@@ -18,7 +17,6 @@ try:
 except Exception:
     with open('error.log', 'w') as f:
         f.write(traceback.format_exc())
-    # Re-raise to let Passenger know the app failed
     raise
 
 def get_response(label: str) -> str:
@@ -30,7 +28,6 @@ def get_response(label: str) -> str:
             return random.choice(doc['response'])
         return doc['response']
     except Exception:
-        # Log DB errors but return fallback string to avoid crashing
         with open('error.log', 'a') as f:
             f.write("\nDB error in get_response:\n")
             f.write(traceback.format_exc())
@@ -38,7 +35,9 @@ def get_response(label: str) -> str:
 
 @app.route('/')
 def home():
-    return "Flask chatbot API is running!"
+    title = "Chatbot API"
+    message = "The API is running smoothly 🚀"
+    return render_template("home.html", title=title, message=message)
 
 @app.route('/chat', methods=['POST'])
 def chat():

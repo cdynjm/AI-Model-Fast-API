@@ -17,7 +17,6 @@ X = vectorizer.fit_transform(df['text'])
 model = LogisticRegression()
 model.fit(X, df['label'])
 
-# ✅ ✅ ✅ Save with old pickle protocol!
 joblib.dump(model, 'chatbot_model.joblib', compress=3, protocol=4)
 joblib.dump(vectorizer, 'vectorizer.joblib', compress=3, protocol=4)
 

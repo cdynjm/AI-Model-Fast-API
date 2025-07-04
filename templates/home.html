@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Flask Chatbot API</title>
+  <style>
+    body {
+      background: #ffffff;
+      font-family: Arial, sans-serif;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 600px;
+      padding: 40px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5em;
+      color: #007acc;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 {{ title }}</h1>
+    <p>{{ message }}</p>
+    <p>Powered by <code>Flask</code> using <code>Python</code>.</p>
+    <p>POST requests can be sent to the <code>/chat</code> endpoint.</p>
+  </div>
+</body>
+</html>
