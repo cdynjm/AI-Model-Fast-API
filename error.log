@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\Asus\Documents\Python\ai-model\app\app.py", line 15, in <module>
+    model = joblib.load(os.path.join(base_dir, 'models/chatbot_model.joblib'))
+  File "C:\Users\Asus\Documents\Python\ai-model\venv\lib\site-packages\joblib\numpy_pickle.py", line 597, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Asus\\Documents\\Python\\ai-model\\app\\models/chatbot_model.joblib'

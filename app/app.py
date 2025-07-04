@@ -9,11 +9,15 @@ app = Flask(__name__)
 CORS(app)
 
 try:
-    from db import responses_collection
+    from database.db import responses_collection
 
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    model = joblib.load(os.path.join(base_dir, 'chatbot_model.joblib'))
-    vectorizer = joblib.load(os.path.join(base_dir, 'vectorizer.joblib'))
+    project_root = os.path.dirname(base_dir)
+    model_path = os.path.join(project_root, 'models', 'chatbot_model.joblib')
+    vectorizer_path = os.path.join(project_root, 'models', 'vectorizer.joblib')
+    model = joblib.load(model_path)
+    vectorizer = joblib.load(vectorizer_path)
+    
 except Exception:
     with open('error.log', 'w') as f:
         f.write(traceback.format_exc())
@@ -58,5 +62,4 @@ def chat():
 
     return jsonify({'response': response})
 
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+
