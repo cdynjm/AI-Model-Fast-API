@@ -1,2 +1,9 @@
-venv
+# Ignore virtualenv
+venv/
+
+# Ignore env files
 .env
+
+# Ignore __pycache__ and compiled files
+__pycache__/
+*.pyc
