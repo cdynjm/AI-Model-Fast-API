@@ -11,8 +11,8 @@ client = MongoClient(MONGO_URI)
 
 db = client[MONGO_DB]
 
-if 'data' not in db.list_collection_names():
-    db.create_collection('data')
+if 'datas' not in db.list_collection_names():
+    db.create_collection('datas')
 
-data_collection = db['data']
+data_collection = db['datas']
 responses_collection = db['responses']
