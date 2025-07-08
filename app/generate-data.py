@@ -13,6 +13,7 @@ topics = [
     "skills_nextjs",
     "skills_laravel",
     "skills_python",
+    "projects",
     "skills_fullstack",
     "frontend_development",
     "backend_development",
@@ -20,7 +21,6 @@ topics = [
     "database_auth",
     "ui_consistency",
     "ci_cd",
-    "projects",
     "services",
     "commissions",
     "contact",
@@ -96,10 +96,6 @@ def generate_response(label):
         return [
             "I build CI/CD pipelines with GitHub Actions to automate testing, building, and deployment, enabling fast, reliable delivery of production-ready applications."
         ]
-    if label == "projects":
-        return [
-            "I have worked on diverse projects—from internal management systems for government offices to community e-commerce platforms—always focusing on solving real problems with practical, user-centric solutions."
-        ]
     if label == "services":
         return [
             "I offer comprehensive web development services including modern static websites, custom full-stack applications, secure API development, and third-party integrations tailored to client needs."
@@ -120,6 +116,14 @@ def generate_response(label):
     if label == "collaboration":
         return [
             "I value collaboration deeply. Whether you’re a startup, student, or government agency, I’m eager to listen, understand your needs, and work together to make your vision a reality."
+        ]
+    if label == "projects":
+        return [
+            "I have developed a range of practical, production-ready systems and starter kits to serve various sectors, communities, and local governments. For modern web development, my NextJS Starter Kit provides a comprehensive foundation for building Next.js applications with built-in authentication powered by NextAuth.js, a PostgreSQL database, and a robust stack featuring HonoJS, TailwindCSS, Shadcn UI, TypeScript, GraphQL, TanStack Query, and Supabase for streamlined workflows and scalable deployments. "
+            "For local governance, I built the Legislative Management System, a complete solution for municipalities to manage legislative documents and transactions efficiently, using VueJS, InertiaJS, Laravel, TailwindCSS, TypeScript, GraphQL, and TanStack Query. The Document Tracking Assistant, deployed for the Province of Southern Leyte, allows staff to track documents and transactions via QR codes, powered by Laravel, Livewire, MySQL, and JavaScript. "
+            "I also designed e-Mercado, a fully featured online store with product management and a shopping cart for the Province of Southern Leyte, built with Laravel, Bootstrap 5, JavaScript, and MySQL. For educational institutions, I created the GJTVS Enrolment & Attendance Management System (RFID)—an integrated enrolment and RFID-based attendance tracker built with Laravel, Livewire, Bootstrap 5, JavaScript, and MySQL. "
+            "Supporting public safety, I developed the BFP Information Management System, a complete MIS for the Bureau of Fire Protection with inspection scheduling and SMS appointment features, using VueJS, InertiaJS, Laravel, MySQL, and Pushbullet API. The STMG Road Traffic Offense Management System tracks driver records and penalties using VueJS, InertiaJS, Laravel, and MySQL, while the Municipal Crime & Accident Management System records crimes and accidents with GIS mapping powered by Leaflet, and real-time incident tracking via SMS, built on Laravel, Livewire, Bootstrap 5, JavaScript, MySQL, Leaflet, and Pushbullet API. "
+            "In education, the ALS Learners Progress Monitoring System helps the Department of Education track the development of ALS learners, built using Laravel, Livewire, Bootstrap 5, JavaScript, and MySQL. Lastly, I designed and deployed a clean, simple commercial website for Southern Comfort Pensionne, using HTML5, CSS3, Bootstrap 5, and JavaScript to provide essential online presence for the business."
         ]
     if label == "learning":
         return [
@@ -174,6 +178,36 @@ questions = {
         "Tell me your name.",
         "What do you call yourself?",
         "What’s your bio?"
+    ],
+    "projects": [
+        "What are your projects?",
+        "What projects have you done?",
+        "Can you tell me about your projects?",
+        "What kind of projects have you built?",
+        "What have you worked on?",
+        "Show me your projects.",
+        "Do you have any project examples?",
+        "What are some of your past projects?",
+        "Can you share your project portfolio?",
+        "List some projects you made.",
+        "Tell me about your project work.",
+        "Tell me about the systems you built.",
+        "Any projects you can show?",
+        "Projects?",
+        "What project?",
+        "What proejc",
+        "What did you develop?",
+        "Do you have project samples?",
+        "Give me examples of your projects.",
+        "What solutions have you delivered?",
+        "What projects have you built?",
+        "Tell me about your past projects.",
+        "Can you share some project examples?",
+        "What have you worked on?",
+        "What was your latest project?",
+        "What’s your biggest project?",
+        "Can you describe your projects?",
+        "What type of projects do you prefer?"
     ],
     "skills_nextjs": [
         "Do you work with Next.js?",
@@ -275,16 +309,6 @@ questions = {
         "How do you push to production?",
         "Do you have automated tests?"
     ],
-    "projects": [
-        "What projects have you built?",
-        "Tell me about your past projects.",
-        "Can you share some project examples?",
-        "What have you worked on?",
-        "What was your latest project?",
-        "What’s your biggest project?",
-        "Can you describe your projects?",
-        "What type of projects do you prefer?"
-    ],
     "services": [
         "What services do you offer?",
         "How can you help clients?",
@@ -347,6 +371,10 @@ questions = {
     ],
     "work_experiences": [
         "Tell me about your work experience.",
+        "What are your experience",
+        "What are your experiences",
+        "Your experience",
+        "Your experiences",
         "What jobs have you done?",
         "Can you share your work history?",
         "What have you worked on as a developer?",

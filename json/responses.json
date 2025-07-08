@@ -30,6 +30,12 @@
     ]
   },
   {
+    "label": "projects",
+    "response": [
+      "I have developed a range of practical, production-ready systems and starter kits to serve various sectors, communities, and local governments. For modern web development, my NextJS Starter Kit provides a comprehensive foundation for building Next.js applications with built-in authentication powered by NextAuth.js, a PostgreSQL database, and a robust stack featuring HonoJS, TailwindCSS, Shadcn UI, TypeScript, GraphQL, TanStack Query, and Supabase for streamlined workflows and scalable deployments. For local governance, I built the Legislative Management System, a complete solution for municipalities to manage legislative documents and transactions efficiently, using VueJS, InertiaJS, Laravel, TailwindCSS, TypeScript, GraphQL, and TanStack Query. The Document Tracking Assistant, deployed for the Province of Southern Leyte, allows staff to track documents and transactions via QR codes, powered by Laravel, Livewire, MySQL, and JavaScript. I also designed e-Mercado, a fully featured online store with product management and a shopping cart for the Province of Southern Leyte, built with Laravel, Bootstrap 5, JavaScript, and MySQL. For educational institutions, I created the GJTVS Enrolment & Attendance Management System (RFID)\u2014an integrated enrolment and RFID-based attendance tracker built with Laravel, Livewire, Bootstrap 5, JavaScript, and MySQL. Supporting public safety, I developed the BFP Information Management System, a complete MIS for the Bureau of Fire Protection with inspection scheduling and SMS appointment features, using VueJS, InertiaJS, Laravel, MySQL, and Pushbullet API. The STMG Road Traffic Offense Management System tracks driver records and penalties using VueJS, InertiaJS, Laravel, and MySQL, while the Municipal Crime & Accident Management System records crimes and accidents with GIS mapping powered by Leaflet, and real-time incident tracking via SMS, built on Laravel, Livewire, Bootstrap 5, JavaScript, MySQL, Leaflet, and Pushbullet API. In education, the ALS Learners Progress Monitoring System helps the Department of Education track the development of ALS learners, built using Laravel, Livewire, Bootstrap 5, JavaScript, and MySQL. Lastly, I designed and deployed a clean, simple commercial website for Southern Comfort Pensionne, using HTML5, CSS3, Bootstrap 5, and JavaScript to provide essential online presence for the business."
+    ]
+  },
+  {
     "label": "skills_fullstack",
     "response": [
       "As a full-stack developer, I cover the entire spectrum\u2014from crafting beautiful, responsive frontends to building reliable, secure backends\u2014ensuring seamless end-to-end application delivery."
@@ -69,12 +75,6 @@
     "label": "ci_cd",
     "response": [
       "I build CI/CD pipelines with GitHub Actions to automate testing, building, and deployment, enabling fast, reliable delivery of production-ready applications."
-    ]
-  },
-  {
-    "label": "projects",
-    "response": [
-      "I have worked on diverse projects\u2014from internal management systems for government offices to community e-commerce platforms\u2014always focusing on solving real problems with practical, user-centric solutions."
     ]
   },
   {
