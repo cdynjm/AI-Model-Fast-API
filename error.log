@@ -1,12 +1,6 @@
 Traceback (most recent call last):
-  File "C:\Users\Asus\Documents\Python\ai-model\app\app.py", line 19, in <module>
+  File "C:\Users\Asus\Documents\Python\ai-model\app\app.py", line 20, in <module>
     model = joblib.load(model_path)
   File "C:\Users\Asus\Documents\Python\ai-model\venv\lib\site-packages\joblib\numpy_pickle.py", line 597, in load
     with open(filename, 'rb') as f:
 FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Asus\\Documents\\Python\\ai-model\\models\\chatbot_model.joblib'
-
-DB error in get_response:
-Traceback (most recent call last):
-  File "C:\Users\Asus\Documents\Python\ai-model\app\app.py", line 32, in get_response
-    if isinstance(doc['response'], list):
-TypeError: 'NoneType' object is not subscriptable

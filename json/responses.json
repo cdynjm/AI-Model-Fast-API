@@ -1,0 +1,159 @@
+[
+  {
+    "label": "introduction",
+    "response": [
+      "I\u2019m Jemuel H. Cadayona, a dedicated and detail-oriented software developer focused on creating modern, scalable web applications. My work supports local communities, government offices, and businesses in thriving digitally by improving their systems and workflows."
+    ]
+  },
+  {
+    "label": "skills",
+    "response": [
+      "I have a broad skill set spanning frontend and backend development. On the frontend, I work extensively with Next.js, React.js, Vue.js, Inertia.js, TypeScript, JavaScript, TailwindCSS, and Shadcn UI to craft responsive, maintainable user interfaces. On the backend, I develop scalable and secure APIs and server logic using Laravel, PHP 8, Livewire.js, LighthousePHP, and HonoJS. For databases, I manage MySQL, PostgreSQL, MongoDB, Drizzle ORM, Supabase, and Laravel's Eloquent ORM, ensuring efficient data handling and security. I implement robust authentication systems with NextAuth.js, Laravel Breeze, and Sanctum. To streamline workflows and deployments, I use Git, GitHub Actions, Vite, and GraphQL, all contributing to delivering clean, maintainable, and scalable full-stack applications."
+    ]
+  },
+  {
+    "label": "skills_nextjs",
+    "response": [
+      "Next.js is my preferred framework for building fast, SEO-friendly, and scalable web applications. I leverage its server-side rendering, static site generation, and powerful API routes to deliver robust user experiences."
+    ]
+  },
+  {
+    "label": "skills_laravel",
+    "response": [
+      "Laravel is my core backend framework where I build secure, maintainable APIs and data-driven systems. I integrate it with Livewire for dynamic UI components and LighthousePHP for building flexible GraphQL APIs."
+    ]
+  },
+  {
+    "label": "skills_python",
+    "response": [
+      "I use Python for automation, data processing, and custom backend scripts that enhance development efficiency and system capabilities."
+    ]
+  },
+  {
+    "label": "skills_fullstack",
+    "response": [
+      "As a full-stack developer, I cover the entire spectrum\u2014from crafting beautiful, responsive frontends to building reliable, secure backends\u2014ensuring seamless end-to-end application delivery."
+    ]
+  },
+  {
+    "label": "frontend_development",
+    "response": [
+      "My frontend expertise includes creating responsive and accessible user interfaces using TailwindCSS, Shadcn UI, React.js, Vue.js, Inertia.js, JavaScript, TypeScript, and Next.js. I focus on clean design, excellent user experience, and maintainability."
+    ]
+  },
+  {
+    "label": "backend_development",
+    "response": [
+      "On the backend, I develop scalable APIs and systems with Laravel, HonoJS, Livewire, PHP 8, and LighthousePHP, ensuring performance, security, and reliability."
+    ]
+  },
+  {
+    "label": "tools_workflow",
+    "response": [
+      "I rely on modern tools like Git, GitHub Actions for CI/CD, Vite for fast builds, Drizzle ORM for efficient database handling, and GraphQL for clean API design\u2014streamlining the entire development process."
+    ]
+  },
+  {
+    "label": "database_auth",
+    "response": [
+      "I design and manage databases with MySQL, PostgreSQL, MongoDB, Drizzle ORM, Supabase, and Laravel's Eloquent ORM. For authentication, I implement secure, user-friendly login systems using NextAuth.js in Next.js and Breeze or Sanctum in Laravel."
+    ]
+  },
+  {
+    "label": "ui_consistency",
+    "response": [
+      "Using design systems like Shadcn UI, I maintain consistent, accessible, and maintainable user interfaces across complex applications, improving usability and developer experience."
+    ]
+  },
+  {
+    "label": "ci_cd",
+    "response": [
+      "I build CI/CD pipelines with GitHub Actions to automate testing, building, and deployment, enabling fast, reliable delivery of production-ready applications."
+    ]
+  },
+  {
+    "label": "projects",
+    "response": [
+      "I have worked on diverse projects\u2014from internal management systems for government offices to community e-commerce platforms\u2014always focusing on solving real problems with practical, user-centric solutions."
+    ]
+  },
+  {
+    "label": "services",
+    "response": [
+      "I offer comprehensive web development services including modern static websites, custom full-stack applications, secure API development, and third-party integrations tailored to client needs."
+    ]
+  },
+  {
+    "label": "commissions",
+    "response": [
+      "My commission rates start at \u20b15,000 to \u20b110,000 for static websites, \u20b115,000 to \u20b120,000 for basic full-stack development, \u20b125,000 to \u20b150,000 for standard student or business systems, and \u20b160,000 to \u20b1100,000 for premium or enterprise-level projects. Please check my commission section for detailed information."
+    ]
+  },
+  {
+    "label": "contact",
+    "response": [
+      "Ready to start a project or just want to say hi? Visit my contact section to get in touch\u2014I\u2019m always excited to discuss new ideas and collaborations."
+    ]
+  },
+  {
+    "label": "goals",
+    "response": [
+      "My main goal is to deliver high-quality, practical software solutions that empower clients to grow, optimize workflows, and thrive in the digital landscape."
+    ]
+  },
+  {
+    "label": "collaboration",
+    "response": [
+      "I value collaboration deeply. Whether you\u2019re a startup, student, or government agency, I\u2019m eager to listen, understand your needs, and work together to make your vision a reality."
+    ]
+  },
+  {
+    "label": "learning",
+    "response": [
+      "I\u2019m passionate about continuous learning\u2014exploring new tools, frameworks, and best practices to keep my skills sharp and my projects up-to-date with the latest industry standards."
+    ]
+  },
+  {
+    "label": "work_experiences",
+    "response": [
+      "I\u2019ve led and contributed to several impactful projects. As a Software Developer and Consultant at Provincial Systems A.O., I built enterprise-level web apps using Laravel, Vue.js, and TailwindCSS. I optimized complex database structures, improving application load times by 40% and reducing deployment time by 60% through CI/CD pipelines.\n\nIn January 2025, I conducted a full implementation and user demonstration of the Document Tracking Assistant at the Capitol Site Southern Leyte, ensuring staff adoption and smooth operation.\n\nPreviously, in November 2024, I led training sessions to introduce the Document Tracking System to improve transparency and efficiency.\n\nIn April 2024, I held an orientation for the Legislative Management System at Southern Leyte State University, supporting streamlined legislative workflows.\n\nA key project is the e-Mercado platform launched in June 2023, a digital marketplace supporting local vendors in Southern Leyte. After presenting it to provincial leaders, we enhanced the system based on community feedback in November 2024. These experiences underscore my commitment to building practical, community-focused technology solutions."
+    ]
+  },
+  {
+    "label": "greetings",
+    "response": [
+      "Hi there! I\u2019m Jemuel H. Cadayona \u2014 JEM CDYN for short. I\u2019m a passionate software developer from Southern Leyte, Philippines. Feel free to ask me about my skills, past work, projects, or how we can collaborate to bring your ideas to life!"
+    ]
+  },
+  {
+    "label": "farewell",
+    "response": [
+      "Thank you so much for your time and interest in my work. Let\u2019s definitely keep in touch and explore opportunities to build something amazing together!"
+    ]
+  },
+  {
+    "label": "fallback",
+    "response": [
+      "Sorry, I don't know how to respond to that yet \u2014 maybe ask about my projects, skills, or commissions!",
+      "Sorry, I don't know how to respond to that yet \u2014 maybe ask about my projects, skills, or commissions!",
+      "Sorry, I don't know how to respond to that yet \u2014 maybe ask about my projects, skills, or commissions!",
+      "Sorry, I don't know how to respond to that yet \u2014 maybe ask about my projects, skills, or commissions!",
+      "Sorry, I don't know how to respond to that yet \u2014 maybe ask about my projects, skills, or commissions!",
+      "Sorry, I don't know how to respond to that yet \u2014 maybe ask about my projects, skills, or commissions!",
+      "Sorry, I don't know how to respond to that yet \u2014 maybe ask about my projects, skills, or commissions!",
+      "Sorry, I don't know how to respond to that yet \u2014 maybe ask about my projects, skills, or commissions!",
+      "Sorry, I don't know how to respond to that yet \u2014 maybe ask about my projects, skills, or commissions!",
+      "Sorry, I don't know how to respond to that yet \u2014 maybe ask about my projects, skills, or commissions!",
+      "Sorry, I don't know how to respond to that yet \u2014 maybe ask about my projects, skills, or commissions!",
+      "Sorry, I don't know how to respond to that yet \u2014 maybe ask about my projects, skills, or commissions!",
+      "Sorry, I don't know how to respond to that yet \u2014 maybe ask about my projects, skills, or commissions!",
+      "Sorry, I don't know how to respond to that yet \u2014 maybe ask about my projects, skills, or commissions!",
+      "Sorry, I don't know how to respond to that yet \u2014 maybe ask about my projects, skills, or commissions!",
+      "Sorry, I don't know how to respond to that yet \u2014 maybe ask about my projects, skills, or commissions!",
+      "Sorry, I don't know how to respond to that yet \u2014 maybe ask about my projects, skills, or commissions!",
+      "Sorry, I don't know how to respond to that yet \u2014 maybe ask about my projects, skills, or commissions!",
+      "Sorry, I don't know how to respond to that yet \u2014 maybe ask about my projects, skills, or commissions!",
+      "Sorry, I don't know how to respond to that yet \u2014 maybe ask about my projects, skills, or commissions!"
+    ]
+  }
+]

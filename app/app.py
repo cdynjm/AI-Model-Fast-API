@@ -1,41 +1,57 @@
 import os
 import shutil
 import traceback
+import json
+import random
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 import joblib
-import random
 from app.train import train_model
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(base_dir)
+json_dir = os.path.join(project_root, 'json')
 
 app = Flask(__name__, template_folder=os.path.join(project_root, 'templates'))
 CORS(app)
 
+# Load your ML model and vectorizer
 try:
-    from database.db import responses_collection
     model_path = os.path.join(project_root, 'models', 'chatbot_model.joblib')
     vectorizer_path = os.path.join(project_root, 'models', 'vectorizer.joblib')
     model = joblib.load(model_path)
     vectorizer = joblib.load(vectorizer_path)
-
 except Exception:
     with open('error.log', 'w') as f:
         f.write(traceback.format_exc())
     raise
 
+# Load responses.json into memory
+try:
+    responses_json_path = os.path.join(json_dir, 'responses.json')
+    with open(responses_json_path, 'r', encoding='utf-8') as f:
+        responses_data = json.load(f)
+except Exception:
+    with open('error.log', 'a') as f:
+        f.write("\nFailed to load responses.json:\n")
+        f.write(traceback.format_exc())
+    responses_data = []
+
 def get_response(label: str) -> str:
     try:
-        doc = responses_collection.find_one({"label": label})
+        # Lookup response in loaded JSON
+        doc = next((item for item in responses_data if item['label'] == label), None)
         if not doc:
-            doc = responses_collection.find_one({"label": "fallback"})
+            doc = next((item for item in responses_data if item['label'] == "fallback"), None)
+        if not doc:
+            return "Sorry, I can't respond right now."
+
         if isinstance(doc['response'], list):
             return random.choice(doc['response'])
         return doc['response']
     except Exception:
         with open('error.log', 'a') as f:
-            f.write("\nDB error in get_response:\n")
+            f.write("\nError in get_response:\n")
             f.write(traceback.format_exc())
         return "Sorry, I can't respond right now."
 
@@ -89,8 +105,8 @@ def chat():
         label_index = probs.argmax()
         predicted_label = model.classes_[label_index]
 
-        # 👇 Fallback if not confident enough
-        threshold = 0.2 # Tune this! Try 0.5 ~ 0.7
+        # Fallback if not confident enough
+        threshold = 0.2  # Tune this threshold as needed
         if max_prob < threshold:
             predicted_label = "fallback"
 
@@ -107,6 +123,3 @@ def chat():
         'label': predicted_label,
         'probability': max_prob
     })
-
-
-
