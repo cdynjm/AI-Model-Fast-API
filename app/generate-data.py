@@ -95,9 +95,9 @@ def generate_response(label):
 
     if label == "backend_development":
         return [
-            "On the backend, I build scalable, secure APIs and systems with Laravel, HonoJS, Livewire, PHP 8, and LighthousePHP.",
-            "I develop backend logic and APIs using Laravel, PHP 8, Livewire, HonoJS, and LighthousePHP for robust performance.",
-            "My backend stack includes Laravel, Livewire, LighthousePHP, HonoJS, and PHP 8 to deliver reliable server-side solutions."
+            "On the backend, I build scalable, secure APIs and systems with Laravel, HonoJS, Livewire, PHP 8, and LighthousePHP. I am using Python for AI and Machine Learning.",
+            "I develop backend logic and APIs using Laravel, PHP 8, Livewire, HonoJS, and LighthousePHP for robust performance. I am utilizing Python for AI and Machine Learning.",
+            "My backend stack includes Laravel, Livewire, LighthousePHP, HonoJS, and PHP 8 to deliver reliable server-side solutions. Also, I am using Python for AI and Machine Learning."
         ]
 
     if label == "tools_workflow":
@@ -188,7 +188,7 @@ def generate_response(label):
         return [
             (
                 "I have a broad skill set spanning frontend and backend development. On the frontend, I work extensively with Next.js, React.js, Vue.js, Inertia.js, TypeScript, JavaScript, TailwindCSS, and Shadcn UI to craft responsive, maintainable user interfaces. "
-                "On the backend, I develop scalable and secure APIs and server logic using Laravel, PHP 8, Livewire.js, LighthousePHP, and HonoJS. "
+                "On the backend, I develop scalable and secure APIs and server logic using Laravel, PHP 8, Livewire.js, LighthousePHP, and HonoJS. I also use Python for AI and Machine Learning. "
                 "For databases, I manage MySQL, PostgreSQL, MongoDB, Drizzle ORM, Supabase, and Laravel's Eloquent ORM, ensuring efficient data handling and security. "
                 "I implement robust authentication systems with NextAuth.js, Laravel Breeze, and Sanctum. "
                 "To streamline workflows and deployments, I use Git, GitHub Actions, Vite, and GraphQL, all contributing to delivering clean, maintainable, and scalable full-stack applications."
