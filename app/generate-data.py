@@ -252,7 +252,7 @@ questions = {
         "May I know your name?",
         "Tell me your name.",
         "What do you call yourself?",
-        "What’s your bio?"
+        "What is your bio?"
     ],
     "projects": [
         "What are your projects?",
@@ -280,7 +280,7 @@ questions = {
         "Can you share some project examples?",
         "What have you worked on?",
         "What was your latest project?",
-        "What’s your biggest project?",
+        "What is your biggest project?",
         "Can you describe your projects?",
         "What type of projects do you prefer?"
     ],
@@ -309,7 +309,7 @@ questions = {
         "What do you build with Python?",
         "Tell me about your Python experience.",
         "Do you use Python for development?",
-        "What’s your Python skill level?",
+        "What is your Python skill level?",
         "Are you comfortable coding Python?",
         "Do you build scripts in Python?",
         "How often do you use Python?"
@@ -351,7 +351,7 @@ questions = {
         "How do you manage deployments?",
         "Do you use Vite or GraphQL?",
         "How do you handle version control?",
-        "What’s your typical workflow?",
+        "What is your typical workflow?",
         "Do you automate your workflow?"
     ],
     "database_auth": [
@@ -400,8 +400,8 @@ questions = {
         "Tell me about your pricing.",
         "Where can I see your commission details?",
         "How much do you charge?",
-        "What’s your pricing structure?",
-        "What’s your starting price?",
+        "What is your pricing structure?",
+        "What is your starting price?",
         "Where do I find your rates?"
     ],
     "contact": [
@@ -410,7 +410,7 @@ questions = {
         "Where do I get in touch?",
         "How do I send you a message?",
         "How do I reach you?",
-        "What’s the best way to contact you?",
+        "What is the best way to contact you?",
         "Where can I send an inquiry?",
         "Do you have a contact form?"
     ],
@@ -419,10 +419,10 @@ questions = {
         "Tell me about your main goals.",
         "What do you aim to achieve?",
         "What are you working towards?",
-        "What’s your professional goal?",
+        "What is your professional goal?",
         "What motivates you?",
         "Where do you see yourself going?",
-        "What’s your mission as a developer?"
+        "What is your mission as a developer?"
     ],
     "collaboration": [
         "Are you open to collaboration?",
@@ -456,7 +456,7 @@ questions = {
         "Where have you worked?",
         "What companies have you worked for?",
         "Can you describe your career?",
-        "What’s your professional background?"
+        "What is your professional background?"
     ],
     "skills": [
         "What are your skills?",
@@ -466,7 +466,7 @@ questions = {
         "List your skills.",
         "What frameworks do you work with?",
         "What tech stack do you use?",
-        "What’s your technical skill set?"
+        "What is your technical skill set?"
     ]
 }
 
