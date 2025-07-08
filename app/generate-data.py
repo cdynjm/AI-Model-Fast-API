@@ -339,6 +339,8 @@ questions = {
         "Tell me your name.",
         "What do you call yourself?",
         "What is your bio?"
+        "tell me about you",
+        "who you are",
     ],
     "projects": [
         "What are your projects?",
