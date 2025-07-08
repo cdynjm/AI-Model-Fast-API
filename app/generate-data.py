@@ -324,6 +324,8 @@ questions = {
         "are you working now",
         "are you working",
         "what are you doing now",
+        "do you have a work",
+        "do you have work"
     ],
     "introduction": [
         "Can you tell me about yourself?",
