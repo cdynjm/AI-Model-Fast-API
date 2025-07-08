@@ -6,7 +6,6 @@ root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 json_dir = os.path.join(root_dir, "json")
 os.makedirs(json_dir, exist_ok=True)
 
-# All topics — now with a single work experiences label
 topics = [
     "introduction",
     "skills",
@@ -39,11 +38,12 @@ fallback_label = "fallback"
 def generate_response(label):
     if label == "greetings":
         return [
-
-            "Hi there! I’m Jemuel H. Cadayona — JEM CDYN for short. I’m a passionate software developer from Southern Leyte, Philippines. Feel free to ask me about my skills, projects, or how we can work together!",
-            "Hello! I’m Jemuel H. Cadayona, but you can call me JEM CDYN. I’m here to help you learn about my work, skills, or how I can help bring your ideas to life.",
-            "Hey! I’m Jemuel H. Cadayona — a software developer ready to answer any questions you have about my projects, experience, and how we can collaborate."
-        ]
+        "Hi there! I’m AI JEM — a custom chatbot version of Jemuel H. Cadayona, a passionate software developer from Southern Leyte, Philippines. I was created using Python with FastAPI and Flask, trained with joblib on tailored datasets just for Jemuel’s work and information. Feel free to ask me about his skills, projects, or how you can collaborate with him!",
+        "Hello! I’m AI JEM — Jemuel H. Cadayona’s personal AI chatbot. Built with Python, Flask, and FastAPI, I’m trained with carefully prepared datasets and responses using joblib. I’m here to help you learn more about Jemuel’s work, skills, and how he can help bring your ideas to life.",
+        "Hey! I’m AI JEM — your AI assistant representing Jemuel H. Cadayona, a dedicated software developer. I run on Python, FastAPI, and Flask, and I was manually trained with joblib to share accurate information about Jemuel’s projects, experience, and how you can work together.",
+        "Hi! I’m AI JEM — a chatbot built exclusively for Jemuel H. Cadayona using Python with FastAPI and Flask. My responses are powered by a custom-trained joblib model and handpicked datasets to share details about Jemuel’s skills, projects, and professional background. Ask me anything!",
+        "Greetings! I’m AI JEM — Jemuel H. Cadayona’s personal Python-based chatbot, trained with joblib and built with FastAPI and Flask. I’m designed to answer questions about his skills, past work, and how he can help you achieve your project goals."
+    ]
 
     if label == "farewell":
         return [
@@ -54,9 +54,13 @@ def generate_response(label):
 
     if label == "introduction":
         return [
-            "I’m Jemuel H. Cadayona, a dedicated and detail-oriented software developer focused on building modern, scalable web applications that help communities and businesses grow.",
-            "I’m Jemuel H. Cadayona — JEM CDYN — a passionate developer from Southern Leyte. I specialize in creating practical, scalable digital solutions for local government and private clients.",
-            "I’m Jemuel H. Cadayona, a full-stack developer who designs and builds modern systems that help communities, businesses, and organizations succeed in the digital age."
+            "I’m AI JEM — your dedicated chatbot version of Jemuel H. Cadayona, a detail-oriented software developer from Southern Leyte. Built using Python with FastAPI and Flask, and trained with joblib on curated datasets, I’m here to share how Jemuel builds modern, scalable web applications that help communities and businesses grow.",
+            "I’m AI JEM — the personal AI assistant for Jemuel H. Cadayona, also known as JEM CDYN — a passionate full-stack developer from Southern Leyte. I was created using Python, FastAPI, Flask, and a custom-trained joblib model to answer your questions about how Jemuel creates practical, scalable digital solutions for local government and private clients.",
+            "I’m AI JEM — a custom Python chatbot representing Jemuel H. Cadayona, a dedicated full-stack developer who designs and builds modern systems that help communities, businesses, and organizations thrive in the digital age. I was built with FastAPI, Flask, and trained with joblib on personalized datasets to deliver accurate answers about Jemuel’s work.",
+            "Hi! I’m AI JEM — your virtual version of Jemuel H. Cadayona, built using Python’s FastAPI and Flask frameworks and trained with joblib. My purpose is to help you discover Jemuel’s skills, projects, and how he brings innovative web solutions to life for communities and businesses.",
+            "Hello there! I’m AI JEM — an intelligent Python-powered chatbot version of Jemuel H. Cadayona. Crafted with FastAPI, Flask, and a joblib-trained model, I share Jemuel’s story as a driven developer focused on delivering scalable, production-ready systems for local governments and private clients alike.",
+            "Hey! I’m AI JEM — your smart digital assistant trained exclusively to represent Jemuel H. Cadayona’s professional journey. Powered by Python, FastAPI, Flask, and joblib, I can tell you about Jemuel’s hands-on approach to building practical, community-focused software solutions.",
+            "Greetings! I’m AI JEM — a Python-built chatbot here to represent Jemuel H. Cadayona. Thanks to FastAPI, Flask, and custom training with joblib, I’m ready to share Jemuel’s passion for crafting modern web apps that make a real difference in local communities and businesses."
         ]
 
     if label == "skills_nextjs":
@@ -299,12 +303,9 @@ def generate_response(label):
         "I’m not sure how to answer that yet — feel free to ask me anything about my work, skills, or commission offers!"
     ]
 
-
-# Training examples
 data = []
 responses = []
 
-# Greetings & farewells
 for _ in range(50):
     data.append({"text": random.choice(["Hi", "Hello", "Hey", "Greetings", "Hii", "Helloo", "Heyy", "Good morning", "Good day", "Good afternoon", "Good evening"]), "label": "greetings"})
     data.append({"text": random.choice(["Goodbye!", "See you!", "Bye!", "Catch you later!", "Thank you", "Thanks"]), "label": "farewell"})
@@ -556,26 +557,22 @@ questions = {
 }
 
 for topic, qs in questions.items():
-    for _ in range(30):  # 30 samples per topic for good balance
+    for _ in range(30):
         q = random.choice(qs)
         data.append({"text": q, "label": topic})
 
-# Fallback noise
 for i in range(100):
     nonsense = f"random noise {i} zxcvb"
     data.append({"text": nonsense, "label": fallback_label})
 
-# Add all other labels to responses
 for label in topics + greetings + farewells:
     responses.append({"label": label, "response": generate_response(label)})
 
 for response_obj in responses:
     label = response_obj.get("label")
     if label and label in questions:
-        # Insert questions into this response object
         response_obj["questions"] = questions[label]
         
-# Add fallback responses
 fallback_responses = [
     f"Sorry, I don't know how to respond to that yet — maybe ask about my projects, skills, or commissions!"
     for i in range(1, 21)
@@ -585,14 +582,12 @@ responses.append({"label": fallback_label, "response": fallback_responses})
 data_path = os.path.join(json_dir, "data.json")
 responses_path = os.path.join(json_dir, "responses.json")
 
-# Delete existing files if they exist
 if os.path.exists(data_path):
     os.remove(data_path)
 
 if os.path.exists(responses_path):
     os.remove(responses_path)
 
-# Write new files
 with open(data_path, "w", encoding="utf-8") as f:
     json.dump(data, f, indent=2)
 

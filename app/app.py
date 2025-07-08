@@ -17,7 +17,6 @@ json_dir = os.path.join(project_root, 'json')
 app = Flask(__name__, template_folder=os.path.join(project_root, 'templates'))
 CORS(app)
 
-# Load your ML model and vectorizer
 try:
     model_path = os.path.join(project_root, 'models', 'chatbot_model.joblib')
     vectorizer_path = os.path.join(project_root, 'models', 'vectorizer.joblib')
@@ -28,7 +27,6 @@ except Exception:
         f.write(traceback.format_exc())
     raise
 
-# Load responses.json into memory
 try:
     responses_json_path = os.path.join(json_dir, 'responses.json')
     with open(responses_json_path, 'r', encoding='utf-8') as f:
@@ -39,11 +37,10 @@ except Exception:
         f.write(traceback.format_exc())
     responses_data = []
 
-# Build fuzzy questions dict: label -> list of example questions/patterns
 fuzzy_questions = {}
 for item in responses_data:
     label = item.get('label')
-    # Adjust keys if your JSON uses 'patterns', 'questions', or similar
+   
     questions = item.get('questions') or item.get('patterns') or []
     if questions and isinstance(questions, list):
         fuzzy_questions[label] = questions
@@ -66,7 +63,7 @@ def find_labels_multi_intent(input_text):
 
 def get_response(label: str) -> str:
     try:
-        # Lookup response in loaded JSON
+        
         doc = next((item for item in responses_data if item['label'] == label), None)
         if not doc:
             doc = next((item for item in responses_data if item['label'] == "fallback"), None)
@@ -93,15 +90,12 @@ def train():
     try:
         print("🚀 Starting training process...")
 
-        # Path to your models folder
         models_dir = os.path.join(os.path.dirname(__file__), "..", "models")
 
-        # Delete the entire models folder if it exists
         if os.path.exists(models_dir):
             shutil.rmtree(models_dir)
             print(f"🗑️ Cleared old models at: {models_dir}")
 
-        # Then retrain fresh
         train_model()
         print("✅ Training finished!")
 
@@ -126,7 +120,6 @@ def chat():
     input_text = data['text']
 
     try:
-        # Model single-label prediction
         X = vectorizer.transform([input_text])
         probs = model.predict_proba(X)[0]
         max_prob = max(probs)
@@ -135,13 +128,11 @@ def chat():
 
         threshold = 0.2
 
-        # Always try multi-intent detection (fuzzy matching)
         multi_labels = find_labels_multi_intent(input_text)
 
         if max_prob < threshold or len(multi_labels) > 1:
-            # If model not confident or multi intent found
             if multi_labels:
-                # Combine responses from all detected labels
+               
                 responses_combined = [get_response(lbl) for lbl in multi_labels]
                 response = " ".join(responses_combined)
                 predicted_label = ", ".join(multi_labels)
@@ -149,7 +140,7 @@ def chat():
                 predicted_label = "fallback"
                 response = get_response(predicted_label)
         else:
-            # If model confident and no multi intent, just use model label
+            
             response = get_response(predicted_label)
 
     except Exception:
