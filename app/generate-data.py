@@ -39,6 +39,7 @@ fallback_label = "fallback"
 def generate_response(label):
     if label == "greetings":
         return [
+
             "Hi there! I’m Jemuel H. Cadayona — JEM CDYN for short. I’m a passionate software developer from Southern Leyte, Philippines. Feel free to ask me about my skills, projects, or how we can work together!",
             "Hello! I’m Jemuel H. Cadayona, but you can call me JEM CDYN. I’m here to help you learn about my work, skills, or how I can help bring your ideas to life.",
             "Hey! I’m Jemuel H. Cadayona — a software developer ready to answer any questions you have about my projects, experience, and how we can collaborate."
@@ -164,53 +165,136 @@ def generate_response(label):
         ]
     if label == "projects":
         return [
-            "I have developed a range of practical, production-ready systems and starter kits to serve various sectors, communities, and local governments. For modern web development, my NextJS Starter Kit provides a comprehensive foundation for building Next.js applications with built-in authentication powered by NextAuth.js, a PostgreSQL database, and a robust stack featuring HonoJS, TailwindCSS, Shadcn UI, TypeScript, GraphQL, TanStack Query, and Supabase for streamlined workflows and scalable deployments. "
-            "For local governance, I built the Legislative Management System, a complete solution for municipalities to manage legislative documents and transactions efficiently, using VueJS, InertiaJS, Laravel, TailwindCSS, TypeScript, GraphQL, and TanStack Query. The Document Tracking Assistant, deployed for the Province of Southern Leyte, allows staff to track documents and transactions via QR codes, powered by Laravel, Livewire, MySQL, and JavaScript. "
-            "I also designed e-Mercado, a fully featured online store with product management and a shopping cart for the Province of Southern Leyte, built with Laravel, Bootstrap 5, JavaScript, and MySQL. For educational institutions, I created the GJTVS Enrolment & Attendance Management System (RFID)—an integrated enrolment and RFID-based attendance tracker built with Laravel, Livewire, Bootstrap 5, JavaScript, and MySQL. "
-            "Supporting public safety, I developed the BFP Information Management System, a complete MIS for the Bureau of Fire Protection with inspection scheduling and SMS appointment features, using VueJS, InertiaJS, Laravel, MySQL, and Pushbullet API. The STMG Road Traffic Offense Management System tracks driver records and penalties using VueJS, InertiaJS, Laravel, and MySQL, while the Municipal Crime & Accident Management System records crimes and accidents with GIS mapping powered by Leaflet, and real-time incident tracking via SMS, built on Laravel, Livewire, Bootstrap 5, JavaScript, MySQL, Leaflet, and Pushbullet API. "
-            "In education, the ALS Learners Progress Monitoring System helps the Department of Education track the development of ALS learners, built using Laravel, Livewire, Bootstrap 5, JavaScript, and MySQL. Lastly, I designed and deployed a clean, simple commercial website for Southern Comfort Pensionne, using HTML5, CSS3, Bootstrap 5, and JavaScript to provide essential online presence for the business."
+            (
+                "I have developed a range of practical, production-ready systems and starter kits that serve various sectors, communities, and local governments. "
+                "For modern web development, my NextJS Starter Kit provides a solid foundation for building Next.js applications with built-in authentication powered by NextAuth.js, a PostgreSQL database, and a robust stack including HonoJS, TailwindCSS, Shadcn UI, TypeScript, GraphQL, TanStack Query, and Supabase for streamlined workflows and scalable deployments. "
+                "For local governance, I created the Legislative Management System — a full-featured solution for municipalities to handle legislative documents and transactions efficiently, built with VueJS, InertiaJS, Laravel, TailwindCSS, TypeScript, GraphQL, and TanStack Query. The Document Tracking Assistant, developed for the Province of Southern Leyte, lets staff track documents and transactions via QR codes, using Laravel, Livewire, MySQL, and JavaScript. "
+                "I also built e-Mercado, an online store with product management and a shopping cart for the Province of Southern Leyte, powered by Laravel, Bootstrap 5, JavaScript, and MySQL. For schools, I developed the GJTVS Enrolment & Attendance Management System (RFID) — a comprehensive enrolment and attendance tracker using RFID, Laravel, Livewire, Bootstrap 5, JavaScript, and MySQL. "
+                "To support public safety, I built the BFP Information Management System for the Bureau of Fire Protection, featuring inspection scheduling and SMS-enabled appointments with VueJS, InertiaJS, Laravel, MySQL, and Pushbullet API. I also created the STMG Road Traffic Offense Management System to track driver records and penalties using VueJS, InertiaJS, Laravel, and MySQL, and the Municipal Crime & Accident Management System, which records incidents and shows GIS mapping via Leaflet, using Laravel, Livewire, Bootstrap 5, JavaScript, MySQL, Leaflet, and Pushbullet API. "
+                "For education, the ALS Learners Progress Monitoring System helps the Department of Education track the development of ALS learners, built using Laravel, Livewire, Bootstrap 5, JavaScript, and MySQL. Lastly, I designed and deployed a clean commercial website for Southern Comfort Pensionne using HTML5, CSS3, Bootstrap 5, and JavaScript to build a simple yet effective online presence."
+            ),
+            (
+                "My portfolio covers impactful systems and starter kits for multiple sectors. The NextJS Starter Kit offers a modern base for Next.js projects with NextAuth.js, PostgreSQL, HonoJS, TailwindCSS, Shadcn UI, TypeScript, GraphQL, TanStack Query, and Supabase for fast deployment. "
+                "For local governments, I developed the Legislative Management System, a complete solution for managing legislative documents and transactions, built with VueJS, InertiaJS, Laravel, TailwindCSS, TypeScript, GraphQL, and TanStack Query. The Document Tracking Assistant for Southern Leyte enables QR-based document tracking using Laravel, Livewire, MySQL, and JavaScript. "
+                "I launched e-Mercado for local online selling, developed the GJTVS Enrolment & Attendance Management System for RFID-based student tracking, the BFP Information Management System for inspections and SMS scheduling, and the STMG Road Traffic Offense Management System to manage driver records and penalties. "
+                "Additionally, the Municipal Crime & Accident Management System records incidents and maps locations with Leaflet, while the ALS Learners Progress Monitoring System supports the Department of Education. For small businesses, I delivered a simple yet effective website for Southern Comfort Pensionne using clean HTML, CSS, and Bootstrap."
+            ),
+            (
+                "I have designed a series of robust, real-world systems and starter kits for a variety of use cases. For modern full-stack projects, my NextJS Starter Kit includes everything needed for scalable Next.js development: NextAuth.js, PostgreSQL, HonoJS, TailwindCSS, Shadcn UI, TypeScript, GraphQL, TanStack Query, and Supabase. "
+                "In the public sector, I built the Legislative Management System for municipal document handling and the Document Tracking Assistant for the Province of Southern Leyte to simplify tracking using QR codes — all powered by VueJS, InertiaJS, Laravel, Livewire, MySQL, and JavaScript. "
+                "Other projects include e-Mercado for local commerce, the GJTVS Enrolment & Attendance Management System with RFID, the BFP Information Management System with SMS scheduling, the STMG Road Traffic Offense Management System for traffic monitoring, and the Municipal Crime & Accident Management System that uses Leaflet maps for incident reports. "
+                "I also created the ALS Learners Progress Monitoring System for DepEd and delivered a simple commercial website for Southern Comfort Pensionne using HTML5, CSS3, Bootstrap 5, and JavaScript for an effective online presence."
+            )
         ]
+
     if label == "learning":
         return [
-            "I’m passionate about continuous learning—exploring new tools, frameworks, and best practices to keep my skills sharp and my projects up-to-date with the latest industry standards."
+            "I’m passionate about continuous learning—exploring new tools, frameworks, and best practices to keep my skills sharp and my projects up-to-date with the latest industry standards.",
+            "Learning never stops for me. I constantly seek out new technologies, techniques, and best practices to ensure my skills stay relevant and my work delivers real value.",
+            "I believe in lifelong learning — I regularly experiment with new frameworks, libraries, and workflows so my projects benefit from fresh ideas and modern solutions.",
+            "I make it a priority to stay updated with the latest tech trends, tools, and development practices, which helps me bring innovative, reliable solutions to every project I work on."
         ]
     if label == "work_experiences":
         return [
-            "I’ve led and contributed to several impactful projects. As a Software Developer and Consultant at Provincial Systems A.O., I built enterprise-level web apps using Laravel, Vue.js, and TailwindCSS. "
-            "I optimized complex database structures, improving application load times by 40% and reducing deployment time by 60% through CI/CD pipelines.\n\n"
-            "In January 2025, I conducted a full implementation and user demonstration of the Document Tracking Assistant at the Capitol Site Southern Leyte, ensuring staff adoption and smooth operation.\n\n"
-            "Previously, in November 2024, I led training sessions to introduce the Document Tracking System to improve transparency and efficiency.\n\n"
-            "In April 2024, I held an orientation for the Legislative Management System at Southern Leyte State University, supporting streamlined legislative workflows.\n\n"
-            "A key project is the e-Mercado platform launched in June 2023, a digital marketplace supporting local vendors in Southern Leyte. After presenting it to provincial leaders, we enhanced the system based on community feedback in November 2024. "
-            "These experiences underscore my commitment to building practical, community-focused technology solutions."
+            (
+                "I’ve led and contributed to impactful projects as a Software Developer and Consultant at the Provincial Systems Administrators Office. "
+                "I developed large-scale web applications using Laravel, Vue.js, and TailwindCSS, and optimized complex databases — boosting load speeds by 40% and cutting deployment times by 60% with CI/CD pipelines.\n\n"
+                "In January 2025, I deployed and demonstrated the Document Tracking Assistant for the Capitol Site in Southern Leyte, helping staff adopt it smoothly.\n\n"
+                "Earlier, in November 2024, I led training for the Document Tracking System to increase transparency and efficiency.\n\n"
+                "In April 2024, I organized an orientation for the Legislative Management System at Southern Leyte State University to help local offices streamline legislative work.\n\n"
+                "One highlight is the e-Mercado project — a digital marketplace for Southern Leyte launched in June 2023 and enhanced later that year based on community feedback. "
+                "These experiences show my commitment to delivering meaningful, practical tech solutions for local communities."
+            ),
+            (
+                "Throughout my career as a Software Developer and Consultant at Provincial Systems A.O., I’ve built enterprise-level web solutions with Laravel, Vue.js, and TailwindCSS. "
+                "I improved database structures to enhance performance by 40 percent and streamlined deployments with CI/CD, cutting rollout time by 60%.\n\n"
+                "In January 2025, I fully implemented the Document Tracking Assistant at the Capitol Site, training staff for smooth onboarding. "
+                "In November 2024, I led training sessions for the Document Tracking System to boost document processing transparency. "
+                "In April 2024, I conducted an orientation for the Legislative Management System at Southern Leyte State University.\n\n"
+                "I also launched the e-Mercado project in June 2023 — a digital platform to support local vendors — and improved it later that year to better meet community needs. "
+                "These milestones highlight my dedication to solving real problems through technology."
+            ),
+            (
+                "As a Software Developer and Consultant for Provincial Systems A.O., I’ve handled significant projects that impacted local government operations. "
+                "I engineered robust web apps with Laravel, Vue.js, and TailwindCSS, and optimized database systems to speed up load times by 40% while implementing CI/CD pipelines that reduced deployment times by 60%.\n\n"
+                "In January 2025, I rolled out the Document Tracking Assistant for the Southern Leyte Capitol Site and guided staff through its use. "
+                "Before that, in November 2024, I organized user training for the Document Tracking System to ensure better document tracking and transparency. "
+                "In April 2024, I held an orientation session for the Legislative Management System at SLSU to help offices handle legislative tasks efficiently.\n\n"
+                "One standout project is e-Mercado, launched in June 2023 to support local commerce and improved later that year with community-driven updates. "
+                "These experiences highlight my drive to deliver tech that directly benefits communities."
+            )
         ]
     if label == "skills":
         return [
             (
-                "I have a broad skill set spanning frontend and backend development. On the frontend, I work extensively with Next.js, React.js, Vue.js, Inertia.js, TypeScript, JavaScript, TailwindCSS, and Shadcn UI to craft responsive, maintainable user interfaces. "
-                "On the backend, I develop scalable and secure APIs and server logic using Laravel, PHP 8, Livewire.js, LighthousePHP, and HonoJS. I also use Python for AI and Machine Learning. "
-                "For databases, I manage MySQL, PostgreSQL, MongoDB, Drizzle ORM, Supabase, and Laravel's Eloquent ORM, ensuring efficient data handling and security. "
-                "I implement robust authentication systems with NextAuth.js, Laravel Breeze, and Sanctum. "
-                "To streamline workflows and deployments, I use Git, GitHub Actions, Vite, and GraphQL, all contributing to delivering clean, maintainable, and scalable full-stack applications."
+                "I have a broad skill set that covers both frontend and backend development. "
+                "On the frontend, I specialize in building responsive and maintainable user interfaces using Next.js, React.js, Vue.js, Inertia.js, TypeScript, JavaScript, TailwindCSS, and Shadcn UI. "
+                "For backend development, I build secure and scalable APIs and server-side logic with Laravel, PHP 8, Livewire.js, LighthousePHP, and HonoJS — plus Python for AI and automation. "
+                "I manage data using MySQL, PostgreSQL, MongoDB, Drizzle ORM, Supabase, and Laravel’s Eloquent ORM to keep systems efficient and secure. "
+                "My authentication implementations rely on NextAuth.js for Next.js projects and Breeze or Sanctum for Laravel. "
+                "To ensure smooth development workflows, I use Git, GitHub Actions, Vite, and GraphQL, delivering clean, production-ready full-stack solutions."
+            ),
+            (
+                "My technical skill set spans the entire stack. On the frontend side, I build sleek, responsive interfaces with Next.js, React.js, Vue.js, Inertia.js, TypeScript, JavaScript, TailwindCSS, and Shadcn UI. "
+                "The backend side includes developing robust APIs and server logic with Laravel, PHP 8, Livewire.js, LighthousePHP, and HonoJS, plus using Python for AI tasks and automation. "
+                "I work with databases like MySQL, PostgreSQL, MongoDB, Drizzle ORM, Supabase, and Laravel’s Eloquent ORM to keep data secure and well-structured. "
+                "Authentication is handled with NextAuth.js for Next.js and Breeze or Sanctum for Laravel. "
+                "I also integrate Git, GitHub Actions, Vite, and GraphQL to maintain clean workflows and automate builds and deployments."
+            ),
+            (
+                "I’m skilled in a wide range of technologies covering full-stack web development. "
+                "My frontend expertise includes Next.js, React.js, Vue.js, Inertia.js, TypeScript, JavaScript, TailwindCSS, and Shadcn UI for building modern and responsive interfaces. "
+                "For backend development, I rely on Laravel, PHP 8, Livewire.js, LighthousePHP, HonoJS, and Python for specialized tasks like AI and automation. "
+                "I manage data efficiently with MySQL, PostgreSQL, MongoDB, Drizzle ORM, Supabase, and Laravel's Eloquent ORM. "
+                "For authentication, I use NextAuth.js with Next.js and Breeze or Sanctum for Laravel applications. "
+                "I also automate my workflow with Git, GitHub Actions, Vite, and use GraphQL for streamlined APIs, ensuring my solutions stay clean, maintainable, and scalable."
+            ),
+            (
+                "My skill set combines modern frontend frameworks and robust backend technologies. "
+                "On the frontend, I use Next.js, React.js, Vue.js, Inertia.js, TypeScript, JavaScript, TailwindCSS, and Shadcn UI to design responsive, reusable interfaces. "
+                "On the backend, I develop secure, efficient APIs and services with Laravel, PHP 8, Livewire.js, LighthousePHP, HonoJS, and Python for automation and AI-related tasks. "
+                "For databases, I handle MySQL, PostgreSQL, MongoDB, Drizzle ORM, Supabase, and Laravel's Eloquent ORM to manage data safely and effectively. "
+                "Authentication solutions rely on NextAuth.js for Next.js and Laravel Breeze or Sanctum for Laravel. "
+                "To streamline my development pipeline, I use Git, GitHub Actions, Vite, and GraphQL — making my full-stack projects scalable, maintainable, and production-ready."
             )
         ]
     if label == "current_work":
         return [
             (
-                "Currently, I serve as a Software Developer and Consultant at the Provincial "
-                "Systems Administrators Office, Provincial Government of Southern Leyte. In this "
-                "role, I have led the development of enterprise-level web applications, including the "
-                "Document Tracking Assistant, a robust system designed to streamline the "
-                "tracking of official documents and transactions through QR code technology, "
-                "tailored specifically for the Province of Southern Leyte. "
-                "I was also involved in the development of e-Mercado, a full-featured online "
-                "marketplace equipped with product management and a secure shopping cart "
-                "system to support local commerce. This project was developed in collaboration with "
-                "Southern Leyte State University (SLSU), particularly with Mr. Nestnie Honrada, "
-                "highlighting a strong partnership between the provincial government and the "
-                "academic sector."
+                "Currently, I am working as a Software Developer and Consultant at the Provincial "
+                "Systems Administrators Office under the Provincial Government of Southern Leyte. "
+                "In this role, I lead the development of large-scale web applications like the "
+                "Document Tracking Assistant, which streamlines tracking official documents and transactions "
+                "using QR code technology for the province. I also contributed to building e-Mercado, "
+                "an online marketplace with product management and a secure shopping cart, created in "
+                "partnership with Southern Leyte State University (SLSU) and Mr. Nestnie Honrada."
+            ),
+            (
+                "I am currently serving as a Software Developer and Consultant for the Provincial "
+                "Systems Administrators Office of the Provincial Government of Southern Leyte. "
+                "My work includes developing robust systems such as the Document Tracking Assistant, "
+                "which simplifies how government documents are tracked and processed with QR codes. "
+                "I also helped build e-Mercado, a full-fledged online marketplace that supports local "
+                "businesses — a project done together with Southern Leyte State University (SLSU) and "
+                "Mr. Nestnie Honrada."
+            ),
+            (
+                "At present, I work as a Software Developer and Consultant at the Provincial "
+                "Systems Administrators Office for the Provincial Government of Southern Leyte. "
+                "I have led the development of the Document Tracking Assistant — a system designed "
+                "to make tracking official documents more efficient using QR code scanning. "
+                "In addition, I helped create e-Mercado, a secure online store for local commerce, "
+                "in close collaboration with Southern Leyte State University (SLSU) and Mr. Nestnie Honrada."
+            ),
+            (
+                "Right now, I am a Software Developer and Consultant for the Provincial "
+                "Systems Administrators Office, Provincial Government of Southern Leyte. "
+                "I spearheaded the Document Tracking Assistant project, which improves how the province "
+                "handles document tracking through QR codes. Another key project I contributed to is "
+                "e-Mercado — an online marketplace supporting local sellers, built together with "
+                "Southern Leyte State University (SLSU) and Mr. Nestnie Honrada."
             )
-    ]
+        ]
     return [
         "I’m not sure how to answer that yet — feel free to ask me anything about my work, skills, or commission offers!"
     ]
@@ -222,22 +306,23 @@ responses = []
 
 # Greetings & farewells
 for _ in range(50):
-    data.append({"text": random.choice(["Hi!", "Hello!", "Hey!", "Greetings!"]), "label": "greetings"})
+    data.append({"text": random.choice(["Hi", "Hello", "Hey", "Greetings", "Hii", "Helloo", "Heyy", "Good morning", "Good day", "Good afternoon", "Good evening"]), "label": "greetings"})
     data.append({"text": random.choice(["Goodbye!", "See you!", "Bye!", "Catch you later!", "Thank you", "Thanks"]), "label": "farewell"})
 
 questions = {
     "current_work": [
-    "what is your work",
-    "what is your current job",
-    "tell me about your current work",
-    "what's your role right now",
-    "what's your current role",
-    "where do you work",
-    "who do you work for",
-    "what company do you work for",
-    "what is your current position",
-    "are you working now",
-    "what are you doing now",
+        "what is your work",
+        "what is your current job",
+        "tell me about your current work",
+        "what is your role right now",
+        "what is your current role",
+        "where do you work",
+        "who do you work for",
+        "what company do you work for",
+        "what is your current position",
+        "are you working now",
+        "are you working",
+        "what are you doing now",
     ],
     "introduction": [
         "Can you tell me about yourself?",
@@ -484,6 +569,12 @@ for i in range(100):
 for label in topics + greetings + farewells:
     responses.append({"label": label, "response": generate_response(label)})
 
+for response_obj in responses:
+    label = response_obj.get("label")
+    if label and label in questions:
+        # Insert questions into this response object
+        response_obj["questions"] = questions[label]
+        
 # Add fallback responses
 fallback_responses = [
     f"Sorry, I don't know how to respond to that yet — maybe ask about my projects, skills, or commissions!"
@@ -492,11 +583,19 @@ fallback_responses = [
 responses.append({"label": fallback_label, "response": fallback_responses})
 
 data_path = os.path.join(json_dir, "data.json")
+responses_path = os.path.join(json_dir, "responses.json")
+
+# Delete existing files if they exist
+if os.path.exists(data_path):
+    os.remove(data_path)
+
+if os.path.exists(responses_path):
+    os.remove(responses_path)
+
+# Write new files
 with open(data_path, "w", encoding="utf-8") as f:
     json.dump(data, f, indent=2)
 
-# Save responses.json inside json folder
-responses_path = os.path.join(json_dir, "responses.json")
 with open(responses_path, "w", encoding="utf-8") as f:
     json.dump(responses, f, indent=2)
 

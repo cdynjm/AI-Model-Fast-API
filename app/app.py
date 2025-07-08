@@ -7,6 +7,8 @@ from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 import joblib
 from app.train import train_model
+from fuzzywuzzy import fuzz
+import re
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(base_dir)
@@ -36,6 +38,31 @@ except Exception:
         f.write("\nFailed to load responses.json:\n")
         f.write(traceback.format_exc())
     responses_data = []
+
+# Build fuzzy questions dict: label -> list of example questions/patterns
+fuzzy_questions = {}
+for item in responses_data:
+    label = item.get('label')
+    # Adjust keys if your JSON uses 'patterns', 'questions', or similar
+    questions = item.get('questions') or item.get('patterns') or []
+    if questions and isinstance(questions, list):
+        fuzzy_questions[label] = questions
+
+def find_labels_multi_intent(input_text):
+    labels_found = set()
+    parts = [part.strip() for part in re.split(r'\band\b|,|&', input_text.lower())]
+    for part in parts:
+        best_label = None
+        best_score = 0
+        for label, examples in fuzzy_questions.items():
+            for example in examples:
+                score = fuzz.ratio(part, example.lower())
+                if score > best_score:
+                    best_score = score
+                    best_label = label
+        if best_score >= 40 and best_label:
+            labels_found.add(best_label)
+    return list(labels_found)
 
 def get_response(label: str) -> str:
     try:
@@ -99,18 +126,31 @@ def chat():
     input_text = data['text']
 
     try:
+        # Model single-label prediction
         X = vectorizer.transform([input_text])
-        probs = model.predict_proba(X)[0]  # Probabilities for all labels
+        probs = model.predict_proba(X)[0]
         max_prob = max(probs)
         label_index = probs.argmax()
         predicted_label = model.classes_[label_index]
 
-        # Fallback if not confident enough
-        threshold = 0.2  # Tune this threshold as needed
-        if max_prob < threshold:
-            predicted_label = "fallback"
+        threshold = 0.2
 
-        response = get_response(predicted_label)
+        # Always try multi-intent detection (fuzzy matching)
+        multi_labels = find_labels_multi_intent(input_text)
+
+        if max_prob < threshold or len(multi_labels) > 1:
+            # If model not confident or multi intent found
+            if multi_labels:
+                # Combine responses from all detected labels
+                responses_combined = [get_response(lbl) for lbl in multi_labels]
+                response = " ".join(responses_combined)
+                predicted_label = ", ".join(multi_labels)
+            else:
+                predicted_label = "fallback"
+                response = get_response(predicted_label)
+        else:
+            # If model confident and no multi intent, just use model label
+            response = get_response(predicted_label)
 
     except Exception:
         with open('error.log', 'a') as f:
