@@ -27,7 +27,8 @@ topics = [
     "goals",
     "collaboration",
     "learning",
-    "work_experiences"  # 👈 single topic for all work history
+    "work_experiences",
+    "current_work"
 ]
 
 greetings = ["greetings"]
@@ -38,84 +39,128 @@ fallback_label = "fallback"
 def generate_response(label):
     if label == "greetings":
         return [
-            "Hi there! I’m Jemuel H. Cadayona — JEM CDYN for short. "
-            "I’m a passionate software developer from Southern Leyte, Philippines. "
-            "Feel free to ask me about my skills, past work, projects, or how we can collaborate to bring your ideas to life!"
+            "Hi there! I’m Jemuel H. Cadayona — JEM CDYN for short. I’m a passionate software developer from Southern Leyte, Philippines. Feel free to ask me about my skills, projects, or how we can work together!",
+            "Hello! I’m Jemuel H. Cadayona, but you can call me JEM CDYN. I’m here to help you learn about my work, skills, or how I can help bring your ideas to life.",
+            "Hey! I’m Jemuel H. Cadayona — a software developer ready to answer any questions you have about my projects, experience, and how we can collaborate."
         ]
+
     if label == "farewell":
         return [
-            "Thank you so much for your time and interest in my work. "
-            "Let’s definitely keep in touch and explore opportunities to build something amazing together!"
+            "Thank you so much for your time and interest in my work. Let’s definitely keep in touch and explore opportunities to build something amazing together!",
+            "I appreciate you reaching out! I’m looking forward to collaborating with you soon. Goodbye for now!",
+            "Thanks for chatting with me! I hope we can connect again and create something valuable together."
         ]
+
     if label == "introduction":
         return [
-            "I’m Jemuel H. Cadayona, a dedicated and detail-oriented software developer focused on creating modern, scalable web applications. "
-            "My work supports local communities, government offices, and businesses in thriving digitally by improving their systems and workflows."
+            "I’m Jemuel H. Cadayona, a dedicated and detail-oriented software developer focused on building modern, scalable web applications that help communities and businesses grow.",
+            "I’m Jemuel H. Cadayona — JEM CDYN — a passionate developer from Southern Leyte. I specialize in creating practical, scalable digital solutions for local government and private clients.",
+            "I’m Jemuel H. Cadayona, a full-stack developer who designs and builds modern systems that help communities, businesses, and organizations succeed in the digital age."
         ]
+
     if label == "skills_nextjs":
         return [
-            "Next.js is my preferred framework for building fast, SEO-friendly, and scalable web applications. "
-            "I leverage its server-side rendering, static site generation, and powerful API routes to deliver robust user experiences."
+            "Next.js is my go-to framework for building fast, SEO-friendly, and scalable web applications. I use server-side rendering, static generation, and robust API routes for optimal performance.",
+            "I rely on Next.js for building production-ready, high-performance web apps with server-side rendering, API routes, and great developer experience.",
+            "Next.js is my framework of choice for creating modern, scalable sites that rank well and deliver great user experiences."
         ]
+
     if label == "skills_laravel":
         return [
-            "Laravel is my core backend framework where I build secure, maintainable APIs and data-driven systems. "
-            "I integrate it with Livewire for dynamic UI components and LighthousePHP for building flexible GraphQL APIs."
+            "Laravel is my main backend framework. I use it to build secure, maintainable APIs and efficient data-driven applications. I also use Livewire and LighthousePHP for dynamic interfaces and GraphQL.",
+            "I love using Laravel to build robust backend systems and APIs, often pairing it with Livewire for dynamic UIs and LighthousePHP for GraphQL endpoints.",
+            "Laravel is at the core of my backend stack for creating secure, scalable systems and clean APIs, complemented by Livewire and LighthousePHP for advanced features."
         ]
+
     if label == "skills_python":
         return [
-            "I use Python for automation, data processing, and custom backend scripts that enhance development efficiency and system capabilities."
+            "I use Python for automation, data processing, and writing custom backend scripts that make development more efficient.",
+            "Python helps me automate tasks and process data smoothly, complementing my main tech stack.",
+            "I integrate Python for scripting, automation, and quick backend tasks that streamline my workflow."
         ]
+
     if label == "skills_fullstack":
         return [
-            "As a full-stack developer, I cover the entire spectrum—from crafting beautiful, responsive frontends to building reliable, secure backends—ensuring seamless end-to-end application delivery."
+            "As a full-stack developer, I handle both frontend and backend — from designing beautiful interfaces to building secure APIs — delivering production-ready applications end-to-end.",
+            "I cover the full development cycle: from clean, responsive UIs to secure and efficient backend systems.",
+            "Being full-stack means I manage the whole process — frontend, backend, database, and deployment — ensuring a smooth delivery every time."
         ]
+
     if label == "frontend_development":
         return [
-            "My frontend expertise includes creating responsive and accessible user interfaces using TailwindCSS, Shadcn UI, React.js, Vue.js, Inertia.js, JavaScript, TypeScript, and Next.js. "
-            "I focus on clean design, excellent user experience, and maintainability."
+            "I build responsive, modern frontends using TailwindCSS, Shadcn UI, React.js, Vue.js, Inertia.js, JavaScript, TypeScript, and Next.js. Clean design and great UX are always top priorities.",
+            "My frontend work focuses on creating clean, accessible, and maintainable UIs using modern tools like TailwindCSS, Vue.js, and React.",
+            "I design beautiful, responsive interfaces with modern stacks like Next.js, TailwindCSS, Shadcn UI, and TypeScript."
         ]
+
     if label == "backend_development":
         return [
-            "On the backend, I develop scalable APIs and systems with Laravel, HonoJS, Livewire, PHP 8, and LighthousePHP, ensuring performance, security, and reliability."
+            "On the backend, I build scalable, secure APIs and systems with Laravel, HonoJS, Livewire, PHP 8, and LighthousePHP.",
+            "I develop backend logic and APIs using Laravel, PHP 8, Livewire, HonoJS, and LighthousePHP for robust performance.",
+            "My backend stack includes Laravel, Livewire, LighthousePHP, HonoJS, and PHP 8 to deliver reliable server-side solutions."
         ]
+
     if label == "tools_workflow":
         return [
-            "I rely on modern tools like Git, GitHub Actions for CI/CD, Vite for fast builds, Drizzle ORM for efficient database handling, and GraphQL for clean API design—streamlining the entire development process."
+            "My workflow includes Git, GitHub Actions for CI/CD, Vite, Drizzle ORM, and GraphQL — making development faster and cleaner.",
+            "I use tools like Git, GitHub Actions, Vite, and GraphQL to keep my workflow organized, efficient, and production-ready.",
+            "With Git, CI/CD pipelines, Vite, and Drizzle ORM, I maintain clean code and automate builds and deployments."
         ]
+
     if label == "database_auth":
         return [
-            "I design and manage databases with MySQL, PostgreSQL, MongoDB, Drizzle ORM, Supabase, and Laravel's Eloquent ORM. "
-            "For authentication, I implement secure, user-friendly login systems using NextAuth.js in Next.js and Breeze or Sanctum in Laravel."
+            "I design databases with MySQL, PostgreSQL, MongoDB, Drizzle ORM, Supabase, and Eloquent ORM. I secure authentication with NextAuth.js, Laravel Breeze, and Sanctum.",
+            "My database management covers relational and non-relational systems like MySQL, PostgreSQL, and MongoDB, paired with secure auth using NextAuth.js and Laravel tools.",
+            "I work with modern databases and ensure secure, smooth authentication systems for every application."
         ]
+
     if label == "ui_consistency":
         return [
-            "Using design systems like Shadcn UI, I maintain consistent, accessible, and maintainable user interfaces across complex applications, improving usability and developer experience."
+            "I use Shadcn UI and similar systems to keep my user interfaces consistent, accessible, and maintainable across all projects.",
+            "With design systems like Shadcn UI, I ensure that every application has a cohesive, accessible UI that scales easily.",
+            "Consistent, reusable UI components are key — I rely on Shadcn UI to deliver accessible, maintainable interfaces."
         ]
+
     if label == "ci_cd":
         return [
-            "I build CI/CD pipelines with GitHub Actions to automate testing, building, and deployment, enabling fast, reliable delivery of production-ready applications."
+            "I use GitHub Actions to set up CI/CD pipelines, automating testing and deployments for faster, safer production releases.",
+            "My CI/CD pipelines with GitHub Actions ensure that code is tested and deployed reliably and quickly.",
+            "I implement automated CI/CD workflows using GitHub Actions, speeding up development and ensuring code quality."
         ]
+
     if label == "services":
         return [
-            "I offer comprehensive web development services including modern static websites, custom full-stack applications, secure API development, and third-party integrations tailored to client needs."
+            "I offer modern web dev services: static sites, custom full-stack apps, secure APIs, and integrations — all tailored to your needs.",
+            "From static landing pages to full-stack apps and secure API development, I provide a range of services to match any project.",
+            "My services include full-stack development, custom APIs, modern static sites, and robust integrations."
         ]
+
     if label == "commissions":
         return [
-            "My commission rates start at ₱5,000 to ₱10,000 for static websites, ₱15,000 to ₱20,000 for basic full-stack development, ₱25,000 to ₱50,000 for standard student or business systems, "
-            "and ₱60,000 to ₱100,000 for premium or enterprise-level projects. Please check my commission section for detailed information."
+            "My commission rates start at ₱5K–₱10K for static sites, ₱15K–₱20K for full-stack basics, ₱25K–₱50K for standard systems, and ₱60K–₱100K for premium solutions. Refer to the commission section for more details.",
+            "I offer flexible pricing: ₱5K–₱10K for static websites, ₱15K–₱20K for basic full-stack, ₱25K–₱50K for student/business systems, ₱60K–₱100K for larger projects. Refer to the commission section for more details.",
+            "Project rates range from ₱5K for simple sites to ₱100K for enterprise-level systems — all tailored to your goals and requirements. Refer to the commission section for more details."
         ]
+
     if label == "contact":
         return [
-            "Ready to start a project or just want to say hi? Visit my contact section to get in touch—I’m always excited to discuss new ideas and collaborations."
+            "Want to collaborate or ask questions? Visit my contact page — I’m always happy to discuss new ideas and projects.",
+            "Ready to start something new? Reach out through my contact section — let’s build your vision together.",
+            "You can reach me through my contact area — I’m excited to connect and hear your ideas!"
         ]
+
     if label == "goals":
         return [
-            "My main goal is to deliver high-quality, practical software solutions that empower clients to grow, optimize workflows, and thrive in the digital landscape."
+            "My goal is to build practical, high-quality solutions that help clients grow, work smarter, and succeed online.",
+            "I aim to deliver real, meaningful results for my clients — solutions that drive growth and efficiency.",
+            "My main goal is to provide quality software that solves problems and supports long-term success."
         ]
+
     if label == "collaboration":
         return [
-            "I value collaboration deeply. Whether you’re a startup, student, or government agency, I’m eager to listen, understand your needs, and work together to make your vision a reality."
+            "Collaboration matters to me — I love working with students, startups, and government offices to bring ideas to life.",
+            "I’m always open to collaborative work. Together, we can turn your vision into a real, working solution.",
+            "Partnerships and teamwork are vital — I’m ready to listen and help make your goals a reality."
         ]
     if label == "projects":
         return [
@@ -149,6 +194,23 @@ def generate_response(label):
                 "To streamline workflows and deployments, I use Git, GitHub Actions, Vite, and GraphQL, all contributing to delivering clean, maintainable, and scalable full-stack applications."
             )
         ]
+    if label == "current_work":
+        return [
+            (
+                "Currently, I serve as a Software Developer and Consultant at the Provincial "
+                "Systems Administrators Office, Provincial Government of Southern Leyte. In this "
+                "role, I have led the development of enterprise-level web applications, including the "
+                "Document Tracking Assistant, a robust system designed to streamline the "
+                "tracking of official documents and transactions through QR code technology, "
+                "tailored specifically for the Province of Southern Leyte. "
+                "I was also involved in the development of e-Mercado, a full-featured online "
+                "marketplace equipped with product management and a secure shopping cart "
+                "system to support local commerce. This project was developed in collaboration with "
+                "Southern Leyte State University (SLSU), particularly with Mr. Nestnie Honrada, "
+                "highlighting a strong partnership between the provincial government and the "
+                "academic sector."
+            )
+    ]
     return [
         "I’m not sure how to answer that yet — feel free to ask me anything about my work, skills, or commission offers!"
     ]
@@ -164,6 +226,19 @@ for _ in range(50):
     data.append({"text": random.choice(["Goodbye!", "See you!", "Bye!", "Catch you later!", "Thank you", "Thanks"]), "label": "farewell"})
 
 questions = {
+    "current_work": [
+    "what is your work",
+    "what is your current job",
+    "tell me about your current work",
+    "what's your role right now",
+    "what's your current role",
+    "where do you work",
+    "who do you work for",
+    "what company do you work for",
+    "what is your current position",
+    "are you working now",
+    "what are you doing now",
+    ],
     "introduction": [
         "Can you tell me about yourself?",
         "Who are you?",
