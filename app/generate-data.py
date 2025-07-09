@@ -27,7 +27,8 @@ topics = [
     "collaboration",
     "learning",
     "work_experiences",
-    "current_work"
+    "current_work",
+    "offensive_words"
 ]
 
 greetings = ["greetings"]
@@ -367,6 +368,30 @@ def generate_response(label):
                 "Southern Leyte State University (SLSU) and Mr. Nestnie Honrada."
             )
         ]
+    if label == "offensive_words":
+        return [
+            "Let's keep our conversation respectful, please.",
+            "I’m here to help with professional questions — please avoid using offensive language.",
+            "Please be respectful. I can assist you better with polite questions.",
+            "Let's keep it clean. How can I assist you today?",
+            "I’m happy to help, but let’s keep the conversation respectful and professional.",
+            "Please avoid offensive words so I can provide the best assistance possible.",
+            "Let’s maintain a positive conversation. How can I help you today?",
+            "I’m here to support you. Please refrain from using inappropriate language.",
+            "I want to keep this space positive — kindly avoid using bad language.",
+            "I’m built to help you best when our chat stays respectful.",
+            "Kindly keep the conversation polite so I can help you better.",
+            "Offensive words won’t help us move forward — let’s try to keep it friendly.",
+            "I appreciate polite questions — feel free to ask about my work or skills instead.",
+            "Please use respectful words so we can have a helpful conversation.",
+            "I’m more useful when we keep things professional — let’s do that!",
+            "I’m here to help, but rude language isn’t part of our chat. Please ask nicely.",
+            "I believe respectful conversation helps us both — how can I help you today?",
+            "Kindly watch the language — I’m here to answer your work-related questions.",
+            "Let’s keep things respectful — I’m ready to assist you with anything else.",
+            "Let’s switch to a better topic — how can I help with your project or questions?"
+        ]
+
     return [
         "I’m not sure how to answer that yet — feel free to ask me anything about my work, skills, or commission offers!",
         "Sorry, I don’t have an answer for that right now. But you can ask me about my projects, skills, or how to collaborate!",
@@ -404,6 +429,16 @@ for _ in range(50):
 
 
 questions = {
+    "offensive_words": [
+        "fuck", "shit", "bitch", "asshole", "dick", "piss off", "bastard", "dumbass", "son of a bitch", "motherfucker",
+        "idiot", "stupid", "jerk", "crap", "damn", "bloody", "screw you", "twat",
+        "putang ina", "pakshet", "gago", "tang ina", "tangina", "ulol", "tanga", "bobo", "tarantado", "loko",
+        " gago ka", "gaga", "pedo", "pakshet ka", "leche", "bastos", "tang ina mo",
+        " gago", " buang", " buangon", " tarantado", " gago ka", " tanga", " buang ka", " gago baya", " gago lagi",
+        " ulol", " gago uy", " gagoha", " linta", " kuto", " buang buang", " payaso", " gago gud",
+        " biya ka", " agi kayo", " tanga baya", " gagoha lagi",
+        "tang ina mo", "puta", "ulol ka", "gago ka", "tarantado ka", "pakshet mo", "leche ka", "putang ina mo", "bobo ka"
+    ],
     "current_work": [
         "what is your work",
         "what is your current job",
