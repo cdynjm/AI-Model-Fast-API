@@ -36,7 +36,8 @@ topics = [
     "work_experiences",
     "current_work",
     "offensive_words",
-    "sorry"
+    "sorry",
+    "address"
 ]
 
 def generate_response(label):
@@ -211,13 +212,14 @@ def generate_response(label):
 
     if label == "contact":
         return [
-            "Want to collaborate or ask questions? Visit my contact page — I’m always happy to discuss new ideas and projects.",
-            "Ready to start something new? Reach out through my contact section — let’s build your vision together.",
-            "You can reach me through my contact area — I’m excited to connect and hear your ideas!",
-            "Feel free to drop a message through my contact page — I’m open to projects, questions, or a quick chat.",
-            "Let’s connect! Use my contact section to share your ideas and I’ll get back to you as soon as I can.",
-            "Got a project or question? My contact area is open — I’d love to hear what you have in mind!"
+            "If you’d like to connect, feel free to email me at cdynjm@gmail.com or call/text me at +63 927 502 1810. I’m also more active on Facebook — just look for my account: *JEM CDYN*.",
+            "Want to collaborate or ask questions? You can reach me directly at cdynjm@gmail.com or message me on Facebook (*JEM CDYN*) — I’m always happy to discuss new ideas and projects.",
+            "Ready to start something new? Send me an email at cdynjm@gmail.com, call me at +63 927 502 1810, or reach out via my Facebook account (*JEM CDYN*) — let’s build your vision together.",
+            "Got a project or question? Contact me anytime at cdynjm@gmail.com or by phone at +63 927 502 1810. I’m also active on Facebook — feel free to message me on *JEM CDYN*.",
+            "Let’s connect! Drop me an email at cdynjm@gmail.com, give me a call at +63 927 502 1810, or message me on Facebook at *JEM CDYN* — I’ll get back to you as soon as I can.",
+            "Feel free to reach out! You can email me at cdynjm@gmail.com, call or text +63 927 502 1810, or connect with me on Facebook (*JEM CDYN*) — I’m open to projects, questions, or just a quick chat."
         ]
+
 
     if label == "goals":
         return [
@@ -406,6 +408,23 @@ def generate_response(label):
             "No need to be sorry! I'm happy to help you.",
             "All good! How can I assist you now?"
         ]
+    
+    if label == "address":
+        return [
+            "I am a software developer based in Bontoc, Southern Leyte. My exact address is Purok 3, San Vicente, Bontoc, Southern Leyte.",
+            "I’m located at Purok 3, Barangay San Vicente, Bontoc, Southern Leyte, where I work on various software projects and collaborate remotely with clients.",
+            "My address is Purok 3, San Vicente, Bontoc, Southern Leyte, which is where I handle my development tasks and coordinate with teams online.",
+            "I currently reside in Purok 3, San Vicente, Bontoc, Southern Leyte, where I pursue my software development career and contribute to different projects.",
+            "You can find me at Purok 3, San Vicente, Bontoc, Southern Leyte, where I spend most of my time coding and working on innovative tech solutions.",
+            "I live in Purok 3, Barangay San Vicente, Bontoc, Southern Leyte, and I’m always ready to connect online for any development or collaboration work.",
+            "I’m from Purok 3, San Vicente in Bontoc, Southern Leyte, where I develop software solutions and engage with clients and partners remotely.",
+            "My home is in Purok 3, San Vicente, which is part of Bontoc, Southern Leyte, where I manage my projects and collaborate with other developers.",
+            "I’m staying at Purok 3, Barangay San Vicente, Bontoc, Southern Leyte, where I focus on delivering quality software services for clients.",
+            "I’m based at Purok 3, San Vicente, Bontoc, Southern Leyte, where I dedicate my time to building software applications and contributing to the tech community.",
+            "My residence is in Purok 3, San Vicente, Bontoc, Southern Leyte, where I continue to expand my skills and work with clients on custom development projects.",
+            "You’ll find me at Purok 3, San Vicente, in the municipality of Bontoc, Southern Leyte, where I balance my software development work and community involvement."
+        ]
+
 
     return [
         "I’m not sure how to answer that yet — feel free to ask me anything about my work, skills, or commission offers!",
@@ -416,6 +435,14 @@ def generate_response(label):
     ]
 
 questions = {
+    "address": [
+        "where are you from",
+        "what is your address",
+        "where do you live",
+        "your address",
+        "where can i find you",
+        "your home",
+    ],
     "greetings": [
         "Hi", "Hello", "Hey", "Greetings", "Hii", "Helloo", "Heyy",
         "Good morning", "Good day", "Good afternoon", "Good evening",

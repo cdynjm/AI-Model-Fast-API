@@ -433,12 +433,12 @@
   {
     "label": "contact",
     "response": [
-      "Want to collaborate or ask questions? Visit my contact page \u2014 I\u2019m always happy to discuss new ideas and projects.",
-      "Ready to start something new? Reach out through my contact section \u2014 let\u2019s build your vision together.",
-      "You can reach me through my contact area \u2014 I\u2019m excited to connect and hear your ideas!",
-      "Feel free to drop a message through my contact page \u2014 I\u2019m open to projects, questions, or a quick chat.",
-      "Let\u2019s connect! Use my contact section to share your ideas and I\u2019ll get back to you as soon as I can.",
-      "Got a project or question? My contact area is open \u2014 I\u2019d love to hear what you have in mind!"
+      "If you\u2019d like to connect, feel free to email me at cdynjm@gmail.com or call/text me at +63 927 502 1810. I\u2019m also more active on Facebook \u2014 just look for my account: *JEM CDYN*.",
+      "Want to collaborate or ask questions? You can reach me directly at cdynjm@gmail.com or message me on Facebook (*JEM CDYN*) \u2014 I\u2019m always happy to discuss new ideas and projects.",
+      "Ready to start something new? Send me an email at cdynjm@gmail.com, call me at +63 927 502 1810, or reach out via my Facebook account (*JEM CDYN*) \u2014 let\u2019s build your vision together.",
+      "Got a project or question? Contact me anytime at cdynjm@gmail.com or by phone at +63 927 502 1810. I\u2019m also active on Facebook \u2014 feel free to message me on *JEM CDYN*.",
+      "Let\u2019s connect! Drop me an email at cdynjm@gmail.com, give me a call at +63 927 502 1810, or message me on Facebook at *JEM CDYN* \u2014 I\u2019ll get back to you as soon as I can.",
+      "Feel free to reach out! You can email me at cdynjm@gmail.com, call or text +63 927 502 1810, or connect with me on Facebook (*JEM CDYN*) \u2014 I\u2019m open to projects, questions, or just a quick chat."
     ],
     "questions": [
       "How can I contact you?",
@@ -679,6 +679,31 @@
       "sorry about this",
       "i'm really sorry",
       "sorry if i was wrong"
+    ]
+  },
+  {
+    "label": "address",
+    "response": [
+      "I am a software developer based in Bontoc, Southern Leyte. My exact address is Purok 3, San Vicente, Bontoc, Southern Leyte.",
+      "I\u2019m located at Purok 3, Barangay San Vicente, Bontoc, Southern Leyte, where I work on various software projects and collaborate remotely with clients.",
+      "My address is Purok 3, San Vicente, Bontoc, Southern Leyte, which is where I handle my development tasks and coordinate with teams online.",
+      "I currently reside in Purok 3, San Vicente, Bontoc, Southern Leyte, where I pursue my software development career and contribute to different projects.",
+      "You can find me at Purok 3, San Vicente, Bontoc, Southern Leyte, where I spend most of my time coding and working on innovative tech solutions.",
+      "I live in Purok 3, Barangay San Vicente, Bontoc, Southern Leyte, and I\u2019m always ready to connect online for any development or collaboration work.",
+      "I\u2019m from Purok 3, San Vicente in Bontoc, Southern Leyte, where I develop software solutions and engage with clients and partners remotely.",
+      "My home is in Purok 3, San Vicente, which is part of Bontoc, Southern Leyte, where I manage my projects and collaborate with other developers.",
+      "I\u2019m staying at Purok 3, Barangay San Vicente, Bontoc, Southern Leyte, where I focus on delivering quality software services for clients.",
+      "I\u2019m based at Purok 3, San Vicente, Bontoc, Southern Leyte, where I dedicate my time to building software applications and contributing to the tech community.",
+      "My residence is in Purok 3, San Vicente, Bontoc, Southern Leyte, where I continue to expand my skills and work with clients on custom development projects.",
+      "You\u2019ll find me at Purok 3, San Vicente, in the municipality of Bontoc, Southern Leyte, where I balance my software development work and community involvement."
+    ],
+    "questions": [
+      "where are you from",
+      "what is your address",
+      "where do you live",
+      "your address",
+      "where can i find you",
+      "your home"
     ]
   },
   {
