@@ -38,153 +38,221 @@ fallback_label = "fallback"
 def generate_response(label):
     if label == "greetings":
        return [
-            "Hi there! I’m AI JEM — a custom chatbot version of Jemuel H. Cadayona, a passionate software developer from Southern Leyte, Philippines. I was created using Python with FastAPI and Flask, and trained with custom NLP workflows and scikit-learn on tailored datasets about Jemuel’s work and information. Feel free to ask me about his skills, projects, or how you can collaborate with him!",
-            "Hello! I’m AI JEM — Jemuel H. Cadayona’s personal AI chatbot. Built with Python, Flask, and FastAPI, I’m powered by carefully prepared training data and custom NLP pipelines. I’m here to help you learn more about Jemuel’s work, skills, and how he can help bring your ideas to life.",
-            "Hey! I’m AI JEM — your AI assistant representing Jemuel H. Cadayona, a dedicated software developer. I run on Python, FastAPI, and Flask, and I was trained using scikit-learn and personalized NLP models to share accurate information about Jemuel’s projects, experience, and how you can work together.",
-            "Hi! I’m AI JEM — a chatbot built exclusively for Jemuel H. Cadayona using Python with FastAPI and Flask. My responses come from a custom-trained scikit-learn model and handpicked datasets that deliver clear answers about Jemuel’s skills, projects, and professional background. Ask me anything!",
-            "Greetings! I’m AI JEM — Jemuel H. Cadayona’s personal Python-based chatbot, created with FastAPI and Flask and trained with custom NLP pipelines and scikit-learn models. I’m designed to answer questions about his skills, past work, and how he can help you achieve your project goals."
+            "Hi there! I’m AI JEM — a custom chatbot version of Jemuel Cadayona, a passionate software developer from Southern Leyte, Philippines. I was created using Python with FastAPI and Flask, and trained with custom NLP workflows and scikit-learn on tailored datasets about Jemuel’s work and information. Feel free to ask me about his skills, projects, or how you can collaborate with him!",
+            "Hello! I’m AI JEM — Jemuel Cadayona’s personal AI chatbot. Built with Python, Flask, and FastAPI, I’m powered by carefully prepared training data and custom NLP pipelines. I’m here to help you learn more about Jemuel’s work, skills, and how he can help bring your ideas to life.",
+            "Hey! I’m AI JEM — your AI assistant representing Jemuel Cadayona, a dedicated software developer. I run on Python, FastAPI, and Flask, and I was trained using scikit-learn and personalized NLP models to share accurate information about Jemuel’s projects, experience, and how you can work together.",
+            "Hi! I’m AI JEM — a chatbot built exclusively for Jemuel Cadayona using Python with FastAPI and Flask. My responses come from a custom-trained scikit-learn model and handpicked datasets that deliver clear answers about Jemuel’s skills, projects, and professional background. Ask me anything!",
+            "Greetings! I’m AI JEM — Jemuel Cadayona’s personal Python-based chatbot, created with FastAPI and Flask and trained with custom NLP pipelines and scikit-learn models. I’m designed to answer questions about his skills, past work, and how he can help you achieve your project goals.",
+            "Hello there! I’m AI JEM — an AI chatbot version of Jemuel Cadayona, built with Python, FastAPI, and Flask, and trained on custom NLP pipelines with scikit-learn. I’m here to share insights about Jemuel’s experience, skills, and how you can team up with him on projects.",
+            "Hi! I’m AI JEM — your smart assistant built to represent Jemuel Cadayona’s work. Using Python, FastAPI, and Flask, plus scikit-learn NLP workflows, I can answer your questions about his software development skills, recent projects, and collaboration opportunities.",
+            "Hey there! I’m AI JEM — Jemuel Cadayona’s dedicated AI chatbot assistant. I run on Python with FastAPI and Flask, powered by scikit-learn and custom NLP training data, so I can help you learn all about Jemuel’s background, tech stack, and how he can work with you.",
+            "Hi, I’m AI JEM — the personal chatbot for Jemuel Cadayona. I was built using Python with FastAPI and Flask, and trained with scikit-learn and unique NLP pipelines to provide details about Jemuel’s projects, technical skills, and ways you can collaborate with him.",
+            "Hello! I’m AI JEM — an AI-powered chatbot crafted for Jemuel Cadayona. Using Python, FastAPI, Flask, and scikit-learn NLP models, I’m here to share verified info about Jemuel’s work, experience, and how he can support your next big idea."
         ]
 
     if label == "farewell":
         return [
             "Thank you so much for your time and interest in my work. Let’s definitely keep in touch and explore opportunities to build something amazing together!",
             "I appreciate you reaching out! I’m looking forward to collaborating with you soon. Goodbye for now!",
-            "Thanks for chatting with me! I hope we can connect again and create something valuable together."
+            "Thanks for chatting with me! I hope we can connect again and create something valuable together.",
+            "I really appreciate your time and questions — I hope we can work together in the near future. Take care!",
+            "Thank you for this conversation. Let’s stay connected and build great things together. See you next time!",
+            "It was great talking with you! I look forward to hearing from you again. Goodbye and best wishes!",
+            "Thanks a lot for connecting with me. Let’s keep the conversation going — I’m excited for what we can build together!",
+            "I appreciate your interest and your time. Let’s make something awesome happen soon. Bye for now!",
+            "Thank you! I enjoyed answering your questions. Reach out anytime — I’m always ready to collaborate.",
+            "Thanks again for reaching out! I’m always here if you’d like to discuss your next project. Until next time!"
         ]
+
 
     if label == "introduction":
         return [
-            "I’m AI JEM — your dedicated chatbot version of Jemuel H. Cadayona, a detail-oriented software developer from Southern Leyte. I was built using Python with FastAPI and Flask, and trained using scikit-learn and custom NLP pipelines. I load my datasets from JSON, preprocess them with pandas and numpy, and train models like Logistic Regression and Naive Bayes to understand and answer your questions about Jemuel’s work, skills, and projects.",
-            "I’m AI JEM — the personal AI assistant for Jemuel H. Cadayona, also known as JEM CDYN — a passionate full-stack developer from Southern Leyte. I’m powered by Python, FastAPI, and Flask, and trained using scikit-learn with custom natural language processing pipelines. I handle data loading from JSON or CSV, clean and vectorize text using pandas and numpy, and use models like Logistic Regression to deliver accurate, context-aware responses about Jemuel’s projects and expertise.",
-            "I’m AI JEM — a custom Python chatbot representing Jemuel H. Cadayona, a dedicated full-stack developer who designs and builds modern systems that help communities and organizations thrive. I was created using Python’s FastAPI and Flask frameworks, trained with scikit-learn and tailored NLP workflows, and I keep my responses and training data organized in JSON format. My machine learning models, like Naive Bayes and Logistic Regression, help me understand what you ask so I can respond with useful information about Jemuel’s skills and experience.",
-            "Hi! I’m AI JEM — your virtual version of Jemuel H. Cadayona, built using Python’s FastAPI and Flask frameworks. I was trained using scikit-learn, pandas, and numpy for custom natural language processing tasks. I load my datasets from JSON, clean and vectorize your inputs, and use machine learning algorithms like Logistic Regression to deliver Jemuel’s story and insights into his web development skills and projects.",
-            "Hello there! I’m AI JEM — an intelligent Python-powered chatbot version of Jemuel H. Cadayona. I was built using FastAPI and Flask and trained on custom NLP pipelines with scikit-learn, pandas, and numpy. I manage my data in JSON format and use algorithms like Logistic Regression and Naive Bayes to analyze your questions and share Jemuel’s experience in building practical, community-focused software solutions.",
-            "Hey! I’m AI JEM — your smart digital assistant created to represent Jemuel H. Cadayona’s professional journey. My brain runs on Python’s scikit-learn library and custom NLP flows, powered by FastAPI and Flask. I handle everything from loading JSON or CSV data, to preprocessing with pandas and numpy, to training machine learning models that help me give clear, relevant answers about Jemuel’s work and projects.",
-            "Greetings! I’m AI JEM — a Python-built chatbot designed to showcase Jemuel H. Cadayona’s work. I’m powered by FastAPI, Flask, and scikit-learn, with my NLP workflows running on pandas and numpy. I store my training data and responses in JSON format and use algorithms like Logistic Regression and Naive Bayes to help me understand and respond accurately to your questions about Jemuel’s skills, projects, and goals."
+            "I’m AI JEM — your dedicated chatbot version of Jemuel Cadayona, a detail-oriented software developer from Southern Leyte. I was built using Python with FastAPI and Flask, and trained using scikit-learn and custom NLP pipelines. I load my datasets from JSON, preprocess them with pandas and numpy, and train models like Logistic Regression and Naive Bayes to understand and answer your questions about Jemuel’s work, skills, and projects.",
+            "I’m AI JEM — the personal AI assistant for Jemuel Cadayona, also known as JEM CDYN — a passionate full-stack developer from Southern Leyte. I’m powered by Python, FastAPI, and Flask, and trained using scikit-learn with custom natural language processing pipelines. I handle data loading from JSON or CSV, clean and vectorize text using pandas and numpy, and use models like Logistic Regression to deliver accurate, context-aware responses about Jemuel’s projects and expertise.",
+            "I’m AI JEM — a custom Python chatbot representing Jemuel Cadayona, a dedicated full-stack developer who designs and builds modern systems that help communities and organizations thrive. I was created using Python’s FastAPI and Flask frameworks, trained with scikit-learn and tailored NLP workflows, and I keep my responses and training data organized in JSON format. My machine learning models, like Naive Bayes and Logistic Regression, help me understand what you ask so I can respond with useful information about Jemuel’s skills and experience.",
+            "Hi! I’m AI JEM — your virtual version of Jemuel Cadayona, built using Python’s FastAPI and Flask frameworks. I was trained using scikit-learn, pandas, and numpy for custom natural language processing tasks. I load my datasets from JSON, clean and vectorize your inputs, and use machine learning algorithms like Logistic Regression to deliver Jemuel’s story and insights into his web development skills and projects.",
+            "Hello there! I’m AI JEM — an intelligent Python-powered chatbot version of Jemuel Cadayona. I was built using FastAPI and Flask and trained on custom NLP pipelines with scikit-learn, pandas, and numpy. I manage my data in JSON format and use algorithms like Logistic Regression and Naive Bayes to analyze your questions and share Jemuel’s experience in building practical, community-focused software solutions.",
+            "Hey! I’m AI JEM — your smart digital assistant created to represent Jemuel Cadayona’s professional journey. My brain runs on Python’s scikit-learn library and custom NLP flows, powered by FastAPI and Flask. I handle everything from loading JSON or CSV data, to preprocessing with pandas and numpy, to training machine learning models that help me give clear, relevant answers about Jemuel’s work and projects.",
+            "Greetings! I’m AI JEM — a Python-built chatbot designed to showcase Jemuel Cadayona’s work. I’m powered by FastAPI, Flask, and scikit-learn, with my NLP workflows running on pandas and numpy. I store my training data and responses in JSON format and use algorithms like Logistic Regression and Naive Bayes to help me understand and respond accurately to your questions about Jemuel’s skills, projects, and goals.",
+            "Hi there! I’m AI JEM — a fully custom AI chatbot created to share Jemuel Cadayona’s expertise. Built with Python’s FastAPI and Flask frameworks, I process your inputs with pandas and numpy, train models with scikit-learn, and organize my training sets in JSON and CSV formats. Algorithms like Logistic Regression and Naive Bayes help me deliver relevant, helpful answers about Jemuel’s skills and work.",
+            "Hello! I’m AI JEM — your Python-based assistant for all things Jemuel Cadayona. I run on FastAPI and Flask, handle natural language processing with scikit-learn, pandas, and numpy, and store my data in JSON format. My custom-trained models, including Logistic Regression and Naive Bayes, help me understand your questions and share Jemuel’s story accurately.",
+            "Hey there! I’m AI JEM — an intelligent chatbot representing Jemuel Cadayona. Powered by Python’s FastAPI and Flask, I use scikit-learn for NLP, pandas and numpy for data prep, and JSON for storing training sets. I rely on algorithms like Logistic Regression and Naive Bayes to provide you with clear answers about Jemuel’s full-stack projects and skills."
         ]
+
 
     if label == "skills_nextjs":
         return [
-            "Next.js is my go-to framework for building fast, SEO-friendly, and scalable web applications. I use server-side rendering, static generation, and robust API routes for optimal performance.",
-            "I rely on Next.js for building production-ready, high-performance web apps with server-side rendering, API routes, and great developer experience.",
-            "Next.js is my framework of choice for creating modern, scalable sites that rank well and deliver great user experiences."
+            "Next JS is my go-to framework for building fast, SEO-friendly, and scalable web applications. I use server-side rendering, static generation, and robust API routes for optimal performance.",
+            "I rely on Next JS for building production-ready, high-performance web apps with server-side rendering, API routes, and great developer experience.",
+            "Next JS is my framework of choice for creating modern, scalable sites that rank well and deliver great user experiences.",
+            "I use Next JS to build modern web apps with a focus on speed, SEO, and maintainability. Its hybrid rendering and API routing features make it perfect for full-stack projects.",
+            "Next JS lets me build high-performance sites with static generation, server-side rendering, and flexible routing, ideal for scalable, production-grade apps.",
+            "I trust Next JS for creating dynamic, SEO-optimized sites with built-in routing, API endpoints, and fast rendering to deliver the best user experience."
         ]
+
 
     if label == "skills_laravel":
         return [
             "Laravel is my main backend framework. I use it to build secure, maintainable APIs and efficient data-driven applications. I also use Livewire and LighthousePHP for dynamic interfaces and GraphQL.",
             "I love using Laravel to build robust backend systems and APIs, often pairing it with Livewire for dynamic UIs and LighthousePHP for GraphQL endpoints.",
-            "Laravel is at the core of my backend stack for creating secure, scalable systems and clean APIs, complemented by Livewire and LighthousePHP for advanced features."
+            "Laravel is at the core of my backend stack for creating secure, scalable systems and clean APIs, complemented by Livewire and LighthousePHP for advanced features.",
+            "I rely on Laravel for building modern, secure APIs and backend services, with Livewire and LighthousePHP adding power for interactive UIs and GraphQL queries.",
+            "Laravel’s elegant syntax and ecosystem help me deliver reliable, maintainable backend applications, often integrating Livewire for reactive interfaces and LighthousePHP for GraphQL APIs.",
+            "I choose Laravel to craft well-structured, secure backends with RESTful APIs, dynamic components via Livewire, and flexible GraphQL layers using LighthousePHP."
         ]
 
     if label == "skills_python":
         return [
             "I use Python for automation, data processing, and writing custom backend scripts that make development more efficient.",
             "Python helps me automate tasks and process data smoothly, complementing my main tech stack.",
-            "I integrate Python for scripting, automation, and quick backend tasks that streamline my workflow."
+            "I integrate Python for scripting, automation, and quick backend tasks that streamline my workflow.",
+            "I rely on Python to automate repetitive tasks, handle data transformations, and build small backend utilities that support larger projects.",
+            "Python’s simplicity makes it my go-to tool for writing scripts, automating processes, and tackling small backend jobs that improve productivity.",
+            "I use Python to build quick automations, process files and data, and create helper scripts that boost my efficiency as a developer."
         ]
 
     if label == "skills_fullstack":
         return [
             "As a full-stack developer, I handle both frontend and backend — from designing beautiful interfaces to building secure APIs — delivering production-ready applications end-to-end.",
             "I cover the full development cycle: from clean, responsive UIs to secure and efficient backend systems.",
-            "Being full-stack means I manage the whole process — frontend, backend, database, and deployment — ensuring a smooth delivery every time."
+            "Being full-stack means I manage the whole process — frontend, backend, database, and deployment — ensuring a smooth delivery every time.",
+            "I bridge frontend design and backend logic, handling everything from user interfaces to database design and server deployment.",
+            "Full-stack work lets me create complete solutions — from the first line of frontend code to the last backend endpoint.",
+            "I enjoy building entire applications from scratch, covering UX design, API development, database management, and final deployment."
         ]
 
     if label == "frontend_development":
         return [
-            "I build responsive, modern frontends using TailwindCSS, Shadcn UI, React.js, Vue.js, Inertia.js, JavaScript, TypeScript, and Next.js. Clean design and great UX are always top priorities.",
-            "My frontend work focuses on creating clean, accessible, and maintainable UIs using modern tools like TailwindCSS, Vue.js, and React.",
-            "I design beautiful, responsive interfaces with modern stacks like Next.js, TailwindCSS, Shadcn UI, and TypeScript."
+            "I build responsive, modern frontends using TailwindCSS, Shadcn UI, React JS, Vue JS, Inertia JS, JavaScript, TypeScript, and Next JS. Clean design and great UX are always top priorities.",
+            "My frontend work focuses on creating clean, accessible, and maintainable UIs using modern tools like TailwindCSS, Vue JS, and React.",
+            "I design beautiful, responsive interfaces with modern stacks like Next JS, TailwindCSS, Shadcn UI, and TypeScript.",
+            "I craft modern, mobile-friendly frontends using frameworks like Vue JS and React, styled with TailwindCSS and Shadcn UI.",
+            "My priority in frontend development is clean design, reusable components, and a great user experience using TypeScript and modern CSS frameworks.",
+            "I build intuitive user interfaces with Vue, React, TailwindCSS, and Shadcn UI, ensuring they’re responsive and easy to maintain."
         ]
 
     if label == "backend_development":
         return [
-            "On the backend, I build scalable, secure APIs and systems with Laravel, HonoJS, Livewire, PHP 8, and LighthousePHP. I am using Python for AI and Machine Learning.",
-            "I develop backend logic and APIs using Laravel, PHP 8, Livewire, HonoJS, and LighthousePHP for robust performance. I am utilizing Python for AI and Machine Learning.",
-            "My backend stack includes Laravel, Livewire, LighthousePHP, HonoJS, and PHP 8 to deliver reliable server-side solutions. Also, I am using Python for AI and Machine Learning."
+            "On the backend, I build scalable, secure APIs and systems with Laravel, Hono JS, Livewire, PHP 8, and LighthousePHP. I am using Python for AI and Machine Learning.",
+            "I develop backend logic and APIs using Laravel, PHP 8, Livewire, Hono JS, and LighthousePHP for robust performance. I am utilizing Python for AI and Machine Learning.",
+            "My backend stack includes Laravel, Livewire, LighthousePHP, Hono JS, and PHP 8 to deliver reliable server-side solutions. Also, I am using Python for AI and Machine Learning.",
+            "I handle server-side development with Laravel and Hono JS, and extend functionality with Livewire and LighthousePHP. For AI and ML tasks, I turn to Python.",
+            "I build secure APIs and backend services with Laravel, Livewire, LighthousePHP, and Hono JS. Python supports my AI and data processing tasks behind the scenes.",
+            "My backend approach combines Laravel’s elegant structure with Hono JS speed and Livewire for dynamic features, while Python handles automation and machine learning."
         ]
 
     if label == "tools_workflow":
         return [
             "My workflow includes Git, GitHub Actions for CI/CD, Vite, Drizzle ORM, and GraphQL — making development faster and cleaner.",
             "I use tools like Git, GitHub Actions, Vite, and GraphQL to keep my workflow organized, efficient, and production-ready.",
-            "With Git, CI/CD pipelines, Vite, and Drizzle ORM, I maintain clean code and automate builds and deployments."
+            "With Git, CI/CD pipelines, Vite, and Drizzle ORM, I maintain clean code and automate builds and deployments.",
+            "My toolset includes Git for version control, GitHub Actions for automating tests and deployments, and Vite for blazing-fast builds.",
+            "I streamline development with Git, automated CI/CD through GitHub Actions, and modern build tools like Vite and GraphQL.",
+            "I rely on Git for versioning, Vite for fast frontends, Drizzle ORM for smooth database workflows, and GitHub Actions for automating releases."
         ]
 
     if label == "database_auth":
         return [
-            "I design databases with MySQL, PostgreSQL, MongoDB, Drizzle ORM, Supabase, and Eloquent ORM. I secure authentication with NextAuth.js, Laravel Breeze, and Sanctum.",
-            "My database management covers relational and non-relational systems like MySQL, PostgreSQL, and MongoDB, paired with secure auth using NextAuth.js and Laravel tools.",
-            "I work with modern databases and ensure secure, smooth authentication systems for every application."
+            "I design databases with MySQL, PostgreSQL, MongoDB, Drizzle ORM, Supabase, and Eloquent ORM. I secure authentication with NextAuth JS, Laravel Breeze, and Sanctum.",
+            "My database management covers relational and non-relational systems like MySQL, PostgreSQL, and MongoDB, paired with secure auth using NextAuth JS and Laravel tools.",
+            "I work with modern databases and ensure secure, smooth authentication systems for every application.",
+            "I build and maintain robust databases using MySQL, PostgreSQL, and MongoDB, and integrate auth with NextAuth JS, Laravel Sanctum, or custom JWT and OAuth solutions.",
+            "My workflow includes designing normalized schemas, using ORMs like Drizzle and Eloquent, and implementing secure authentication flows with Laravel Breeze or NextAuth JS.",
+            "I handle database setup, migrations, and relationships, and make sure user accounts are protected with industry-standard authentication methods.",
+            "I use modern ORMs like Drizzle and Eloquent for database operations, and secure apps with JWT, OAuth, or built-in solutions like NextAuth JS.",
+            "I ensure that user data is encrypted and authentication is safe by using proven libraries and frameworks such as Laravel Sanctum and NextAuth JS.",
+            "My experience includes designing scalable databases, writing optimized queries, and managing user authentication from signup to session management.",
+            "Whether it’s MySQL or MongoDB, I make sure data integrity and account security are handled with best practices in auth and user management."
         ]
 
     if label == "ui_consistency":
         return [
             "I use Shadcn UI and similar systems to keep my user interfaces consistent, accessible, and maintainable across all projects.",
             "With design systems like Shadcn UI, I ensure that every application has a cohesive, accessible UI that scales easily.",
-            "Consistent, reusable UI components are key — I rely on Shadcn UI to deliver accessible, maintainable interfaces."
+            "Consistent, reusable UI components are key — I rely on Shadcn UI to deliver accessible, maintainable interfaces.",
+            "I maintain a clean, consistent look by using Shadcn UI and building reusable components that match across every page.",
+            "Design systems like Shadcn UI help me enforce consistent styling, accessibility, and reusability across all interfaces.",
+            "Using a shared UI kit like Shadcn UI means my apps stay visually unified, accessible, and easy to scale or update."
         ]
 
     if label == "ci_cd":
         return [
             "I use GitHub Actions to set up CI/CD pipelines, automating testing and deployments for faster, safer production releases.",
             "My CI/CD pipelines with GitHub Actions ensure that code is tested and deployed reliably and quickly.",
-            "I implement automated CI/CD workflows using GitHub Actions, speeding up development and ensuring code quality."
+            "I implement automated CI/CD workflows using GitHub Actions, speeding up development and ensuring code quality.",
+            "Automating builds and deployments with GitHub Actions helps me catch issues early and ship updates faster.",
+            "I rely on CI/CD pipelines powered by GitHub Actions to test, build, and deploy code automatically and securely.",
+            "My development process includes GitHub Actions for CI/CD, giving every project safe, repeatable deployments and smooth rollouts."
         ]
 
     if label == "services":
         return [
             "I offer modern web dev services: static sites, custom full-stack apps, secure APIs, and integrations — all tailored to your needs.",
             "From static landing pages to full-stack apps and secure API development, I provide a range of services to match any project.",
-            "My services include full-stack development, custom APIs, modern static sites, and robust integrations."
+            "My services include full-stack development, custom APIs, modern static sites, and robust integrations.",
+            "I deliver tailored web solutions — from simple static websites to complex full-stack systems and API integrations.",
+            "My development services cover static pages, dynamic full-stack apps, secure backend APIs, and smooth third-party integrations.",
+            "Whether you need a landing page, a custom web app, or a secure API, I provide modern web dev services that fit your goals."
         ]
 
     if label == "commissions":
         return [
             "My commission rates start at ₱5K–₱10K for static sites, ₱15K–₱20K for full-stack basics, ₱25K–₱50K for standard systems, and ₱60K–₱100K for premium solutions. Refer to the commission section for more details.",
             "I offer flexible pricing: ₱5K–₱10K for static websites, ₱15K–₱20K for basic full-stack, ₱25K–₱50K for student/business systems, ₱60K–₱100K for larger projects. Refer to the commission section for more details.",
-            "Project rates range from ₱5K for simple sites to ₱100K for enterprise-level systems — all tailored to your goals and requirements. Refer to the commission section for more details."
+            "Project rates range from ₱5K for simple sites to ₱100K for enterprise-level systems — all tailored to your goals and requirements. Refer to the commission section for more details.",
+            "Rates vary depending on the project scope — static sites start at ₱5K, full-stack apps at ₱15K–₱20K, and complex systems at ₱25K–₱100K+. Details are in the commission section.",
+            "My commission pricing is flexible: from ₱5K for basic sites to ₱100K+ for large-scale custom systems. Check the commission section for a full breakdown.",
+            "You’ll find my rates start at ₱5K for simple builds and scale up to ₱100K for advanced, fully custom systems. More details in the commission section."
         ]
 
     if label == "contact":
         return [
             "Want to collaborate or ask questions? Visit my contact page — I’m always happy to discuss new ideas and projects.",
             "Ready to start something new? Reach out through my contact section — let’s build your vision together.",
-            "You can reach me through my contact area — I’m excited to connect and hear your ideas!"
+            "You can reach me through my contact area — I’m excited to connect and hear your ideas!",
+            "Feel free to drop a message through my contact page — I’m open to projects, questions, or a quick chat.",
+            "Let’s connect! Use my contact section to share your ideas and I’ll get back to you as soon as I can.",
+            "Got a project or question? My contact area is open — I’d love to hear what you have in mind!"
         ]
 
     if label == "goals":
         return [
             "My goal is to build practical, high-quality solutions that help clients grow, work smarter, and succeed online.",
             "I aim to deliver real, meaningful results for my clients — solutions that drive growth and efficiency.",
-            "My main goal is to provide quality software that solves problems and supports long-term success."
+            "My main goal is to provide quality software that solves problems and supports long-term success.",
+            "I want every project I deliver to make a positive, real-world impact and help clients reach their goals.",
+            "My mission is to create digital solutions that save time, drive growth, and help businesses or communities thrive.",
+            "I’m focused on building tech that works, lasts, and delivers real value to those who use it."
         ]
 
     if label == "collaboration":
         return [
             "Collaboration matters to me — I love working with students, startups, and government offices to bring ideas to life.",
             "I’m always open to collaborative work. Together, we can turn your vision into a real, working solution.",
-            "Partnerships and teamwork are vital — I’m ready to listen and help make your goals a reality."
+            "Partnerships and teamwork are vital — I’m ready to listen and help make your goals a reality.",
+            "I enjoy working side by side with clients and teams to build projects that deliver real results.",
+            "I’m open to collaborations of all sizes — from solo dev work to joint ventures with other developers or organizations.",
+            "Bringing ideas to life is better together — I welcome partnerships and teamwork to achieve great outcomes."
         ]
+
     if label == "projects":
         return [
             (
                 "I have developed a range of practical, production-ready systems and starter kits that serve various sectors, communities, and local governments. "
-                "For modern web development, my NextJS Starter Kit provides a solid foundation for building Next.js applications with built-in authentication powered by NextAuth.js, a PostgreSQL database, and a robust stack including HonoJS, TailwindCSS, Shadcn UI, TypeScript, GraphQL, TanStack Query, and Supabase for streamlined workflows and scalable deployments. "
+                "For modern web development, my NextJS Starter Kit provides a solid foundation for building Next JS applications with built-in authentication powered by NextAuth JS, a PostgreSQL database, and a robust stack including Hono JS, TailwindCSS, Shadcn UI, TypeScript, GraphQL, TanStack Query, and Supabase for streamlined workflows and scalable deployments. "
                 "For local governance, I created the Legislative Management System — a full-featured solution for municipalities to handle legislative documents and transactions efficiently, built with VueJS, InertiaJS, Laravel, TailwindCSS, TypeScript, GraphQL, and TanStack Query. The Document Tracking Assistant, developed for the Province of Southern Leyte, lets staff track documents and transactions via QR codes, using Laravel, Livewire, MySQL, and JavaScript. "
                 "I also built e-Mercado, an online store with product management and a shopping cart for the Province of Southern Leyte, powered by Laravel, Bootstrap 5, JavaScript, and MySQL. For schools, I developed the GJTVS Enrolment & Attendance Management System (RFID) — a comprehensive enrolment and attendance tracker using RFID, Laravel, Livewire, Bootstrap 5, JavaScript, and MySQL. "
                 "To support public safety, I built the BFP Information Management System for the Bureau of Fire Protection, featuring inspection scheduling and SMS-enabled appointments with VueJS, InertiaJS, Laravel, MySQL, and Pushbullet API. I also created the STMG Road Traffic Offense Management System to track driver records and penalties using VueJS, InertiaJS, Laravel, and MySQL, and the Municipal Crime & Accident Management System, which records incidents and shows GIS mapping via Leaflet, using Laravel, Livewire, Bootstrap 5, JavaScript, MySQL, Leaflet, and Pushbullet API. "
                 "For education, the ALS Learners Progress Monitoring System helps the Department of Education track the development of ALS learners, built using Laravel, Livewire, Bootstrap 5, JavaScript, and MySQL. Lastly, I designed and deployed a clean commercial website for Southern Comfort Pensionne using HTML5, CSS3, Bootstrap 5, and JavaScript to build a simple yet effective online presence."
             ),
             (
-                "My portfolio covers impactful systems and starter kits for multiple sectors. The NextJS Starter Kit offers a modern base for Next.js projects with NextAuth.js, PostgreSQL, HonoJS, TailwindCSS, Shadcn UI, TypeScript, GraphQL, TanStack Query, and Supabase for fast deployment. "
+                "My portfolio covers impactful systems and starter kits for multiple sectors. The NextJS Starter Kit offers a modern base for Next JS projects with NextAuth JS, PostgreSQL, Hono JS, TailwindCSS, Shadcn UI, TypeScript, GraphQL, TanStack Query, and Supabase for fast deployment. "
                 "For local governments, I developed the Legislative Management System, a complete solution for managing legislative documents and transactions, built with VueJS, InertiaJS, Laravel, TailwindCSS, TypeScript, GraphQL, and TanStack Query. The Document Tracking Assistant for Southern Leyte enables QR-based document tracking using Laravel, Livewire, MySQL, and JavaScript. "
                 "I launched e-Mercado for local online selling, developed the GJTVS Enrolment & Attendance Management System for RFID-based student tracking, the BFP Information Management System for inspections and SMS scheduling, and the STMG Road Traffic Offense Management System to manage driver records and penalties. "
                 "Additionally, the Municipal Crime & Accident Management System records incidents and maps locations with Leaflet, while the ALS Learners Progress Monitoring System supports the Department of Education. For small businesses, I delivered a simple yet effective website for Southern Comfort Pensionne using clean HTML, CSS, and Bootstrap."
             ),
             (
-                "I have designed a series of robust, real-world systems and starter kits for a variety of use cases. For modern full-stack projects, my NextJS Starter Kit includes everything needed for scalable Next.js development: NextAuth.js, PostgreSQL, HonoJS, TailwindCSS, Shadcn UI, TypeScript, GraphQL, TanStack Query, and Supabase. "
+                "I have designed a series of robust, real-world systems and starter kits for a variety of use cases. For modern full-stack projects, my NextJS Starter Kit includes everything needed for scalable Next JS development: NextAuth JS, PostgreSQL, Hono JS, TailwindCSS, Shadcn UI, TypeScript, GraphQL, TanStack Query, and Supabase. "
                 "In the public sector, I built the Legislative Management System for municipal document handling and the Document Tracking Assistant for the Province of Southern Leyte to simplify tracking using QR codes — all powered by VueJS, InertiaJS, Laravel, Livewire, MySQL, and JavaScript. "
                 "Other projects include e-Mercado for local commerce, the GJTVS Enrolment & Attendance Management System with RFID, the BFP Information Management System with SMS scheduling, the STMG Road Traffic Offense Management System for traffic monitoring, and the Municipal Crime & Accident Management System that uses Leaflet maps for incident reports. "
                 "I also created the ALS Learners Progress Monitoring System for DepEd and delivered a simple commercial website for Southern Comfort Pensionne using HTML5, CSS3, Bootstrap 5, and JavaScript for an effective online presence."
@@ -202,7 +270,7 @@ def generate_response(label):
         return [
             (
                 "I’ve led and contributed to impactful projects as a Software Developer and Consultant at the Provincial Systems Administrators Office. "
-                "I developed large-scale web applications using Laravel, Vue.js, and TailwindCSS, and optimized complex databases — boosting load speeds by 40% and cutting deployment times by 60% with CI/CD pipelines.\n\n"
+                "I developed large-scale web applications using Laravel, Vue JS, and TailwindCSS, and optimized complex databases — boosting load speeds by 40% and cutting deployment times by 60% with CI/CD pipelines.\n\n"
                 "In January 2025, I deployed and demonstrated the Document Tracking Assistant for the Capitol Site in Southern Leyte, helping staff adopt it smoothly.\n\n"
                 "Earlier, in November 2024, I led training for the Document Tracking System to increase transparency and efficiency.\n\n"
                 "In April 2024, I organized an orientation for the Legislative Management System at Southern Leyte State University to help local offices streamline legislative work.\n\n"
@@ -210,7 +278,7 @@ def generate_response(label):
                 "These experiences show my commitment to delivering meaningful, practical tech solutions for local communities."
             ),
             (
-                "Throughout my career as a Software Developer and Consultant at Provincial Systems A.O., I’ve built enterprise-level web solutions with Laravel, Vue.js, and TailwindCSS. "
+                "Throughout my career as a Software Developer and Consultant at Provincial Systems A.O., I’ve built enterprise-level web solutions with Laravel, Vue JS, and TailwindCSS. "
                 "I improved database structures to enhance performance by 40 percent and streamlined deployments with CI/CD, cutting rollout time by 60%.\n\n"
                 "In January 2025, I fully implemented the Document Tracking Assistant at the Capitol Site, training staff for smooth onboarding. "
                 "In November 2024, I led training sessions for the Document Tracking System to boost document processing transparency. "
@@ -220,7 +288,7 @@ def generate_response(label):
             ),
             (
                 "As a Software Developer and Consultant for Provincial Systems A.O., I’ve handled significant projects that impacted local government operations. "
-                "I engineered robust web apps with Laravel, Vue.js, and TailwindCSS, and optimized database systems to speed up load times by 40% while implementing CI/CD pipelines that reduced deployment times by 60%.\n\n"
+                "I engineered robust web apps with Laravel, Vue JS, and TailwindCSS, and optimized database systems to speed up load times by 40% while implementing CI/CD pipelines that reduced deployment times by 60%.\n\n"
                 "In January 2025, I rolled out the Document Tracking Assistant for the Southern Leyte Capitol Site and guided staff through its use. "
                 "Before that, in November 2024, I organized user training for the Document Tracking System to ensure better document tracking and transparency. "
                 "In April 2024, I held an orientation session for the Legislative Management System at SLSU to help offices handle legislative tasks efficiently.\n\n"
@@ -232,33 +300,33 @@ def generate_response(label):
         return [
             (
                 "I have a broad skill set that covers both frontend and backend development. "
-                "On the frontend, I specialize in building responsive and maintainable user interfaces using Next.js, React.js, Vue.js, Inertia.js, TypeScript, JavaScript, TailwindCSS, and Shadcn UI. "
-                "For backend development, I build secure and scalable APIs and server-side logic with Laravel, PHP 8, Livewire.js, LighthousePHP, and HonoJS — plus Python for AI and automation. "
+                "On the frontend, I specialize in building responsive and maintainable user interfaces using Next JS, React JS, Vue JS, Inertia JS, TypeScript, JavaScript, TailwindCSS, and Shadcn UI. "
+                "For backend development, I build secure and scalable APIs and server-side logic with Laravel, PHP 8, Livewire JS, LighthousePHP, and Hono JS — plus Python for AI and automation. "
                 "I manage data using MySQL, PostgreSQL, MongoDB, Drizzle ORM, Supabase, and Laravel’s Eloquent ORM to keep systems efficient and secure. "
-                "My authentication implementations rely on NextAuth.js for Next.js projects and Breeze or Sanctum for Laravel. "
+                "My authentication implementations rely on NextAuth JS for Next JS projects and Breeze or Sanctum for Laravel. "
                 "To ensure smooth development workflows, I use Git, GitHub Actions, Vite, and GraphQL, delivering clean, production-ready full-stack solutions."
             ),
             (
-                "My technical skill set spans the entire stack. On the frontend side, I build sleek, responsive interfaces with Next.js, React.js, Vue.js, Inertia.js, TypeScript, JavaScript, TailwindCSS, and Shadcn UI. "
-                "The backend side includes developing robust APIs and server logic with Laravel, PHP 8, Livewire.js, LighthousePHP, and HonoJS, plus using Python for AI tasks and automation. "
+                "My technical skill set spans the entire stack. On the frontend side, I build sleek, responsive interfaces with Next JS, React JS, Vue JS, Inertia JS, TypeScript, JavaScript, TailwindCSS, and Shadcn UI. "
+                "The backend side includes developing robust APIs and server logic with Laravel, PHP 8, Livewire JS, LighthousePHP, and Hono JS, plus using Python for AI tasks and automation. "
                 "I work with databases like MySQL, PostgreSQL, MongoDB, Drizzle ORM, Supabase, and Laravel’s Eloquent ORM to keep data secure and well-structured. "
-                "Authentication is handled with NextAuth.js for Next.js and Breeze or Sanctum for Laravel. "
+                "Authentication is handled with NextAuth JS for Next JS and Breeze or Sanctum for Laravel. "
                 "I also integrate Git, GitHub Actions, Vite, and GraphQL to maintain clean workflows and automate builds and deployments."
             ),
             (
                 "I’m skilled in a wide range of technologies covering full-stack web development. "
-                "My frontend expertise includes Next.js, React.js, Vue.js, Inertia.js, TypeScript, JavaScript, TailwindCSS, and Shadcn UI for building modern and responsive interfaces. "
-                "For backend development, I rely on Laravel, PHP 8, Livewire.js, LighthousePHP, HonoJS, and Python for specialized tasks like AI and automation. "
+                "My frontend expertise includes Next JS, React JS, Vue JS, Inertia JS, TypeScript, JavaScript, TailwindCSS, and Shadcn UI for building modern and responsive interfaces. "
+                "For backend development, I rely on Laravel, PHP 8, Livewire JS, LighthousePHP, Hono JS, and Python for specialized tasks like AI and automation. "
                 "I manage data efficiently with MySQL, PostgreSQL, MongoDB, Drizzle ORM, Supabase, and Laravel's Eloquent ORM. "
-                "For authentication, I use NextAuth.js with Next.js and Breeze or Sanctum for Laravel applications. "
+                "For authentication, I use NextAuth JS with Next JS and Breeze or Sanctum for Laravel applications. "
                 "I also automate my workflow with Git, GitHub Actions, Vite, and use GraphQL for streamlined APIs, ensuring my solutions stay clean, maintainable, and scalable."
             ),
             (
                 "My skill set combines modern frontend frameworks and robust backend technologies. "
-                "On the frontend, I use Next.js, React.js, Vue.js, Inertia.js, TypeScript, JavaScript, TailwindCSS, and Shadcn UI to design responsive, reusable interfaces. "
-                "On the backend, I develop secure, efficient APIs and services with Laravel, PHP 8, Livewire.js, LighthousePHP, HonoJS, and Python for automation and AI-related tasks. "
+                "On the frontend, I use Next JS, React JS, Vue JS, Inertia JS, TypeScript, JavaScript, TailwindCSS, and Shadcn UI to design responsive, reusable interfaces. "
+                "On the backend, I develop secure, efficient APIs and services with Laravel, PHP 8, Livewire JS, LighthousePHP, Hono JS, and Python for automation and AI-related tasks. "
                 "For databases, I handle MySQL, PostgreSQL, MongoDB, Drizzle ORM, Supabase, and Laravel's Eloquent ORM to manage data safely and effectively. "
-                "Authentication solutions rely on NextAuth.js for Next.js and Laravel Breeze or Sanctum for Laravel. "
+                "Authentication solutions rely on NextAuth JS for Next JS and Laravel Breeze or Sanctum for Laravel. "
                 "To streamline my development pipeline, I use Git, GitHub Actions, Vite, and GraphQL — making my full-stack projects scalable, maintainable, and production-ready."
             )
         ]
@@ -300,15 +368,40 @@ def generate_response(label):
             )
         ]
     return [
-        "I’m not sure how to answer that yet — feel free to ask me anything about my work, skills, or commission offers!"
+        "I’m not sure how to answer that yet — feel free to ask me anything about my work, skills, or commission offers!",
+        "Sorry, I don’t have an answer for that right now. But you can ask me about my projects, skills, or how to collaborate!",
+        "I’m still learning how to respond to that. Please try asking about my work, services, or commissions instead!",
+        "That’s a great question! I don’t have a specific answer yet, but I’m here to talk about my skills, projects, or commissions.",
+        "I don’t have info on that just yet, but I’m happy to answer questions about my development work, skills, or services."
     ]
 
 data = []
 responses = []
 
 for _ in range(50):
-    data.append({"text": random.choice(["Hi", "Hello", "Hey", "Greetings", "Hii", "Helloo", "Heyy", "Good morning", "Good day", "Good afternoon", "Good evening"]), "label": "greetings"})
-    data.append({"text": random.choice(["Goodbye!", "See you!", "Bye!", "Catch you later!", "Thank you", "Thanks"]), "label": "farewell"})
+    data.append({
+    "text": random.choice([
+        "Hi", "Hello", "Hey", "Greetings", "Hii", "Helloo", "Heyy",
+        "Good morning", "Good day", "Good afternoon", "Good evening",
+        "Hi there!", "Hey there!", "Yo!", "Hiya!", "Howdy!", 
+        "Hello there!", "Hey buddy!", "Hey friend!", "Good to see you!",
+        "What’s up?", "Sup!", "Hi friend!", "Hey, how’s it going?", 
+        "Hello, nice to meet you!", "Hi, hope you’re well!"
+        ]),
+        "label": "greetings"
+    })
+    data.append({
+    "text": random.choice([
+        "Goodbye!", "See you!", "Bye!", "Catch you later!", "Thank you", "Thanks",
+        "See you later!", "See ya!", "Bye bye!", "Take care!", "Talk soon!", 
+        "See you next time!", "Farewell!", "Catch you soon!", "Later!", 
+        "Thanks a lot!", "Thanks for your help!", "Much appreciated!", 
+        "Cheers!", "Peace out!", "Have a good one!", "See you around!", 
+        "See you tomorrow!", "See you soon!", "Have a nice day!"
+        ]),
+        "label": "farewell"
+    })
+
 
 questions = {
     "current_work": [
@@ -349,19 +442,16 @@ questions = {
         "What projects have you done?",
         "Can you tell me about your projects?",
         "What kind of projects have you built?",
-        "What have you worked on?",
         "Show me your projects.",
         "Do you have any project examples?",
         "What are some of your past projects?",
         "Can you share your project portfolio?",
         "List some projects you made.",
-        "Tell me about your project work.",
         "Tell me about the systems you built.",
         "Any projects you can show?",
         "Projects?",
         "What project?",
         "What proejc",
-        "What did you develop?",
         "Do you have project samples?",
         "Give me examples of your projects.",
         "What solutions have you delivered?",
@@ -375,14 +465,14 @@ questions = {
         "What type of projects do you prefer?"
     ],
     "skills_nextjs": [
-        "Do you work with Next.js?",
-        "What can you do with Next.js?",
-        "Tell me about your Next.js skills.",
-        "Are you good at Next.js?",
-        "How do you use Next.js?",
-        "What is your experience with Next.js?",
-        "Do you build apps with Next.js?",
-        "Do you use Next.js for production?"
+        "Do you work with Next JS?",
+        "What can you do with Next JS?",
+        "Tell me about your Next JS skills.",
+        "Are you good at Next JS?",
+        "How do you use Next JS?",
+        "What is your experience with Next JS?",
+        "Do you build apps with Next JS?",
+        "Do you use Next JS for production?"
     ],
     "skills_laravel": [
         "Are you experienced with Laravel?",
@@ -431,7 +521,7 @@ questions = {
         "Are you good with backend development?",
         "How do you structure backend code?",
         "What do you prefer for backend work?",
-        "Do you use Laravel or HonoJS for backend?",
+        "Do you use Laravel or Hono JS for backend?",
         "How do you secure your backend?"
     ],
     "tools_workflow": [
@@ -578,9 +668,28 @@ for response_obj in responses:
         response_obj["questions"] = questions[label]
         
 fallback_responses = [
-    f"Sorry, I don't know how to respond to that yet — maybe ask about my projects, skills, or commissions!"
-    for i in range(1, 21)
+    "Sorry, I don't know how to respond to that yet — maybe ask about my projects, skills, or commissions!",
+    "I’m not sure how to answer that. You can try asking about my work or services.",
+    "That’s a new one for me! Please ask about my skills, projects, or rates.",
+    "I don’t have an answer for that right now. Feel free to ask about my experience or commissions.",
+    "I’m still learning to respond to that. Try asking about my development work or services.",
+    "Good question! I don’t have a response yet. Ask me about my projects or skills instead.",
+    "I’m not equipped to answer that, but I’d love to tell you about my work or commissions.",
+    "Sorry, I don’t have info on that. Please ask about my skills, projects, or contact info.",
+    "I’m not sure how to reply to that yet. Ask me about my development services or goals!",
+    "I don’t have a response for that. Maybe ask about my past projects or rates?",
+    "That’s outside my current knowledge. Try asking about my skills or commissions!",
+    "I’m working on that answer! For now, feel free to ask about my work or services.",
+    "I’m not sure about that. You can ask me about my projects, skills, or contact details.",
+    "Sorry, I can’t help with that yet. Ask me about my development experience or commissions.",
+    "I don’t have an answer right now. You might want to ask about my skills or goals.",
+    "That’s a tricky one! Try asking about my past work or pricing.",
+    "I’m learning more every day. Meanwhile, ask me about my services or collaborations.",
+    "I don’t know how to respond yet, but I can tell you about my projects or skills.",
+    "Not sure about that! Ask me about my commissions or development services.",
+    "I’m not prepared to answer that yet. Please ask about my work or goals."
 ]
+
 responses.append({"label": fallback_label, "response": fallback_responses})
 
 data_path = os.path.join(json_dir, "data.json")

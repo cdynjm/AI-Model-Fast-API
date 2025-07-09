@@ -57,7 +57,7 @@ def find_labels_multi_intent(input_text):
                 if score > best_score:
                     best_score = score
                     best_label = label
-        if best_score >= 40 and best_label:
+        if best_score >= 50 and best_label:
             labels_found.add(best_label)
     return list(labels_found)
 
