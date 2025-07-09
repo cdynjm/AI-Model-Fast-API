@@ -6,7 +6,14 @@ root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 json_dir = os.path.join(root_dir, "json")
 os.makedirs(json_dir, exist_ok=True)
 
+data = []
+responses = []
+fallback_label = "fallback"
+
 topics = [
+    "greetings",
+    "farewell",
+    "fallback",
     "introduction",
     "skills",
     "skills_nextjs",
@@ -31,11 +38,6 @@ topics = [
     "offensive_words",
     "sorry"
 ]
-
-greetings = ["greetings"]
-farewells = ["farewell"]
-
-fallback_label = "fallback"
 
 def generate_response(label):
     if label == "greetings":
@@ -413,35 +415,23 @@ def generate_response(label):
         "I don’t have info on that just yet, but I’m happy to answer questions about my development work, skills, or services."
     ]
 
-data = []
-responses = []
-
-for _ in range(50):
-    data.append({
-    "text": random.choice([
+questions = {
+    "greetings": [
         "Hi", "Hello", "Hey", "Greetings", "Hii", "Helloo", "Heyy",
         "Good morning", "Good day", "Good afternoon", "Good evening",
         "Hi there!", "Hey there!", "Yo!", "Hiya!", "Howdy!", 
         "Hello there!", "Hey buddy!", "Hey friend!", "Good to see you!",
         "What’s up?", "Sup!", "Hi friend!", "Hey, how’s it going?", 
         "Hello, nice to meet you!", "Hi, hope you’re well!"
-        ]),
-        "label": "greetings"
-    })
-    data.append({
-    "text": random.choice([
+    ],
+    "farewell": [
         "Goodbye!", "See you!", "Bye!", "Catch you later!", "Thank you", "Thanks",
         "See you later!", "See ya!", "Bye bye!", "Take care!", "Talk soon!", 
         "See you next time!", "Farewell!", "Catch you soon!", "Later!", 
         "Thanks a lot!", "Thanks for your help!", "Much appreciated!", 
         "Cheers!", "Peace out!", "Have a good one!", "See you around!", 
         "See you tomorrow!", "See you soon!", "Have a nice day!"
-        ]),
-        "label": "farewell"
-    })
-
-
-questions = {
+    ],
     "sorry": [
         "sorry",
         "i'm sorry",
@@ -490,6 +480,7 @@ questions = {
     "introduction": [
         "Introduce yourself", "Who are you", "Tell me about yourself",
         "What is your bio", "Who is JEM CDYN", "May I know your name",
+        "who is jemuel cadayona", "jemuel cadayona", "tell me about jemuel cadayona"
     ],
     "projects": [
         "What are your projects?",
@@ -713,7 +704,8 @@ for i in range(100):
     nonsense = f"random noise {i} zxcvb"
     data.append({"text": nonsense, "label": fallback_label})
 
-for label in topics + greetings + farewells:
+
+for label in topics:
     responses.append({"label": label, "response": generate_response(label)})
 
 for response_obj in responses:

@@ -1,494 +1,246 @@
 [
   {
-    "text": "Howdy!",
-    "label": "greetings"
-  },
-  {
-    "text": "See ya!",
-    "label": "farewell"
-  },
-  {
-    "text": "Good to see you!",
-    "label": "greetings"
-  },
-  {
-    "text": "See ya!",
-    "label": "farewell"
-  },
-  {
-    "text": "Helloo",
-    "label": "greetings"
-  },
-  {
-    "text": "See you soon!",
-    "label": "farewell"
-  },
-  {
-    "text": "Helloo",
-    "label": "greetings"
-  },
-  {
-    "text": "Goodbye!",
-    "label": "farewell"
-  },
-  {
-    "text": "Good afternoon",
-    "label": "greetings"
-  },
-  {
-    "text": "See you around!",
-    "label": "farewell"
-  },
-  {
-    "text": "Good afternoon",
-    "label": "greetings"
-  },
-  {
-    "text": "See you next time!",
-    "label": "farewell"
-  },
-  {
-    "text": "Hello",
-    "label": "greetings"
-  },
-  {
-    "text": "See you soon!",
-    "label": "farewell"
-  },
-  {
-    "text": "Hey buddy!",
-    "label": "greetings"
-  },
-  {
-    "text": "Thank you",
-    "label": "farewell"
-  },
-  {
-    "text": "Hi, hope you\u2019re well!",
-    "label": "greetings"
-  },
-  {
-    "text": "Thank you",
-    "label": "farewell"
-  },
-  {
-    "text": "Heyy",
-    "label": "greetings"
-  },
-  {
-    "text": "Thanks for your help!",
-    "label": "farewell"
-  },
-  {
-    "text": "Hey",
-    "label": "greetings"
-  },
-  {
-    "text": "Bye bye!",
-    "label": "farewell"
-  },
-  {
-    "text": "Hey, how\u2019s it going?",
-    "label": "greetings"
-  },
-  {
-    "text": "Catch you later!",
-    "label": "farewell"
-  },
-  {
-    "text": "Yo!",
-    "label": "greetings"
-  },
-  {
-    "text": "See ya!",
-    "label": "farewell"
-  },
-  {
-    "text": "Hiya!",
-    "label": "greetings"
-  },
-  {
-    "text": "Much appreciated!",
-    "label": "farewell"
-  },
-  {
-    "text": "Good afternoon",
-    "label": "greetings"
-  },
-  {
-    "text": "See you!",
-    "label": "farewell"
-  },
-  {
-    "text": "Hey there!",
-    "label": "greetings"
-  },
-  {
-    "text": "Catch you soon!",
-    "label": "farewell"
-  },
-  {
-    "text": "Hello",
-    "label": "greetings"
-  },
-  {
-    "text": "See you next time!",
-    "label": "farewell"
-  },
-  {
-    "text": "Hey",
-    "label": "greetings"
-  },
-  {
-    "text": "Catch you later!",
-    "label": "farewell"
-  },
-  {
-    "text": "What\u2019s up?",
-    "label": "greetings"
-  },
-  {
-    "text": "Have a nice day!",
-    "label": "farewell"
-  },
-  {
-    "text": "Hi",
-    "label": "greetings"
-  },
-  {
-    "text": "Talk soon!",
-    "label": "farewell"
-  },
-  {
-    "text": "Hey",
-    "label": "greetings"
-  },
-  {
-    "text": "See you later!",
-    "label": "farewell"
-  },
-  {
-    "text": "Hey there!",
-    "label": "greetings"
-  },
-  {
-    "text": "Peace out!",
-    "label": "farewell"
-  },
-  {
     "text": "Good morning",
     "label": "greetings"
   },
   {
-    "text": "Thanks",
-    "label": "farewell"
-  },
-  {
-    "text": "Hey friend!",
+    "text": "Hey",
     "label": "greetings"
-  },
-  {
-    "text": "See you soon!",
-    "label": "farewell"
-  },
-  {
-    "text": "Yo!",
-    "label": "greetings"
-  },
-  {
-    "text": "Bye bye!",
-    "label": "farewell"
-  },
-  {
-    "text": "Hiya!",
-    "label": "greetings"
-  },
-  {
-    "text": "Goodbye!",
-    "label": "farewell"
-  },
-  {
-    "text": "Hello, nice to meet you!",
-    "label": "greetings"
-  },
-  {
-    "text": "See you next time!",
-    "label": "farewell"
   },
   {
     "text": "Greetings",
     "label": "greetings"
-  },
-  {
-    "text": "Take care!",
-    "label": "farewell"
-  },
-  {
-    "text": "Hello, nice to meet you!",
-    "label": "greetings"
-  },
-  {
-    "text": "See you!",
-    "label": "farewell"
-  },
-  {
-    "text": "Good morning",
-    "label": "greetings"
-  },
-  {
-    "text": "Peace out!",
-    "label": "farewell"
-  },
-  {
-    "text": "Helloo",
-    "label": "greetings"
-  },
-  {
-    "text": "Talk soon!",
-    "label": "farewell"
-  },
-  {
-    "text": "Good to see you!",
-    "label": "greetings"
-  },
-  {
-    "text": "Catch you soon!",
-    "label": "farewell"
-  },
-  {
-    "text": "Hey buddy!",
-    "label": "greetings"
-  },
-  {
-    "text": "Thanks for your help!",
-    "label": "farewell"
-  },
-  {
-    "text": "Hey buddy!",
-    "label": "greetings"
-  },
-  {
-    "text": "Much appreciated!",
-    "label": "farewell"
-  },
-  {
-    "text": "What\u2019s up?",
-    "label": "greetings"
-  },
-  {
-    "text": "Peace out!",
-    "label": "farewell"
-  },
-  {
-    "text": "Good evening",
-    "label": "greetings"
-  },
-  {
-    "text": "Talk soon!",
-    "label": "farewell"
-  },
-  {
-    "text": "Helloo",
-    "label": "greetings"
-  },
-  {
-    "text": "Peace out!",
-    "label": "farewell"
   },
   {
     "text": "Good day",
     "label": "greetings"
   },
   {
-    "text": "Farewell!",
-    "label": "farewell"
-  },
-  {
-    "text": "Greetings",
+    "text": "Hello",
     "label": "greetings"
   },
   {
-    "text": "See you soon!",
-    "label": "farewell"
-  },
-  {
-    "text": "Good to see you!",
+    "text": "Howdy!",
     "label": "greetings"
-  },
-  {
-    "text": "Much appreciated!",
-    "label": "farewell"
-  },
-  {
-    "text": "Helloo",
-    "label": "greetings"
-  },
-  {
-    "text": "See you next time!",
-    "label": "farewell"
-  },
-  {
-    "text": "Hiya!",
-    "label": "greetings"
-  },
-  {
-    "text": "See you around!",
-    "label": "farewell"
-  },
-  {
-    "text": "Hiya!",
-    "label": "greetings"
-  },
-  {
-    "text": "Take care!",
-    "label": "farewell"
-  },
-  {
-    "text": "Good morning",
-    "label": "greetings"
-  },
-  {
-    "text": "Catch you soon!",
-    "label": "farewell"
-  },
-  {
-    "text": "Good afternoon",
-    "label": "greetings"
-  },
-  {
-    "text": "Goodbye!",
-    "label": "farewell"
-  },
-  {
-    "text": "Good afternoon",
-    "label": "greetings"
-  },
-  {
-    "text": "See you tomorrow!",
-    "label": "farewell"
-  },
-  {
-    "text": "Heyy",
-    "label": "greetings"
-  },
-  {
-    "text": "See you next time!",
-    "label": "farewell"
   },
   {
     "text": "Hello",
     "label": "greetings"
   },
   {
-    "text": "Bye bye!",
-    "label": "farewell"
+    "text": "Hey friend!",
+    "label": "greetings"
+  },
+  {
+    "text": "Hey",
+    "label": "greetings"
+  },
+  {
+    "text": "Hi",
+    "label": "greetings"
+  },
+  {
+    "text": "Good morning",
+    "label": "greetings"
+  },
+  {
+    "text": "What\u2019s up?",
+    "label": "greetings"
+  },
+  {
+    "text": "Hey friend!",
+    "label": "greetings"
+  },
+  {
+    "text": "Hey there!",
+    "label": "greetings"
+  },
+  {
+    "text": "Hiya!",
+    "label": "greetings"
+  },
+  {
+    "text": "Good afternoon",
+    "label": "greetings"
+  },
+  {
+    "text": "Sup!",
+    "label": "greetings"
   },
   {
     "text": "Helloo",
     "label": "greetings"
   },
   {
-    "text": "Have a nice day!",
-    "label": "farewell"
+    "text": "Hiya!",
+    "label": "greetings"
+  },
+  {
+    "text": "Sup!",
+    "label": "greetings"
   },
   {
     "text": "Hello there!",
     "label": "greetings"
   },
   {
-    "text": "Bye!",
+    "text": "Hiya!",
+    "label": "greetings"
+  },
+  {
+    "text": "Good to see you!",
+    "label": "greetings"
+  },
+  {
+    "text": "Greetings",
+    "label": "greetings"
+  },
+  {
+    "text": "Good morning",
+    "label": "greetings"
+  },
+  {
+    "text": "Hey, how\u2019s it going?",
+    "label": "greetings"
+  },
+  {
+    "text": "Hii",
+    "label": "greetings"
+  },
+  {
+    "text": "Hey there!",
+    "label": "greetings"
+  },
+  {
+    "text": "Good evening",
+    "label": "greetings"
+  },
+  {
+    "text": "Hello, nice to meet you!",
+    "label": "greetings"
+  },
+  {
+    "text": "See you next time!",
     "label": "farewell"
   },
   {
-    "text": "excuse me",
-    "label": "sorry"
+    "text": "See you soon!",
+    "label": "farewell"
   },
   {
-    "text": "please forgive me",
-    "label": "sorry"
+    "text": "Have a good one!",
+    "label": "farewell"
   },
   {
-    "text": "sorry for interrupting",
-    "label": "sorry"
+    "text": "Thanks for your help!",
+    "label": "farewell"
+  },
+  {
+    "text": "Much appreciated!",
+    "label": "farewell"
+  },
+  {
+    "text": "See ya!",
+    "label": "farewell"
+  },
+  {
+    "text": "Goodbye!",
+    "label": "farewell"
+  },
+  {
+    "text": "Thank you",
+    "label": "farewell"
+  },
+  {
+    "text": "See you next time!",
+    "label": "farewell"
+  },
+  {
+    "text": "See you tomorrow!",
+    "label": "farewell"
+  },
+  {
+    "text": "Have a good one!",
+    "label": "farewell"
+  },
+  {
+    "text": "Bye bye!",
+    "label": "farewell"
+  },
+  {
+    "text": "Peace out!",
+    "label": "farewell"
+  },
+  {
+    "text": "See ya!",
+    "label": "farewell"
+  },
+  {
+    "text": "Later!",
+    "label": "farewell"
+  },
+  {
+    "text": "Farewell!",
+    "label": "farewell"
+  },
+  {
+    "text": "Thank you",
+    "label": "farewell"
+  },
+  {
+    "text": "Bye bye!",
+    "label": "farewell"
+  },
+  {
+    "text": "Catch you soon!",
+    "label": "farewell"
+  },
+  {
+    "text": "See you later!",
+    "label": "farewell"
+  },
+  {
+    "text": "See you!",
+    "label": "farewell"
+  },
+  {
+    "text": "Have a nice day!",
+    "label": "farewell"
+  },
+  {
+    "text": "Thanks",
+    "label": "farewell"
+  },
+  {
+    "text": "Take care!",
+    "label": "farewell"
+  },
+  {
+    "text": "Bye bye!",
+    "label": "farewell"
+  },
+  {
+    "text": "Thanks for your help!",
+    "label": "farewell"
+  },
+  {
+    "text": "Catch you soon!",
+    "label": "farewell"
+  },
+  {
+    "text": "See you around!",
+    "label": "farewell"
+  },
+  {
+    "text": "Catch you later!",
+    "label": "farewell"
+  },
+  {
+    "text": "Much appreciated!",
+    "label": "farewell"
   },
   {
     "text": "i'm sorry",
-    "label": "sorry"
-  },
-  {
-    "text": "sorry",
-    "label": "sorry"
-  },
-  {
-    "text": "please forgive me",
-    "label": "sorry"
-  },
-  {
-    "text": "pardon me",
-    "label": "sorry"
-  },
-  {
-    "text": "sorry about this",
-    "label": "sorry"
-  },
-  {
-    "text": "sorry for the trouble",
-    "label": "sorry"
-  },
-  {
-    "text": "sorry for the trouble",
-    "label": "sorry"
-  },
-  {
-    "text": "sorry about this",
-    "label": "sorry"
-  },
-  {
-    "text": "i'm sorry",
-    "label": "sorry"
-  },
-  {
-    "text": "my apologies",
-    "label": "sorry"
-  },
-  {
-    "text": "i'm really sorry",
-    "label": "sorry"
-  },
-  {
-    "text": "sorry about this",
-    "label": "sorry"
-  },
-  {
-    "text": "sorry about this",
-    "label": "sorry"
-  },
-  {
-    "text": "i'm really sorry",
-    "label": "sorry"
-  },
-  {
-    "text": "sorry",
-    "label": "sorry"
-  },
-  {
-    "text": "sorry if i bothered you",
-    "label": "sorry"
-  },
-  {
-    "text": "i'm really sorry",
-    "label": "sorry"
-  },
-  {
-    "text": "excuse me",
-    "label": "sorry"
-  },
-  {
-    "text": "please forgive me",
-    "label": "sorry"
-  },
-  {
-    "text": "my apologies",
     "label": "sorry"
   },
   {
@@ -496,10 +248,6 @@
     "label": "sorry"
   },
   {
-    "text": "please forgive me",
-    "label": "sorry"
-  },
-  {
     "text": "i apologize",
     "label": "sorry"
   },
@@ -508,23 +256,115 @@
     "label": "sorry"
   },
   {
+    "text": "sorry about that",
+    "label": "sorry"
+  },
+  {
+    "text": "i'm really sorry",
+    "label": "sorry"
+  },
+  {
+    "text": "please forgive me",
+    "label": "sorry"
+  },
+  {
     "text": "sorry for interrupting",
     "label": "sorry"
   },
   {
-    "text": "sorry for that",
+    "text": "sorry if i was wrong",
     "label": "sorry"
   },
   {
-    "text": "i apologize",
+    "text": "my apologies",
     "label": "sorry"
   },
   {
-    "text": "gago ka",
+    "text": "my apologies",
+    "label": "sorry"
+  },
+  {
+    "text": "sorry for interrupting",
+    "label": "sorry"
+  },
+  {
+    "text": "my apologies",
+    "label": "sorry"
+  },
+  {
+    "text": "sorry about that",
+    "label": "sorry"
+  },
+  {
+    "text": "pardon me",
+    "label": "sorry"
+  },
+  {
+    "text": "i'm sorry",
+    "label": "sorry"
+  },
+  {
+    "text": "excuse me",
+    "label": "sorry"
+  },
+  {
+    "text": "excuse me",
+    "label": "sorry"
+  },
+  {
+    "text": "i'm really sorry",
+    "label": "sorry"
+  },
+  {
+    "text": "sorry if i bothered you",
+    "label": "sorry"
+  },
+  {
+    "text": "excuse me",
+    "label": "sorry"
+  },
+  {
+    "text": "sorry about this",
+    "label": "sorry"
+  },
+  {
+    "text": "excuse me",
+    "label": "sorry"
+  },
+  {
+    "text": "sorry if i bothered you",
+    "label": "sorry"
+  },
+  {
+    "text": "please forgive me",
+    "label": "sorry"
+  },
+  {
+    "text": "my apologies",
+    "label": "sorry"
+  },
+  {
+    "text": "sorry if i bothered you",
+    "label": "sorry"
+  },
+  {
+    "text": "pardon me",
+    "label": "sorry"
+  },
+  {
+    "text": "please forgive me",
+    "label": "sorry"
+  },
+  {
+    "text": "pardon me",
+    "label": "sorry"
+  },
+  {
+    "text": " gago ka",
     "label": "offensive_words"
   },
   {
-    "text": "ulol",
+    "text": " gago gud",
     "label": "offensive_words"
   },
   {
@@ -532,35 +372,11 @@
     "label": "offensive_words"
   },
   {
-    "text": "asshole",
+    "text": "son of a bitch",
     "label": "offensive_words"
   },
   {
-    "text": "tarantado ka",
-    "label": "offensive_words"
-  },
-  {
-    "text": " tarantado",
-    "label": "offensive_words"
-  },
-  {
-    "text": "leche",
-    "label": "offensive_words"
-  },
-  {
-    "text": "putang ina mo",
-    "label": "offensive_words"
-  },
-  {
-    "text": "gago",
-    "label": "offensive_words"
-  },
-  {
-    "text": "jerk",
-    "label": "offensive_words"
-  },
-  {
-    "text": "jerk",
+    "text": "loko",
     "label": "offensive_words"
   },
   {
@@ -568,39 +384,75 @@
     "label": "offensive_words"
   },
   {
-    "text": " tanga",
+    "text": " kuto",
     "label": "offensive_words"
   },
   {
-    "text": "crap",
+    "text": "pedo",
     "label": "offensive_words"
   },
   {
-    "text": "asshole",
+    "text": "tang ina",
     "label": "offensive_words"
   },
   {
-    "text": "shit",
+    "text": "bloody",
     "label": "offensive_words"
   },
   {
-    "text": " tanga baya",
+    "text": "leche",
     "label": "offensive_words"
   },
   {
-    "text": "asshole",
+    "text": " gagoha lagi",
     "label": "offensive_words"
   },
   {
-    "text": "crap",
+    "text": " linta",
     "label": "offensive_words"
   },
   {
-    "text": "damn",
+    "text": " gago",
     "label": "offensive_words"
   },
   {
-    "text": " gago lagi",
+    "text": "dumbass",
+    "label": "offensive_words"
+  },
+  {
+    "text": "tang ina mo",
+    "label": "offensive_words"
+  },
+  {
+    "text": "tarantado ka",
+    "label": "offensive_words"
+  },
+  {
+    "text": " biya ka",
+    "label": "offensive_words"
+  },
+  {
+    "text": " gago gud",
+    "label": "offensive_words"
+  },
+  {
+    "text": " gago",
+    "label": "offensive_words"
+  },
+  {
+    "text": "bloody",
+    "label": "offensive_words"
+  },
+  {
+    "text": "pedo",
+    "label": "offensive_words"
+  },
+  {
+    "text": " buang buang",
+    "label": "offensive_words"
+  },
+  {
+    "text": "tang ina mo",
     "label": "offensive_words"
   },
   {
@@ -608,39 +460,35 @@
     "label": "offensive_words"
   },
   {
-    "text": " buang",
+    "text": " gago baya",
     "label": "offensive_words"
   },
   {
-    "text": " tanga",
+    "text": " gago uy",
     "label": "offensive_words"
   },
   {
-    "text": " kuto",
+    "text": " buang buang",
     "label": "offensive_words"
   },
   {
-    "text": "pakshet",
+    "text": "asshole",
     "label": "offensive_words"
   },
   {
-    "text": "screw you",
+    "text": "gago ka",
     "label": "offensive_words"
   },
   {
-    "text": "twat",
-    "label": "offensive_words"
+    "text": "do you have work",
+    "label": "current_work"
   },
   {
-    "text": "putang ina mo",
-    "label": "offensive_words"
+    "text": "what is your current job",
+    "label": "current_work"
   },
   {
-    "text": " payaso",
-    "label": "offensive_words"
-  },
-  {
-    "text": "who do you work for",
+    "text": "where do you work",
     "label": "current_work"
   },
   {
@@ -648,95 +496,7 @@
     "label": "current_work"
   },
   {
-    "text": "who do you work for",
-    "label": "current_work"
-  },
-  {
-    "text": "what is your current position",
-    "label": "current_work"
-  },
-  {
-    "text": "what is your current role",
-    "label": "current_work"
-  },
-  {
-    "text": "do you have work",
-    "label": "current_work"
-  },
-  {
-    "text": "what is your role right now",
-    "label": "current_work"
-  },
-  {
-    "text": "what is your current role",
-    "label": "current_work"
-  },
-  {
-    "text": "where do you work",
-    "label": "current_work"
-  },
-  {
-    "text": "where do you work",
-    "label": "current_work"
-  },
-  {
-    "text": "are you working now",
-    "label": "current_work"
-  },
-  {
     "text": "what is your work",
-    "label": "current_work"
-  },
-  {
-    "text": "what is your current position",
-    "label": "current_work"
-  },
-  {
-    "text": "who do you work for",
-    "label": "current_work"
-  },
-  {
-    "text": "what is your current position",
-    "label": "current_work"
-  },
-  {
-    "text": "where do you work",
-    "label": "current_work"
-  },
-  {
-    "text": "what is your current position",
-    "label": "current_work"
-  },
-  {
-    "text": "who do you work for",
-    "label": "current_work"
-  },
-  {
-    "text": "what company do you work for",
-    "label": "current_work"
-  },
-  {
-    "text": "what company do you work for",
-    "label": "current_work"
-  },
-  {
-    "text": "what company do you work for",
-    "label": "current_work"
-  },
-  {
-    "text": "what is your work",
-    "label": "current_work"
-  },
-  {
-    "text": "where do you work",
-    "label": "current_work"
-  },
-  {
-    "text": "what is your current role",
-    "label": "current_work"
-  },
-  {
-    "text": "are you working",
     "label": "current_work"
   },
   {
@@ -744,7 +504,83 @@
     "label": "current_work"
   },
   {
-    "text": "where do you work",
+    "text": "what is your current role",
+    "label": "current_work"
+  },
+  {
+    "text": "what are you doing now",
+    "label": "current_work"
+  },
+  {
+    "text": "what company do you work for",
+    "label": "current_work"
+  },
+  {
+    "text": "do you have a work",
+    "label": "current_work"
+  },
+  {
+    "text": "what is your work",
+    "label": "current_work"
+  },
+  {
+    "text": "tell me about your current work",
+    "label": "current_work"
+  },
+  {
+    "text": "tell me about your current work",
+    "label": "current_work"
+  },
+  {
+    "text": "who do you work for",
+    "label": "current_work"
+  },
+  {
+    "text": "what is your current position",
+    "label": "current_work"
+  },
+  {
+    "text": "are you working",
+    "label": "current_work"
+  },
+  {
+    "text": "what is your current position",
+    "label": "current_work"
+  },
+  {
+    "text": "are you working now",
+    "label": "current_work"
+  },
+  {
+    "text": "what is your current role",
+    "label": "current_work"
+  },
+  {
+    "text": "what is your current job",
+    "label": "current_work"
+  },
+  {
+    "text": "what are you doing now",
+    "label": "current_work"
+  },
+  {
+    "text": "what is your role right now",
+    "label": "current_work"
+  },
+  {
+    "text": "what is your current job",
+    "label": "current_work"
+  },
+  {
+    "text": "what are you doing now",
+    "label": "current_work"
+  },
+  {
+    "text": "do you have a work",
+    "label": "current_work"
+  },
+  {
+    "text": "who do you work for",
     "label": "current_work"
   },
   {
@@ -756,35 +592,27 @@
     "label": "current_work"
   },
   {
-    "text": "what are you doing now",
+    "text": "what company do you work for",
     "label": "current_work"
   },
   {
-    "text": "What is your bio",
+    "text": "what is your current position",
+    "label": "current_work"
+  },
+  {
+    "text": "Who is JEM CDYN",
     "label": "introduction"
   },
   {
-    "text": "Tell me about yourself",
+    "text": "jemuel cadayona",
     "label": "introduction"
   },
   {
-    "text": "Tell me about yourself",
+    "text": "tell me about jemuel cadayona",
     "label": "introduction"
   },
   {
-    "text": "May I know your name",
-    "label": "introduction"
-  },
-  {
-    "text": "Tell me about yourself",
-    "label": "introduction"
-  },
-  {
-    "text": "Who are you",
-    "label": "introduction"
-  },
-  {
-    "text": "Who are you",
+    "text": "Who is JEM CDYN",
     "label": "introduction"
   },
   {
@@ -792,11 +620,23 @@
     "label": "introduction"
   },
   {
-    "text": "Who are you",
+    "text": "What is your bio",
     "label": "introduction"
   },
   {
     "text": "Tell me about yourself",
+    "label": "introduction"
+  },
+  {
+    "text": "May I know your name",
+    "label": "introduction"
+  },
+  {
+    "text": "Who are you",
+    "label": "introduction"
+  },
+  {
+    "text": "jemuel cadayona",
     "label": "introduction"
   },
   {
@@ -804,11 +644,7 @@
     "label": "introduction"
   },
   {
-    "text": "Who are you",
-    "label": "introduction"
-  },
-  {
-    "text": "Who is JEM CDYN",
+    "text": "tell me about jemuel cadayona",
     "label": "introduction"
   },
   {
@@ -816,19 +652,31 @@
     "label": "introduction"
   },
   {
-    "text": "Who are you",
+    "text": "tell me about jemuel cadayona",
     "label": "introduction"
   },
   {
-    "text": "What is your bio",
+    "text": "who is jemuel cadayona",
     "label": "introduction"
   },
   {
-    "text": "What is your bio",
+    "text": "May I know your name",
+    "label": "introduction"
+  },
+  {
+    "text": "jemuel cadayona",
     "label": "introduction"
   },
   {
     "text": "Tell me about yourself",
+    "label": "introduction"
+  },
+  {
+    "text": "who is jemuel cadayona",
+    "label": "introduction"
+  },
+  {
+    "text": "who is jemuel cadayona",
     "label": "introduction"
   },
   {
@@ -840,27 +688,19 @@
     "label": "introduction"
   },
   {
-    "text": "Who are you",
+    "text": "who is jemuel cadayona",
     "label": "introduction"
   },
   {
-    "text": "Who are you",
+    "text": "who is jemuel cadayona",
     "label": "introduction"
   },
   {
-    "text": "What is your bio",
-    "label": "introduction"
-  },
-  {
-    "text": "Who is JEM CDYN",
+    "text": "tell me about jemuel cadayona",
     "label": "introduction"
   },
   {
     "text": "May I know your name",
-    "label": "introduction"
-  },
-  {
-    "text": "Who is JEM CDYN",
     "label": "introduction"
   },
   {
@@ -868,7 +708,7 @@
     "label": "introduction"
   },
   {
-    "text": "What is your bio",
+    "text": "Who is JEM CDYN",
     "label": "introduction"
   },
   {
@@ -878,6 +718,18 @@
   {
     "text": "Who are you",
     "label": "introduction"
+  },
+  {
+    "text": "What are your projects?",
+    "label": "projects"
+  },
+  {
+    "text": "Do you have project samples?",
+    "label": "projects"
+  },
+  {
+    "text": "Tell me about the systems you built.",
+    "label": "projects"
   },
   {
     "text": "What project?",
@@ -888,31 +740,7 @@
     "label": "projects"
   },
   {
-    "text": "What are some of your past projects?",
-    "label": "projects"
-  },
-  {
     "text": "Tell me about the systems you built.",
-    "label": "projects"
-  },
-  {
-    "text": "What are your projects?",
-    "label": "projects"
-  },
-  {
-    "text": "Tell me about the systems you built.",
-    "label": "projects"
-  },
-  {
-    "text": "Tell me about your past projects.",
-    "label": "projects"
-  },
-  {
-    "text": "Show me your projects.",
-    "label": "projects"
-  },
-  {
-    "text": "What type of projects do you prefer?",
     "label": "projects"
   },
   {
@@ -920,23 +748,11 @@
     "label": "projects"
   },
   {
-    "text": "Give me examples of your projects.",
+    "text": "Do you have any project examples?",
     "label": "projects"
   },
   {
-    "text": "Can you share your project portfolio?",
-    "label": "projects"
-  },
-  {
-    "text": "What projects have you done?",
-    "label": "projects"
-  },
-  {
-    "text": "What are your projects?",
-    "label": "projects"
-  },
-  {
-    "text": "What have you worked on?",
+    "text": "What solutions have you delivered?",
     "label": "projects"
   },
   {
@@ -944,19 +760,7 @@
     "label": "projects"
   },
   {
-    "text": "Tell me about the systems you built.",
-    "label": "projects"
-  },
-  {
-    "text": "Can you tell me about your projects?",
-    "label": "projects"
-  },
-  {
-    "text": "Give me examples of your projects.",
-    "label": "projects"
-  },
-  {
-    "text": "Can you share some project examples?",
+    "text": "What solutions have you delivered?",
     "label": "projects"
   },
   {
@@ -964,23 +768,7 @@
     "label": "projects"
   },
   {
-    "text": "What are some of your past projects?",
-    "label": "projects"
-  },
-  {
-    "text": "List some projects you made.",
-    "label": "projects"
-  },
-  {
-    "text": "Show me your projects.",
-    "label": "projects"
-  },
-  {
-    "text": "Can you describe your projects?",
-    "label": "projects"
-  },
-  {
-    "text": "Tell me about your past projects.",
+    "text": "Do you have any project examples?",
     "label": "projects"
   },
   {
@@ -988,7 +776,59 @@
     "label": "projects"
   },
   {
-    "text": "Give me examples of your projects.",
+    "text": "What is your biggest project?",
+    "label": "projects"
+  },
+  {
+    "text": "List some projects you made.",
+    "label": "projects"
+  },
+  {
+    "text": "What projects have you built?",
+    "label": "projects"
+  },
+  {
+    "text": "What projects have you built?",
+    "label": "projects"
+  },
+  {
+    "text": "What was your latest project?",
+    "label": "projects"
+  },
+  {
+    "text": "Projects?",
+    "label": "projects"
+  },
+  {
+    "text": "Any projects you can show?",
+    "label": "projects"
+  },
+  {
+    "text": "Can you tell me about your projects?",
+    "label": "projects"
+  },
+  {
+    "text": "What have you worked on?",
+    "label": "projects"
+  },
+  {
+    "text": "Can you share your project portfolio?",
+    "label": "projects"
+  },
+  {
+    "text": "Show me your projects.",
+    "label": "projects"
+  },
+  {
+    "text": "What projects have you built?",
+    "label": "projects"
+  },
+  {
+    "text": "What are your projects?",
+    "label": "projects"
+  },
+  {
+    "text": "Any projects you can show?",
     "label": "projects"
   },
   {
@@ -1000,47 +840,23 @@
     "label": "projects"
   },
   {
-    "text": "Tell me about your Next JS skills.",
-    "label": "skills_nextjs"
-  },
-  {
-    "text": "What can you do with Next JS?",
-    "label": "skills_nextjs"
-  },
-  {
-    "text": "How do you use Next JS?",
-    "label": "skills_nextjs"
-  },
-  {
-    "text": "How do you use Next JS?",
-    "label": "skills_nextjs"
-  },
-  {
     "text": "Do you work with Next JS?",
     "label": "skills_nextjs"
   },
   {
-    "text": "Are you good at Next JS?",
+    "text": "Do you use Next JS for production?",
     "label": "skills_nextjs"
   },
   {
-    "text": "Tell me about your Next JS skills.",
+    "text": "Do you use Next JS for production?",
     "label": "skills_nextjs"
   },
   {
-    "text": "Are you good at Next JS?",
+    "text": "What is your experience with Next JS?",
     "label": "skills_nextjs"
   },
   {
-    "text": "Do you build apps with Next JS?",
-    "label": "skills_nextjs"
-  },
-  {
-    "text": "Are you good at Next JS?",
-    "label": "skills_nextjs"
-  },
-  {
-    "text": "Do you work with Next JS?",
+    "text": "What is your experience with Next JS?",
     "label": "skills_nextjs"
   },
   {
@@ -1053,10 +869,6 @@
   },
   {
     "text": "How do you use Next JS?",
-    "label": "skills_nextjs"
-  },
-  {
-    "text": "Do you build apps with Next JS?",
     "label": "skills_nextjs"
   },
   {
@@ -1068,6 +880,30 @@
     "label": "skills_nextjs"
   },
   {
+    "text": "Do you work with Next JS?",
+    "label": "skills_nextjs"
+  },
+  {
+    "text": "Are you good at Next JS?",
+    "label": "skills_nextjs"
+  },
+  {
+    "text": "Tell me about your Next JS skills.",
+    "label": "skills_nextjs"
+  },
+  {
+    "text": "Are you good at Next JS?",
+    "label": "skills_nextjs"
+  },
+  {
+    "text": "What is your experience with Next JS?",
+    "label": "skills_nextjs"
+  },
+  {
+    "text": "What can you do with Next JS?",
+    "label": "skills_nextjs"
+  },
+  {
     "text": "Do you build apps with Next JS?",
     "label": "skills_nextjs"
   },
@@ -1084,7 +920,7 @@
     "label": "skills_nextjs"
   },
   {
-    "text": "What is your experience with Next JS?",
+    "text": "What can you do with Next JS?",
     "label": "skills_nextjs"
   },
   {
@@ -1092,6 +928,10 @@
     "label": "skills_nextjs"
   },
   {
+    "text": "Do you build apps with Next JS?",
+    "label": "skills_nextjs"
+  },
+  {
     "text": "What can you do with Next JS?",
     "label": "skills_nextjs"
   },
@@ -1100,7 +940,7 @@
     "label": "skills_nextjs"
   },
   {
-    "text": "What is your experience with Next JS?",
+    "text": "What can you do with Next JS?",
     "label": "skills_nextjs"
   },
   {
@@ -1108,18 +948,22 @@
     "label": "skills_nextjs"
   },
   {
-    "text": "Tell me about your Next JS skills.",
-    "label": "skills_nextjs"
-  },
-  {
-    "text": "What can you do with Next JS?",
-    "label": "skills_nextjs"
-  },
-  {
     "text": "How do you use Next JS?",
     "label": "skills_nextjs"
   },
   {
+    "text": "Are you good at Next JS?",
+    "label": "skills_nextjs"
+  },
+  {
+    "text": "Do you use Next JS for production?",
+    "label": "skills_nextjs"
+  },
+  {
+    "text": "What Laravel projects have you done?",
+    "label": "skills_laravel"
+  },
+  {
     "text": "Are you experienced with Laravel?",
     "label": "skills_laravel"
   },
@@ -1128,39 +972,7 @@
     "label": "skills_laravel"
   },
   {
-    "text": "Are you good at Laravel?",
-    "label": "skills_laravel"
-  },
-  {
-    "text": "What do you like about Laravel?",
-    "label": "skills_laravel"
-  },
-  {
-    "text": "What Laravel projects have you done?",
-    "label": "skills_laravel"
-  },
-  {
-    "text": "What do you like about Laravel?",
-    "label": "skills_laravel"
-  },
-  {
-    "text": "How long have you used Laravel?",
-    "label": "skills_laravel"
-  },
-  {
-    "text": "What do you like about Laravel?",
-    "label": "skills_laravel"
-  },
-  {
     "text": "Do you build APIs with Laravel?",
-    "label": "skills_laravel"
-  },
-  {
-    "text": "Are you good at Laravel?",
-    "label": "skills_laravel"
-  },
-  {
-    "text": "Are you experienced with Laravel?",
     "label": "skills_laravel"
   },
   {
@@ -1177,54 +989,6 @@
   },
   {
     "text": "What Laravel projects have you done?",
-    "label": "skills_laravel"
-  },
-  {
-    "text": "Do you use Laravel for backend?",
-    "label": "skills_laravel"
-  },
-  {
-    "text": "Tell me about your Laravel skills.",
-    "label": "skills_laravel"
-  },
-  {
-    "text": "Tell me about your Laravel skills.",
-    "label": "skills_laravel"
-  },
-  {
-    "text": "Do you build APIs with Laravel?",
-    "label": "skills_laravel"
-  },
-  {
-    "text": "Do you use Laravel for backend?",
-    "label": "skills_laravel"
-  },
-  {
-    "text": "Do you use Laravel for backend?",
-    "label": "skills_laravel"
-  },
-  {
-    "text": "How long have you used Laravel?",
-    "label": "skills_laravel"
-  },
-  {
-    "text": "Are you good at Laravel?",
-    "label": "skills_laravel"
-  },
-  {
-    "text": "Tell me about your Laravel skills.",
-    "label": "skills_laravel"
-  },
-  {
-    "text": "Do you build APIs with Laravel?",
-    "label": "skills_laravel"
-  },
-  {
-    "text": "What Laravel projects have you done?",
-    "label": "skills_laravel"
-  },
-  {
-    "text": "How long have you used Laravel?",
     "label": "skills_laravel"
   },
   {
@@ -1238,13 +1002,117 @@
   {
     "text": "What Laravel projects have you done?",
     "label": "skills_laravel"
+  },
+  {
+    "text": "Are you good at Laravel?",
+    "label": "skills_laravel"
+  },
+  {
+    "text": "Are you good at Laravel?",
+    "label": "skills_laravel"
+  },
+  {
+    "text": "Do you use Laravel for backend?",
+    "label": "skills_laravel"
+  },
+  {
+    "text": "What do you like about Laravel?",
+    "label": "skills_laravel"
+  },
+  {
+    "text": "How long have you used Laravel?",
+    "label": "skills_laravel"
+  },
+  {
+    "text": "What Laravel projects have you done?",
+    "label": "skills_laravel"
+  },
+  {
+    "text": "Are you experienced with Laravel?",
+    "label": "skills_laravel"
+  },
+  {
+    "text": "Do you build APIs with Laravel?",
+    "label": "skills_laravel"
+  },
+  {
+    "text": "Are you experienced with Laravel?",
+    "label": "skills_laravel"
+  },
+  {
+    "text": "What Laravel projects have you done?",
+    "label": "skills_laravel"
+  },
+  {
+    "text": "Do you use Laravel for backend?",
+    "label": "skills_laravel"
+  },
+  {
+    "text": "Do you build APIs with Laravel?",
+    "label": "skills_laravel"
+  },
+  {
+    "text": "How long have you used Laravel?",
+    "label": "skills_laravel"
+  },
+  {
+    "text": "Are you good at Laravel?",
+    "label": "skills_laravel"
+  },
+  {
+    "text": "How long have you used Laravel?",
+    "label": "skills_laravel"
+  },
+  {
+    "text": "Do you use Laravel for backend?",
+    "label": "skills_laravel"
+  },
+  {
+    "text": "Are you experienced with Laravel?",
+    "label": "skills_laravel"
+  },
+  {
+    "text": "How long have you used Laravel?",
+    "label": "skills_laravel"
+  },
+  {
+    "text": "How long have you used Laravel?",
+    "label": "skills_laravel"
+  },
+  {
+    "text": "Are you comfortable coding Python?",
+    "label": "skills_python"
+  },
+  {
+    "text": "Tell me about your Python experience.",
+    "label": "skills_python"
+  },
+  {
+    "text": "Tell me about your Python experience.",
+    "label": "skills_python"
+  },
+  {
+    "text": "Do you know Python?",
+    "label": "skills_python"
+  },
+  {
+    "text": "Do you know Python?",
+    "label": "skills_python"
+  },
+  {
+    "text": "What do you build with Python?",
+    "label": "skills_python"
+  },
+  {
+    "text": "What is your Python skill level?",
+    "label": "skills_python"
   },
   {
     "text": "How often do you use Python?",
     "label": "skills_python"
   },
   {
-    "text": "Do you use Python for development?",
+    "text": "What is your Python skill level?",
     "label": "skills_python"
   },
   {
@@ -1252,15 +1120,7 @@
     "label": "skills_python"
   },
   {
-    "text": "Tell me about your Python experience.",
-    "label": "skills_python"
-  },
-  {
-    "text": "What is your Python skill level?",
-    "label": "skills_python"
-  },
-  {
-    "text": "What do you build with Python?",
+    "text": "Do you build scripts in Python?",
     "label": "skills_python"
   },
   {
@@ -1268,11 +1128,7 @@
     "label": "skills_python"
   },
   {
-    "text": "Tell me about your Python experience.",
-    "label": "skills_python"
-  },
-  {
-    "text": "Are you comfortable coding Python?",
+    "text": "How often do you use Python?",
     "label": "skills_python"
   },
   {
@@ -1280,11 +1136,15 @@
     "label": "skills_python"
   },
   {
-    "text": "What do you build with Python?",
+    "text": "Do you know Python?",
     "label": "skills_python"
   },
   {
-    "text": "Do you use Python for development?",
+    "text": "Do you know Python?",
+    "label": "skills_python"
+  },
+  {
+    "text": "Are you comfortable coding Python?",
     "label": "skills_python"
   },
   {
@@ -1292,27 +1152,7 @@
     "label": "skills_python"
   },
   {
-    "text": "What do you build with Python?",
-    "label": "skills_python"
-  },
-  {
-    "text": "What is your Python skill level?",
-    "label": "skills_python"
-  },
-  {
-    "text": "What is your Python skill level?",
-    "label": "skills_python"
-  },
-  {
     "text": "Do you know Python?",
-    "label": "skills_python"
-  },
-  {
-    "text": "Are you comfortable coding Python?",
-    "label": "skills_python"
-  },
-  {
-    "text": "Are you comfortable coding Python?",
     "label": "skills_python"
   },
   {
@@ -1320,27 +1160,19 @@
     "label": "skills_python"
   },
   {
+    "text": "Tell me about your Python experience.",
+    "label": "skills_python"
+  },
+  {
+    "text": "What is your Python skill level?",
+    "label": "skills_python"
+  },
+  {
     "text": "What do you build with Python?",
     "label": "skills_python"
   },
   {
-    "text": "Do you use Python for development?",
-    "label": "skills_python"
-  },
-  {
-    "text": "Are you comfortable coding Python?",
-    "label": "skills_python"
-  },
-  {
-    "text": "Are you comfortable coding Python?",
-    "label": "skills_python"
-  },
-  {
-    "text": "Do you use Python for development?",
-    "label": "skills_python"
-  },
-  {
-    "text": "Do you know Python?",
+    "text": "How often do you use Python?",
     "label": "skills_python"
   },
   {
@@ -1348,11 +1180,7 @@
     "label": "skills_python"
   },
   {
-    "text": "Do you know Python?",
-    "label": "skills_python"
-  },
-  {
-    "text": "How often do you use Python?",
+    "text": "Are you comfortable coding Python?",
     "label": "skills_python"
   },
   {
@@ -1360,7 +1188,23 @@
     "label": "skills_python"
   },
   {
-    "text": "Are you a full-stack developer?",
+    "text": "What is your Python skill level?",
+    "label": "skills_python"
+  },
+  {
+    "text": "Do you know Python?",
+    "label": "skills_python"
+  },
+  {
+    "text": "What is your Python skill level?",
+    "label": "skills_python"
+  },
+  {
+    "text": "What stacks do you use for full-stack work?",
+    "label": "skills_fullstack"
+  },
+  {
+    "text": "What stacks do you use for full-stack work?",
     "label": "skills_fullstack"
   },
   {
@@ -1368,27 +1212,15 @@
     "label": "skills_fullstack"
   },
   {
-    "text": "Can you handle full-stack projects?",
+    "text": "What is your full-stack experience?",
     "label": "skills_fullstack"
   },
   {
-    "text": "How good are you at full-stack projects?",
-    "label": "skills_fullstack"
-  },
-  {
-    "text": "How good are you at full-stack projects?",
-    "label": "skills_fullstack"
-  },
-  {
-    "text": "Are you a full-stack developer?",
+    "text": "Do you do full-stack work?",
     "label": "skills_fullstack"
   },
   {
     "text": "Tell me about your full-stack development.",
-    "label": "skills_fullstack"
-  },
-  {
-    "text": "Are you a full-stack developer?",
     "label": "skills_fullstack"
   },
   {
@@ -1400,15 +1232,11 @@
     "label": "skills_fullstack"
   },
   {
-    "text": "How good are you at full-stack projects?",
-    "label": "skills_fullstack"
-  },
-  {
     "text": "What stacks do you use for full-stack work?",
     "label": "skills_fullstack"
   },
   {
-    "text": "Are you a full-stack developer?",
+    "text": "How good are you at full-stack projects?",
     "label": "skills_fullstack"
   },
   {
@@ -1416,19 +1244,23 @@
     "label": "skills_fullstack"
   },
   {
-    "text": "Are you a full-stack developer?",
-    "label": "skills_fullstack"
-  },
-  {
-    "text": "Can you handle full-stack projects?",
-    "label": "skills_fullstack"
-  },
-  {
     "text": "How good are you at full-stack projects?",
     "label": "skills_fullstack"
   },
   {
-    "text": "Can you handle full-stack projects?",
+    "text": "What is your full-stack experience?",
+    "label": "skills_fullstack"
+  },
+  {
+    "text": "Tell me about your full-stack development.",
+    "label": "skills_fullstack"
+  },
+  {
+    "text": "Are you a full-stack developer?",
+    "label": "skills_fullstack"
+  },
+  {
+    "text": "What stacks do you use for full-stack work?",
     "label": "skills_fullstack"
   },
   {
@@ -1444,11 +1276,15 @@
     "label": "skills_fullstack"
   },
   {
+    "text": "Tell me about your full-stack development.",
+    "label": "skills_fullstack"
+  },
+  {
     "text": "Do you do full-stack work?",
     "label": "skills_fullstack"
   },
   {
-    "text": "What stacks do you use for full-stack work?",
+    "text": "Tell me about your full-stack development.",
     "label": "skills_fullstack"
   },
   {
@@ -1460,7 +1296,11 @@
     "label": "skills_fullstack"
   },
   {
-    "text": "Can you handle full-stack projects?",
+    "text": "Do you work on frontend and backend?",
+    "label": "skills_fullstack"
+  },
+  {
+    "text": "Do you work on frontend and backend?",
     "label": "skills_fullstack"
   },
   {
@@ -1468,15 +1308,15 @@
     "label": "skills_fullstack"
   },
   {
-    "text": "Can you handle full-stack projects?",
-    "label": "skills_fullstack"
-  },
-  {
-    "text": "What is your full-stack experience?",
-    "label": "skills_fullstack"
-  },
-  {
     "text": "Tell me about your full-stack development.",
+    "label": "skills_fullstack"
+  },
+  {
+    "text": "Are you a full-stack developer?",
+    "label": "skills_fullstack"
+  },
+  {
+    "text": "Can you handle full-stack projects?",
     "label": "skills_fullstack"
   },
   {
@@ -1484,111 +1324,11 @@
     "label": "frontend_development"
   },
   {
-    "text": "What do you use for designing UIs?",
+    "text": "What frontend technologies do you use?",
     "label": "frontend_development"
   },
   {
     "text": "Are you good at frontend development?",
-    "label": "frontend_development"
-  },
-  {
-    "text": "What frontend technologies do you use?",
-    "label": "frontend_development"
-  },
-  {
-    "text": "Tell me about your frontend tools.",
-    "label": "frontend_development"
-  },
-  {
-    "text": "Tell me about your frontend tools.",
-    "label": "frontend_development"
-  },
-  {
-    "text": "How do you build modern frontends?",
-    "label": "frontend_development"
-  },
-  {
-    "text": "What do you use for designing UIs?",
-    "label": "frontend_development"
-  },
-  {
-    "text": "What do you use for designing UIs?",
-    "label": "frontend_development"
-  },
-  {
-    "text": "How do you make responsive interfaces?",
-    "label": "frontend_development"
-  },
-  {
-    "text": "How do you make responsive interfaces?",
-    "label": "frontend_development"
-  },
-  {
-    "text": "What do you use for designing UIs?",
-    "label": "frontend_development"
-  },
-  {
-    "text": "What frontend technologies do you use?",
-    "label": "frontend_development"
-  },
-  {
-    "text": "How do you make responsive interfaces?",
-    "label": "frontend_development"
-  },
-  {
-    "text": "What frameworks do you use for frontend?",
-    "label": "frontend_development"
-  },
-  {
-    "text": "Tell me about your frontend tools.",
-    "label": "frontend_development"
-  },
-  {
-    "text": "How do you make responsive interfaces?",
-    "label": "frontend_development"
-  },
-  {
-    "text": "How do you make responsive interfaces?",
-    "label": "frontend_development"
-  },
-  {
-    "text": "Tell me about your frontend tools.",
-    "label": "frontend_development"
-  },
-  {
-    "text": "What frontend technologies do you use?",
-    "label": "frontend_development"
-  },
-  {
-    "text": "How do you build modern frontends?",
-    "label": "frontend_development"
-  },
-  {
-    "text": "What frontend technologies do you use?",
-    "label": "frontend_development"
-  },
-  {
-    "text": "What frameworks do you use for frontend?",
-    "label": "frontend_development"
-  },
-  {
-    "text": "Tell me about your frontend tools.",
-    "label": "frontend_development"
-  },
-  {
-    "text": "How do you make responsive interfaces?",
-    "label": "frontend_development"
-  },
-  {
-    "text": "How do you make responsive interfaces?",
-    "label": "frontend_development"
-  },
-  {
-    "text": "Are you good at frontend development?",
-    "label": "frontend_development"
-  },
-  {
-    "text": "How do you make responsive interfaces?",
     "label": "frontend_development"
   },
   {
@@ -1596,19 +1336,115 @@
     "label": "frontend_development"
   },
   {
+    "text": "What frameworks do you use for frontend?",
+    "label": "frontend_development"
+  },
+  {
+    "text": "How do you build modern frontends?",
+    "label": "frontend_development"
+  },
+  {
+    "text": "Tell me about your frontend tools.",
+    "label": "frontend_development"
+  },
+  {
+    "text": "How do you handle frontend design?",
+    "label": "frontend_development"
+  },
+  {
+    "text": "Tell me about your frontend tools.",
+    "label": "frontend_development"
+  },
+  {
     "text": "How do you make responsive interfaces?",
     "label": "frontend_development"
   },
   {
-    "text": "What do you prefer for backend work?",
+    "text": "What frontend technologies do you use?",
+    "label": "frontend_development"
+  },
+  {
+    "text": "Are you good at frontend development?",
+    "label": "frontend_development"
+  },
+  {
+    "text": "Are you good at frontend development?",
+    "label": "frontend_development"
+  },
+  {
+    "text": "What do you use for designing UIs?",
+    "label": "frontend_development"
+  },
+  {
+    "text": "What frontend technologies do you use?",
+    "label": "frontend_development"
+  },
+  {
+    "text": "What do you use for designing UIs?",
+    "label": "frontend_development"
+  },
+  {
+    "text": "What do you use for designing UIs?",
+    "label": "frontend_development"
+  },
+  {
+    "text": "How do you make responsive interfaces?",
+    "label": "frontend_development"
+  },
+  {
+    "text": "How do you build modern frontends?",
+    "label": "frontend_development"
+  },
+  {
+    "text": "Tell me about your frontend tools.",
+    "label": "frontend_development"
+  },
+  {
+    "text": "What frontend technologies do you use?",
+    "label": "frontend_development"
+  },
+  {
+    "text": "Tell me about your frontend tools.",
+    "label": "frontend_development"
+  },
+  {
+    "text": "What do you use for designing UIs?",
+    "label": "frontend_development"
+  },
+  {
+    "text": "What frontend technologies do you use?",
+    "label": "frontend_development"
+  },
+  {
+    "text": "Tell me about your frontend tools.",
+    "label": "frontend_development"
+  },
+  {
+    "text": "What frameworks do you use for frontend?",
+    "label": "frontend_development"
+  },
+  {
+    "text": "What frameworks do you use for frontend?",
+    "label": "frontend_development"
+  },
+  {
+    "text": "Tell me about your frontend tools.",
+    "label": "frontend_development"
+  },
+  {
+    "text": "What do you use for designing UIs?",
+    "label": "frontend_development"
+  },
+  {
+    "text": "What do you use for designing UIs?",
+    "label": "frontend_development"
+  },
+  {
+    "text": "Are you good with backend development?",
     "label": "backend_development"
   },
   {
-    "text": "How do you secure your backend?",
-    "label": "backend_development"
-  },
-  {
-    "text": "Do you use Laravel or Hono JS for backend?",
+    "text": "How do you build APIs?",
     "label": "backend_development"
   },
   {
@@ -1616,7 +1452,31 @@
     "label": "backend_development"
   },
   {
-    "text": "Tell me about your backend experience.",
+    "text": "How do you secure your backend?",
+    "label": "backend_development"
+  },
+  {
+    "text": "How do you structure backend code?",
+    "label": "backend_development"
+  },
+  {
+    "text": "How do you secure your backend?",
+    "label": "backend_development"
+  },
+  {
+    "text": "How do you build APIs?",
+    "label": "backend_development"
+  },
+  {
+    "text": "Are you good with backend development?",
+    "label": "backend_development"
+  },
+  {
+    "text": "How do you secure your backend?",
+    "label": "backend_development"
+  },
+  {
+    "text": "Are you good with backend development?",
     "label": "backend_development"
   },
   {
@@ -1636,22 +1496,6 @@
     "label": "backend_development"
   },
   {
-    "text": "Are you good with backend development?",
-    "label": "backend_development"
-  },
-  {
-    "text": "How do you structure backend code?",
-    "label": "backend_development"
-  },
-  {
-    "text": "Tell me about your backend experience.",
-    "label": "backend_development"
-  },
-  {
-    "text": "Do you use Laravel or Hono JS for backend?",
-    "label": "backend_development"
-  },
-  {
     "text": "How do you build APIs?",
     "label": "backend_development"
   },
@@ -1660,7 +1504,7 @@
     "label": "backend_development"
   },
   {
-    "text": "How do you secure your backend?",
+    "text": "How do you structure backend code?",
     "label": "backend_development"
   },
   {
@@ -1668,15 +1512,11 @@
     "label": "backend_development"
   },
   {
-    "text": "How do you build APIs?",
-    "label": "backend_development"
-  },
-  {
-    "text": "Are you good with backend development?",
-    "label": "backend_development"
-  },
-  {
     "text": "What do you prefer for backend work?",
+    "label": "backend_development"
+  },
+  {
+    "text": "How do you structure backend code?",
     "label": "backend_development"
   },
   {
@@ -1684,7 +1524,7 @@
     "label": "backend_development"
   },
   {
-    "text": "What do you prefer for backend work?",
+    "text": "How do you build APIs?",
     "label": "backend_development"
   },
   {
@@ -1692,14 +1532,14 @@
     "label": "backend_development"
   },
   {
-    "text": "How do you build APIs?",
-    "label": "backend_development"
-  },
-  {
     "text": "How do you secure your backend?",
     "label": "backend_development"
   },
   {
+    "text": "Do you use Laravel or Hono JS for backend?",
+    "label": "backend_development"
+  },
+  {
     "text": "How do you build APIs?",
     "label": "backend_development"
   },
@@ -1708,7 +1548,7 @@
     "label": "backend_development"
   },
   {
-    "text": "Are you good with backend development?",
+    "text": "How do you build APIs?",
     "label": "backend_development"
   },
   {
@@ -1716,54 +1556,10 @@
     "label": "backend_development"
   },
   {
-    "text": "Do you use Laravel or Hono JS for backend?",
+    "text": "What backend frameworks do you use?",
     "label": "backend_development"
   },
   {
-    "text": "How do you handle version control?",
-    "label": "tools_workflow"
-  },
-  {
-    "text": "Do you use Git or GitHub Actions?",
-    "label": "tools_workflow"
-  },
-  {
-    "text": "Tell me about your workflow.",
-    "label": "tools_workflow"
-  },
-  {
-    "text": "Do you use Git or GitHub Actions?",
-    "label": "tools_workflow"
-  },
-  {
-    "text": "Do you use Vite or GraphQL?",
-    "label": "tools_workflow"
-  },
-  {
-    "text": "What is your typical workflow?",
-    "label": "tools_workflow"
-  },
-  {
-    "text": "Do you use Vite or GraphQL?",
-    "label": "tools_workflow"
-  },
-  {
-    "text": "Do you automate your workflow?",
-    "label": "tools_workflow"
-  },
-  {
-    "text": "What tools do you use for development?",
-    "label": "tools_workflow"
-  },
-  {
-    "text": "Do you use Git or GitHub Actions?",
-    "label": "tools_workflow"
-  },
-  {
-    "text": "Tell me about your workflow.",
-    "label": "tools_workflow"
-  },
-  {
     "text": "Tell me about your workflow.",
     "label": "tools_workflow"
   },
@@ -1772,19 +1568,15 @@
     "label": "tools_workflow"
   },
   {
-    "text": "Do you use Vite or GraphQL?",
-    "label": "tools_workflow"
-  },
-  {
     "text": "Do you automate your workflow?",
     "label": "tools_workflow"
   },
   {
-    "text": "Do you automate your workflow?",
+    "text": "How do you manage deployments?",
     "label": "tools_workflow"
   },
   {
-    "text": "Do you use Vite or GraphQL?",
+    "text": "Tell me about your workflow.",
     "label": "tools_workflow"
   },
   {
@@ -1804,27 +1596,35 @@
     "label": "tools_workflow"
   },
   {
-    "text": "Do you automate your workflow?",
-    "label": "tools_workflow"
-  },
-  {
-    "text": "Tell me about your workflow.",
-    "label": "tools_workflow"
-  },
-  {
     "text": "How do you handle version control?",
     "label": "tools_workflow"
   },
   {
-    "text": "Do you use Git or GitHub Actions?",
+    "text": "Do you automate your workflow?",
     "label": "tools_workflow"
   },
   {
-    "text": "Do you use Git or GitHub Actions?",
+    "text": "Do you use Vite or GraphQL?",
     "label": "tools_workflow"
   },
   {
-    "text": "What tools do you use for development?",
+    "text": "Do you automate your workflow?",
+    "label": "tools_workflow"
+  },
+  {
+    "text": "What is your typical workflow?",
+    "label": "tools_workflow"
+  },
+  {
+    "text": "Do you use Vite or GraphQL?",
+    "label": "tools_workflow"
+  },
+  {
+    "text": "Do you automate your workflow?",
+    "label": "tools_workflow"
+  },
+  {
+    "text": "How do you handle version control?",
     "label": "tools_workflow"
   },
   {
@@ -1836,7 +1636,47 @@
     "label": "tools_workflow"
   },
   {
+    "text": "What tools do you use for development?",
+    "label": "tools_workflow"
+  },
+  {
     "text": "Tell me about your workflow.",
+    "label": "tools_workflow"
+  },
+  {
+    "text": "What is your typical workflow?",
+    "label": "tools_workflow"
+  },
+  {
+    "text": "Tell me about your workflow.",
+    "label": "tools_workflow"
+  },
+  {
+    "text": "Do you use Git or GitHub Actions?",
+    "label": "tools_workflow"
+  },
+  {
+    "text": "How do you handle version control?",
+    "label": "tools_workflow"
+  },
+  {
+    "text": "Do you use Vite or GraphQL?",
+    "label": "tools_workflow"
+  },
+  {
+    "text": "How do you handle version control?",
+    "label": "tools_workflow"
+  },
+  {
+    "text": "How do you handle version control?",
+    "label": "tools_workflow"
+  },
+  {
+    "text": "Tell me about your workflow.",
+    "label": "tools_workflow"
+  },
+  {
+    "text": "What tools do you use for development?",
     "label": "tools_workflow"
   },
   {
@@ -1844,75 +1684,19 @@
     "label": "database_auth"
   },
   {
-    "text": "Tell me about your database design.",
+    "text": "How do you manage user auth?",
+    "label": "database_auth"
+  },
+  {
+    "text": "How do you manage user auth?",
+    "label": "database_auth"
+  },
+  {
+    "text": "Do you build login systems?",
     "label": "database_auth"
   },
   {
     "text": "How do you handle authentication?",
-    "label": "database_auth"
-  },
-  {
-    "text": "Do you work with MySQL or MongoDB?",
-    "label": "database_auth"
-  },
-  {
-    "text": "Tell me about your database design.",
-    "label": "database_auth"
-  },
-  {
-    "text": "Do you work with MySQL or MongoDB?",
-    "label": "database_auth"
-  },
-  {
-    "text": "Do you work with MySQL or MongoDB?",
-    "label": "database_auth"
-  },
-  {
-    "text": "How do you manage user auth?",
-    "label": "database_auth"
-  },
-  {
-    "text": "Do you build login systems?",
-    "label": "database_auth"
-  },
-  {
-    "text": "What databases do you use?",
-    "label": "database_auth"
-  },
-  {
-    "text": "What ORM do you use for databases?",
-    "label": "database_auth"
-  },
-  {
-    "text": "Tell me about your database design.",
-    "label": "database_auth"
-  },
-  {
-    "text": "Do you work with MySQL or MongoDB?",
-    "label": "database_auth"
-  },
-  {
-    "text": "What ORM do you use for databases?",
-    "label": "database_auth"
-  },
-  {
-    "text": "Tell me about your database design.",
-    "label": "database_auth"
-  },
-  {
-    "text": "How do you manage user auth?",
-    "label": "database_auth"
-  },
-  {
-    "text": "What ORM do you use for databases?",
-    "label": "database_auth"
-  },
-  {
-    "text": "Do you build login systems?",
-    "label": "database_auth"
-  },
-  {
-    "text": "Do you work with MySQL or MongoDB?",
     "label": "database_auth"
   },
   {
@@ -1924,7 +1708,23 @@
     "label": "database_auth"
   },
   {
-    "text": "Tell me about your database design.",
+    "text": "What ORM do you use for databases?",
+    "label": "database_auth"
+  },
+  {
+    "text": "How do you manage user auth?",
+    "label": "database_auth"
+  },
+  {
+    "text": "Do you build login systems?",
+    "label": "database_auth"
+  },
+  {
+    "text": "How do you secure user accounts?",
+    "label": "database_auth"
+  },
+  {
+    "text": "Do you build login systems?",
     "label": "database_auth"
   },
   {
@@ -1932,7 +1732,63 @@
     "label": "database_auth"
   },
   {
+    "text": "Do you work with MySQL or MongoDB?",
+    "label": "database_auth"
+  },
+  {
+    "text": "Do you work with MySQL or MongoDB?",
+    "label": "database_auth"
+  },
+  {
     "text": "Tell me about your database design.",
+    "label": "database_auth"
+  },
+  {
+    "text": "Do you build login systems?",
+    "label": "database_auth"
+  },
+  {
+    "text": "Do you build login systems?",
+    "label": "database_auth"
+  },
+  {
+    "text": "What ORM do you use for databases?",
+    "label": "database_auth"
+  },
+  {
+    "text": "Do you work with MySQL or MongoDB?",
+    "label": "database_auth"
+  },
+  {
+    "text": "Do you work with MySQL or MongoDB?",
+    "label": "database_auth"
+  },
+  {
+    "text": "How do you handle authentication?",
+    "label": "database_auth"
+  },
+  {
+    "text": "What databases do you use?",
+    "label": "database_auth"
+  },
+  {
+    "text": "Do you work with MySQL or MongoDB?",
+    "label": "database_auth"
+  },
+  {
+    "text": "Do you work with MySQL or MongoDB?",
+    "label": "database_auth"
+  },
+  {
+    "text": "What ORM do you use for databases?",
+    "label": "database_auth"
+  },
+  {
+    "text": "How do you handle authentication?",
+    "label": "database_auth"
+  },
+  {
+    "text": "Do you work with MySQL or MongoDB?",
     "label": "database_auth"
   },
   {
@@ -1944,31 +1800,7 @@
     "label": "database_auth"
   },
   {
-    "text": "Do you build login systems?",
-    "label": "database_auth"
-  },
-  {
-    "text": "What ORM do you use for databases?",
-    "label": "database_auth"
-  },
-  {
-    "text": "Do you build login systems?",
-    "label": "database_auth"
-  },
-  {
-    "text": "How do you manage user auth?",
-    "label": "database_auth"
-  },
-  {
-    "text": "Do you build custom UI kits?",
-    "label": "ui_consistency"
-  },
-  {
-    "text": "Do you use design systems?",
-    "label": "ui_consistency"
-  },
-  {
-    "text": "Do you build custom UI kits?",
+    "text": "Do you use component libraries?",
     "label": "ui_consistency"
   },
   {
@@ -1976,35 +1808,7 @@
     "label": "ui_consistency"
   },
   {
-    "text": "Do you build custom UI kits?",
-    "label": "ui_consistency"
-  },
-  {
-    "text": "How do you handle UI patterns?",
-    "label": "ui_consistency"
-  },
-  {
-    "text": "How do you maintain UI consistency?",
-    "label": "ui_consistency"
-  },
-  {
-    "text": "How do you maintain UI consistency?",
-    "label": "ui_consistency"
-  },
-  {
-    "text": "Do you build custom UI kits?",
-    "label": "ui_consistency"
-  },
-  {
-    "text": "Do you use design systems?",
-    "label": "ui_consistency"
-  },
-  {
-    "text": "What do you use for design standards?",
-    "label": "ui_consistency"
-  },
-  {
-    "text": "How do you handle UI patterns?",
+    "text": "Do you use component libraries?",
     "label": "ui_consistency"
   },
   {
@@ -2016,23 +1820,11 @@
     "label": "ui_consistency"
   },
   {
-    "text": "Do you build custom UI kits?",
+    "text": "How do you handle UI patterns?",
     "label": "ui_consistency"
   },
   {
-    "text": "Do you use design systems?",
-    "label": "ui_consistency"
-  },
-  {
-    "text": "How do you keep your interfaces consistent?",
-    "label": "ui_consistency"
-  },
-  {
-    "text": "Do you use design systems?",
-    "label": "ui_consistency"
-  },
-  {
-    "text": "How do you keep your interfaces consistent?",
+    "text": "What do you use for design standards?",
     "label": "ui_consistency"
   },
   {
@@ -2044,15 +1836,11 @@
     "label": "ui_consistency"
   },
   {
-    "text": "How do you handle UI patterns?",
+    "text": "Do you build custom UI kits?",
     "label": "ui_consistency"
   },
   {
     "text": "How do you handle UI patterns?",
-    "label": "ui_consistency"
-  },
-  {
-    "text": "How do you keep your interfaces consistent?",
     "label": "ui_consistency"
   },
   {
@@ -2060,19 +1848,11 @@
     "label": "ui_consistency"
   },
   {
-    "text": "Do you use component libraries?",
+    "text": "Do you use design systems?",
     "label": "ui_consistency"
   },
   {
-    "text": "Do you use component libraries?",
-    "label": "ui_consistency"
-  },
-  {
-    "text": "How do you handle UI patterns?",
-    "label": "ui_consistency"
-  },
-  {
-    "text": "How do you handle UI patterns?",
+    "text": "Do you use design systems?",
     "label": "ui_consistency"
   },
   {
@@ -2080,7 +1860,115 @@
     "label": "ui_consistency"
   },
   {
+    "text": "How do you keep your interfaces consistent?",
+    "label": "ui_consistency"
+  },
+  {
+    "text": "Do you use design systems?",
+    "label": "ui_consistency"
+  },
+  {
+    "text": "Tell me about Shadcn UI.",
+    "label": "ui_consistency"
+  },
+  {
+    "text": "How do you handle UI patterns?",
+    "label": "ui_consistency"
+  },
+  {
+    "text": "Do you use design systems?",
+    "label": "ui_consistency"
+  },
+  {
+    "text": "What do you use for design standards?",
+    "label": "ui_consistency"
+  },
+  {
+    "text": "Tell me about Shadcn UI.",
+    "label": "ui_consistency"
+  },
+  {
+    "text": "How do you handle UI patterns?",
+    "label": "ui_consistency"
+  },
+  {
+    "text": "Tell me about Shadcn UI.",
+    "label": "ui_consistency"
+  },
+  {
+    "text": "Do you build custom UI kits?",
+    "label": "ui_consistency"
+  },
+  {
+    "text": "What do you use for design standards?",
+    "label": "ui_consistency"
+  },
+  {
+    "text": "Do you use component libraries?",
+    "label": "ui_consistency"
+  },
+  {
+    "text": "How do you handle UI patterns?",
+    "label": "ui_consistency"
+  },
+  {
+    "text": "How do you handle UI patterns?",
+    "label": "ui_consistency"
+  },
+  {
+    "text": "Do you build custom UI kits?",
+    "label": "ui_consistency"
+  },
+  {
+    "text": "Do you use CI/CD pipelines?",
+    "label": "ci_cd"
+  },
+  {
     "text": "Do you have automated tests?",
+    "label": "ci_cd"
+  },
+  {
+    "text": "Tell me about your deployment workflow.",
+    "label": "ci_cd"
+  },
+  {
+    "text": "Tell me about your deployment workflow.",
+    "label": "ci_cd"
+  },
+  {
+    "text": "What\u2019s your CI/CD process?",
+    "label": "ci_cd"
+  },
+  {
+    "text": "How do you deploy your projects?",
+    "label": "ci_cd"
+  },
+  {
+    "text": "Do you use CI/CD pipelines?",
+    "label": "ci_cd"
+  },
+  {
+    "text": "Do you have automated tests?",
+    "label": "ci_cd"
+  },
+  {
+    "text": "Do you automate deployments?",
+    "label": "ci_cd"
+  },
+  {
+    "text": "Do you automate deployments?",
+    "label": "ci_cd"
+  },
+  {
+    "text": "What\u2019s your CI/CD process?",
+    "label": "ci_cd"
+  },
+  {
+    "text": "Do you use CI/CD pipelines?",
+    "label": "ci_cd"
+  },
+  {
+    "text": "How do you push to production?",
     "label": "ci_cd"
   },
   {
@@ -2096,15 +1984,35 @@
     "label": "ci_cd"
   },
   {
-    "text": "Do you use GitHub Actions for CI/CD?",
-    "label": "ci_cd"
-  },
-  {
     "text": "Do you automate deployments?",
     "label": "ci_cd"
   },
   {
     "text": "Do you use GitHub Actions for CI/CD?",
+    "label": "ci_cd"
+  },
+  {
+    "text": "Do you have automated tests?",
+    "label": "ci_cd"
+  },
+  {
+    "text": "How do you push to production?",
+    "label": "ci_cd"
+  },
+  {
+    "text": "Do you use GitHub Actions for CI/CD?",
+    "label": "ci_cd"
+  },
+  {
+    "text": "Do you have automated tests?",
+    "label": "ci_cd"
+  },
+  {
+    "text": "How do you deploy your projects?",
+    "label": "ci_cd"
+  },
+  {
+    "text": "How do you push to production?",
     "label": "ci_cd"
   },
   {
@@ -2116,35 +2024,7 @@
     "label": "ci_cd"
   },
   {
-    "text": "Do you use CI/CD pipelines?",
-    "label": "ci_cd"
-  },
-  {
-    "text": "What\u2019s your CI/CD process?",
-    "label": "ci_cd"
-  },
-  {
-    "text": "How do you deploy your projects?",
-    "label": "ci_cd"
-  },
-  {
-    "text": "How do you deploy your projects?",
-    "label": "ci_cd"
-  },
-  {
-    "text": "Tell me about your deployment workflow.",
-    "label": "ci_cd"
-  },
-  {
-    "text": "Do you use CI/CD pipelines?",
-    "label": "ci_cd"
-  },
-  {
-    "text": "How do you push to production?",
-    "label": "ci_cd"
-  },
-  {
-    "text": "Do you automate deployments?",
+    "text": "Do you use GitHub Actions for CI/CD?",
     "label": "ci_cd"
   },
   {
@@ -2152,35 +2032,7 @@
     "label": "ci_cd"
   },
   {
-    "text": "Do you have automated tests?",
-    "label": "ci_cd"
-  },
-  {
-    "text": "What\u2019s your CI/CD process?",
-    "label": "ci_cd"
-  },
-  {
-    "text": "Do you use CI/CD pipelines?",
-    "label": "ci_cd"
-  },
-  {
-    "text": "Tell me about your deployment workflow.",
-    "label": "ci_cd"
-  },
-  {
-    "text": "What\u2019s your CI/CD process?",
-    "label": "ci_cd"
-  },
-  {
-    "text": "Tell me about your deployment workflow.",
-    "label": "ci_cd"
-  },
-  {
     "text": "Do you automate deployments?",
-    "label": "ci_cd"
-  },
-  {
-    "text": "Tell me about your deployment workflow.",
     "label": "ci_cd"
   },
   {
@@ -2188,51 +2040,7 @@
     "label": "ci_cd"
   },
   {
-    "text": "Do you use CI/CD pipelines?",
-    "label": "ci_cd"
-  },
-  {
-    "text": "Do you use CI/CD pipelines?",
-    "label": "ci_cd"
-  },
-  {
-    "text": "How do you deploy your projects?",
-    "label": "ci_cd"
-  },
-  {
-    "text": "What do you provide to businesses?",
-    "label": "services"
-  },
-  {
-    "text": "How can you help clients?",
-    "label": "services"
-  },
-  {
-    "text": "Tell me about your development services.",
-    "label": "services"
-  },
-  {
-    "text": "Do you offer web development?",
-    "label": "services"
-  },
-  {
-    "text": "What do you provide to businesses?",
-    "label": "services"
-  },
-  {
-    "text": "What do you provide to businesses?",
-    "label": "services"
-  },
-  {
-    "text": "What services do you offer?",
-    "label": "services"
-  },
-  {
-    "text": "What can I hire you for?",
-    "label": "services"
-  },
-  {
-    "text": "What services do you offer?",
+    "text": "Do you offer consulting?",
     "label": "services"
   },
   {
@@ -2244,27 +2052,11 @@
     "label": "services"
   },
   {
-    "text": "How can you help clients?",
-    "label": "services"
-  },
-  {
-    "text": "What can I hire you for?",
+    "text": "Tell me about your development services.",
     "label": "services"
   },
   {
     "text": "How can you help clients?",
-    "label": "services"
-  },
-  {
-    "text": "How can you help clients?",
-    "label": "services"
-  },
-  {
-    "text": "Do you build custom websites?",
-    "label": "services"
-  },
-  {
-    "text": "Do you offer web development?",
     "label": "services"
   },
   {
@@ -2276,27 +2068,11 @@
     "label": "services"
   },
   {
-    "text": "What services do you offer?",
-    "label": "services"
-  },
-  {
-    "text": "What can I hire you for?",
-    "label": "services"
-  },
-  {
-    "text": "What services do you offer?",
-    "label": "services"
-  },
-  {
-    "text": "Do you offer web development?",
-    "label": "services"
-  },
-  {
     "text": "Tell me about your development services.",
     "label": "services"
   },
   {
-    "text": "Do you offer consulting?",
+    "text": "What services do you offer?",
     "label": "services"
   },
   {
@@ -2308,7 +2084,23 @@
     "label": "services"
   },
   {
-    "text": "What services do you offer?",
+    "text": "How can you help clients?",
+    "label": "services"
+  },
+  {
+    "text": "Do you offer consulting?",
+    "label": "services"
+  },
+  {
+    "text": "How can you help clients?",
+    "label": "services"
+  },
+  {
+    "text": "Tell me about your development services.",
+    "label": "services"
+  },
+  {
+    "text": "What do you provide to businesses?",
     "label": "services"
   },
   {
@@ -2316,82 +2108,62 @@
     "label": "services"
   },
   {
+    "text": "What can I hire you for?",
+    "label": "services"
+  },
+  {
+    "text": "What can I hire you for?",
+    "label": "services"
+  },
+  {
+    "text": "What can I hire you for?",
+    "label": "services"
+  },
+  {
+    "text": "What do you provide to businesses?",
+    "label": "services"
+  },
+  {
+    "text": "What can I hire you for?",
+    "label": "services"
+  },
+  {
+    "text": "How can you help clients?",
+    "label": "services"
+  },
+  {
+    "text": "What can I hire you for?",
+    "label": "services"
+  },
+  {
+    "text": "What do you provide to businesses?",
+    "label": "services"
+  },
+  {
+    "text": "Do you build custom websites?",
+    "label": "services"
+  },
+  {
+    "text": "Do you offer consulting?",
+    "label": "services"
+  },
+  {
+    "text": "Do you offer consulting?",
+    "label": "services"
+  },
+  {
     "text": "What services do you offer?",
     "label": "services"
   },
   {
-    "text": "Do you accept commissions?",
-    "label": "commissions"
-  },
-  {
-    "text": "Do you accept commissions?",
-    "label": "commissions"
-  },
-  {
-    "text": "Tell me about your pricing.",
-    "label": "commissions"
-  },
-  {
-    "text": "What is your pricing structure?",
-    "label": "commissions"
-  },
-  {
-    "text": "What is your starting price?",
-    "label": "commissions"
+    "text": "Tell me about your development services.",
+    "label": "services"
   },
   {
     "text": "How much do you charge?",
     "label": "commissions"
   },
   {
-    "text": "Where do I find your rates?",
-    "label": "commissions"
-  },
-  {
-    "text": "What is your pricing structure?",
-    "label": "commissions"
-  },
-  {
-    "text": "What are your rates?",
-    "label": "commissions"
-  },
-  {
-    "text": "Where do I find your rates?",
-    "label": "commissions"
-  },
-  {
-    "text": "What is your starting price?",
-    "label": "commissions"
-  },
-  {
-    "text": "What are your rates?",
-    "label": "commissions"
-  },
-  {
-    "text": "What is your pricing structure?",
-    "label": "commissions"
-  },
-  {
-    "text": "What is your pricing structure?",
-    "label": "commissions"
-  },
-  {
-    "text": "Tell me about your pricing.",
-    "label": "commissions"
-  },
-  {
-    "text": "How much do you charge?",
-    "label": "commissions"
-  },
-  {
-    "text": "Where do I find your rates?",
-    "label": "commissions"
-  },
-  {
-    "text": "What is your pricing structure?",
-    "label": "commissions"
-  },
-  {
     "text": "What is your starting price?",
     "label": "commissions"
   },
@@ -2400,23 +2172,11 @@
     "label": "commissions"
   },
   {
-    "text": "Tell me about your pricing.",
-    "label": "commissions"
-  },
-  {
-    "text": "Tell me about your pricing.",
-    "label": "commissions"
-  },
-  {
-    "text": "What are your rates?",
-    "label": "commissions"
-  },
-  {
-    "text": "Tell me about your pricing.",
-    "label": "commissions"
-  },
-  {
     "text": "Do you accept commissions?",
+    "label": "commissions"
+  },
+  {
+    "text": "Tell me about your pricing.",
     "label": "commissions"
   },
   {
@@ -2428,11 +2188,23 @@
     "label": "commissions"
   },
   {
-    "text": "Where do I find your rates?",
+    "text": "How much do you charge?",
+    "label": "commissions"
+  },
+  {
+    "text": "Do you accept commissions?",
     "label": "commissions"
   },
   {
     "text": "Where do I find your rates?",
+    "label": "commissions"
+  },
+  {
+    "text": "Tell me about your pricing.",
+    "label": "commissions"
+  },
+  {
+    "text": "What is your pricing structure?",
     "label": "commissions"
   },
   {
@@ -2440,12 +2212,72 @@
     "label": "commissions"
   },
   {
-    "text": "How can I contact you?",
-    "label": "contact"
+    "text": "What are your rates?",
+    "label": "commissions"
   },
   {
-    "text": "What is the best way to contact you?",
-    "label": "contact"
+    "text": "What is your starting price?",
+    "label": "commissions"
+  },
+  {
+    "text": "What are your rates?",
+    "label": "commissions"
+  },
+  {
+    "text": "Do you accept commissions?",
+    "label": "commissions"
+  },
+  {
+    "text": "What is your starting price?",
+    "label": "commissions"
+  },
+  {
+    "text": "Where can I see your commission details?",
+    "label": "commissions"
+  },
+  {
+    "text": "What is your pricing structure?",
+    "label": "commissions"
+  },
+  {
+    "text": "Do you accept commissions?",
+    "label": "commissions"
+  },
+  {
+    "text": "What is your pricing structure?",
+    "label": "commissions"
+  },
+  {
+    "text": "Do you accept commissions?",
+    "label": "commissions"
+  },
+  {
+    "text": "Where can I see your commission details?",
+    "label": "commissions"
+  },
+  {
+    "text": "What is your starting price?",
+    "label": "commissions"
+  },
+  {
+    "text": "Where can I see your commission details?",
+    "label": "commissions"
+  },
+  {
+    "text": "Do you accept commissions?",
+    "label": "commissions"
+  },
+  {
+    "text": "What is your pricing structure?",
+    "label": "commissions"
+  },
+  {
+    "text": "Where can I see your commission details?",
+    "label": "commissions"
+  },
+  {
+    "text": "Where do I find your rates?",
+    "label": "commissions"
   },
   {
     "text": "Where can I send an inquiry?",
@@ -2453,94 +2285,6 @@
   },
   {
     "text": "Where can I send an inquiry?",
-    "label": "contact"
-  },
-  {
-    "text": "Do you have a contact form?",
-    "label": "contact"
-  },
-  {
-    "text": "Can I reach you for a project?",
-    "label": "contact"
-  },
-  {
-    "text": "How do I send you a message?",
-    "label": "contact"
-  },
-  {
-    "text": "Do you have a contact form?",
-    "label": "contact"
-  },
-  {
-    "text": "Where do I get in touch?",
-    "label": "contact"
-  },
-  {
-    "text": "Can I reach you for a project?",
-    "label": "contact"
-  },
-  {
-    "text": "How do I reach you?",
-    "label": "contact"
-  },
-  {
-    "text": "How do I send you a message?",
-    "label": "contact"
-  },
-  {
-    "text": "How do I send you a message?",
-    "label": "contact"
-  },
-  {
-    "text": "What is the best way to contact you?",
-    "label": "contact"
-  },
-  {
-    "text": "How do I reach you?",
-    "label": "contact"
-  },
-  {
-    "text": "Where do I get in touch?",
-    "label": "contact"
-  },
-  {
-    "text": "What is the best way to contact you?",
-    "label": "contact"
-  },
-  {
-    "text": "Where do I get in touch?",
-    "label": "contact"
-  },
-  {
-    "text": "Do you have a contact form?",
-    "label": "contact"
-  },
-  {
-    "text": "How do I reach you?",
-    "label": "contact"
-  },
-  {
-    "text": "Can I reach you for a project?",
-    "label": "contact"
-  },
-  {
-    "text": "Where do I get in touch?",
-    "label": "contact"
-  },
-  {
-    "text": "Where do I get in touch?",
-    "label": "contact"
-  },
-  {
-    "text": "How can I contact you?",
-    "label": "contact"
-  },
-  {
-    "text": "Do you have a contact form?",
-    "label": "contact"
-  },
-  {
-    "text": "How do I send you a message?",
     "label": "contact"
   },
   {
@@ -2556,71 +2300,111 @@
     "label": "contact"
   },
   {
+    "text": "What is the best way to contact you?",
+    "label": "contact"
+  },
+  {
+    "text": "Do you have a contact form?",
+    "label": "contact"
+  },
+  {
+    "text": "What is the best way to contact you?",
+    "label": "contact"
+  },
+  {
+    "text": "Where do I get in touch?",
+    "label": "contact"
+  },
+  {
     "text": "Where can I send an inquiry?",
     "label": "contact"
   },
   {
-    "text": "Tell me about your main goals.",
-    "label": "goals"
+    "text": "Can I reach you for a project?",
+    "label": "contact"
   },
   {
-    "text": "What are you working towards?",
-    "label": "goals"
+    "text": "Where do I get in touch?",
+    "label": "contact"
   },
   {
-    "text": "What is your mission as a developer?",
-    "label": "goals"
+    "text": "Where do I get in touch?",
+    "label": "contact"
   },
   {
-    "text": "What are you working towards?",
-    "label": "goals"
+    "text": "Do you have a contact form?",
+    "label": "contact"
+  },
+  {
+    "text": "Where do I get in touch?",
+    "label": "contact"
+  },
+  {
+    "text": "How do I send you a message?",
+    "label": "contact"
+  },
+  {
+    "text": "How do I send you a message?",
+    "label": "contact"
+  },
+  {
+    "text": "Do you have a contact form?",
+    "label": "contact"
+  },
+  {
+    "text": "Can I reach you for a project?",
+    "label": "contact"
+  },
+  {
+    "text": "What is the best way to contact you?",
+    "label": "contact"
+  },
+  {
+    "text": "How do I reach you?",
+    "label": "contact"
+  },
+  {
+    "text": "How can I contact you?",
+    "label": "contact"
+  },
+  {
+    "text": "How can I contact you?",
+    "label": "contact"
+  },
+  {
+    "text": "What is the best way to contact you?",
+    "label": "contact"
+  },
+  {
+    "text": "How can I contact you?",
+    "label": "contact"
+  },
+  {
+    "text": "Where can I send an inquiry?",
+    "label": "contact"
+  },
+  {
+    "text": "How do I reach you?",
+    "label": "contact"
+  },
+  {
+    "text": "How can I contact you?",
+    "label": "contact"
+  },
+  {
+    "text": "What is the best way to contact you?",
+    "label": "contact"
+  },
+  {
+    "text": "How do I reach you?",
+    "label": "contact"
   },
   {
     "text": "Where do you see yourself going?",
     "label": "goals"
   },
   {
-    "text": "What do you aim to achieve?",
-    "label": "goals"
-  },
-  {
-    "text": "What is your goal as a developer?",
-    "label": "goals"
-  },
-  {
-    "text": "What are you working towards?",
-    "label": "goals"
-  },
-  {
-    "text": "What do you aim to achieve?",
-    "label": "goals"
-  },
-  {
-    "text": "What is your professional goal?",
-    "label": "goals"
-  },
-  {
-    "text": "What are you working towards?",
-    "label": "goals"
-  },
-  {
-    "text": "What is your professional goal?",
-    "label": "goals"
-  },
-  {
-    "text": "What is your mission as a developer?",
-    "label": "goals"
-  },
-  {
     "text": "Where do you see yourself going?",
-    "label": "goals"
-  },
-  {
-    "text": "What is your professional goal?",
-    "label": "goals"
-  },
-  {
-    "text": "What is your goal as a developer?",
     "label": "goals"
   },
   {
@@ -2632,7 +2416,11 @@
     "label": "goals"
   },
   {
-    "text": "What motivates you?",
+    "text": "Where do you see yourself going?",
+    "label": "goals"
+  },
+  {
+    "text": "What is your professional goal?",
     "label": "goals"
   },
   {
@@ -2640,15 +2428,11 @@
     "label": "goals"
   },
   {
-    "text": "What is your professional goal?",
+    "text": "What is your goal as a developer?",
     "label": "goals"
   },
   {
-    "text": "What is your professional goal?",
-    "label": "goals"
-  },
-  {
-    "text": "What are you working towards?",
+    "text": "What do you aim to achieve?",
     "label": "goals"
   },
   {
@@ -2657,6 +2441,38 @@
   },
   {
     "text": "What is your goal as a developer?",
+    "label": "goals"
+  },
+  {
+    "text": "Tell me about your main goals.",
+    "label": "goals"
+  },
+  {
+    "text": "What motivates you?",
+    "label": "goals"
+  },
+  {
+    "text": "What is your goal as a developer?",
+    "label": "goals"
+  },
+  {
+    "text": "What is your goal as a developer?",
+    "label": "goals"
+  },
+  {
+    "text": "What do you aim to achieve?",
+    "label": "goals"
+  },
+  {
+    "text": "What motivates you?",
+    "label": "goals"
+  },
+  {
+    "text": "What do you aim to achieve?",
+    "label": "goals"
+  },
+  {
+    "text": "Tell me about your main goals.",
     "label": "goals"
   },
   {
@@ -2668,7 +2484,27 @@
     "label": "goals"
   },
   {
-    "text": "Where do you see yourself going?",
+    "text": "What is your goal as a developer?",
+    "label": "goals"
+  },
+  {
+    "text": "What are you working towards?",
+    "label": "goals"
+  },
+  {
+    "text": "What is your mission as a developer?",
+    "label": "goals"
+  },
+  {
+    "text": "What do you aim to achieve?",
+    "label": "goals"
+  },
+  {
+    "text": "What are you working towards?",
+    "label": "goals"
+  },
+  {
+    "text": "Tell me about your main goals.",
     "label": "goals"
   },
   {
@@ -2676,19 +2512,83 @@
     "label": "goals"
   },
   {
-    "text": "Where do you see yourself going?",
+    "text": "What is your mission as a developer?",
     "label": "goals"
+  },
+  {
+    "text": "What motivates you?",
+    "label": "goals"
+  },
+  {
+    "text": "Are you open to collaboration?",
+    "label": "collaboration"
   },
   {
     "text": "Can we work together?",
     "label": "collaboration"
   },
   {
-    "text": "Are you open for joint projects?",
+    "text": "How do you handle partnerships?",
+    "label": "collaboration"
+  },
+  {
+    "text": "How do you handle partnerships?",
+    "label": "collaboration"
+  },
+  {
+    "text": "Do you like partnering with others?",
+    "label": "collaboration"
+  },
+  {
+    "text": "How do you handle partnerships?",
+    "label": "collaboration"
+  },
+  {
+    "text": "Do you like partnering with others?",
     "label": "collaboration"
   },
   {
     "text": "Are you open to collaboration?",
+    "label": "collaboration"
+  },
+  {
+    "text": "Can I work with you?",
+    "label": "collaboration"
+  },
+  {
+    "text": "Do you like partnering with others?",
+    "label": "collaboration"
+  },
+  {
+    "text": "Do you collaborate with others?",
+    "label": "collaboration"
+  },
+  {
+    "text": "Do you like partnering with others?",
+    "label": "collaboration"
+  },
+  {
+    "text": "Do you collaborate with others?",
+    "label": "collaboration"
+  },
+  {
+    "text": "Can we work together?",
+    "label": "collaboration"
+  },
+  {
+    "text": "Can I work with you?",
+    "label": "collaboration"
+  },
+  {
+    "text": "Do you like partnering with others?",
+    "label": "collaboration"
+  },
+  {
+    "text": "Can I work with you?",
+    "label": "collaboration"
+  },
+  {
+    "text": "Do you like partnering with others?",
     "label": "collaboration"
   },
   {
@@ -2697,6 +2597,42 @@
   },
   {
     "text": "Are you open for joint projects?",
+    "label": "collaboration"
+  },
+  {
+    "text": "Are you open for joint projects?",
+    "label": "collaboration"
+  },
+  {
+    "text": "Are you open for joint projects?",
+    "label": "collaboration"
+  },
+  {
+    "text": "Are you open to collaboration?",
+    "label": "collaboration"
+  },
+  {
+    "text": "Are you open for joint projects?",
+    "label": "collaboration"
+  },
+  {
+    "text": "Can I work with you?",
+    "label": "collaboration"
+  },
+  {
+    "text": "Are you open for joint projects?",
+    "label": "collaboration"
+  },
+  {
+    "text": "Do you collaborate with others?",
+    "label": "collaboration"
+  },
+  {
+    "text": "Do you collaborate with others?",
+    "label": "collaboration"
+  },
+  {
+    "text": "How do you handle partnerships?",
     "label": "collaboration"
   },
   {
@@ -2704,103 +2640,19 @@
     "label": "collaboration"
   },
   {
-    "text": "Can I work with you?",
-    "label": "collaboration"
+    "text": "Tell me about your learning process.",
+    "label": "learning"
   },
   {
-    "text": "Are you open for joint projects?",
-    "label": "collaboration"
+    "text": "How do you upgrade your skills?",
+    "label": "learning"
   },
   {
-    "text": "Are you open for joint projects?",
-    "label": "collaboration"
+    "text": "What do you do to stay current?",
+    "label": "learning"
   },
   {
-    "text": "Are you open for joint projects?",
-    "label": "collaboration"
-  },
-  {
-    "text": "Are you open to collaboration?",
-    "label": "collaboration"
-  },
-  {
-    "text": "Can I work with you?",
-    "label": "collaboration"
-  },
-  {
-    "text": "Can I work with you?",
-    "label": "collaboration"
-  },
-  {
-    "text": "How do you handle partnerships?",
-    "label": "collaboration"
-  },
-  {
-    "text": "Are you open to collaboration?",
-    "label": "collaboration"
-  },
-  {
-    "text": "Are you open for joint projects?",
-    "label": "collaboration"
-  },
-  {
-    "text": "Are you open for joint projects?",
-    "label": "collaboration"
-  },
-  {
-    "text": "Can I work with you?",
-    "label": "collaboration"
-  },
-  {
-    "text": "Can I work with you?",
-    "label": "collaboration"
-  },
-  {
-    "text": "Do you collaborate with others?",
-    "label": "collaboration"
-  },
-  {
-    "text": "Do you do teamwork?",
-    "label": "collaboration"
-  },
-  {
-    "text": "Do you like partnering with others?",
-    "label": "collaboration"
-  },
-  {
-    "text": "How do you handle partnerships?",
-    "label": "collaboration"
-  },
-  {
-    "text": "Are you open for joint projects?",
-    "label": "collaboration"
-  },
-  {
-    "text": "Do you collaborate with others?",
-    "label": "collaboration"
-  },
-  {
-    "text": "Are you open to collaboration?",
-    "label": "collaboration"
-  },
-  {
-    "text": "Do you like partnering with others?",
-    "label": "collaboration"
-  },
-  {
-    "text": "Can I work with you?",
-    "label": "collaboration"
-  },
-  {
-    "text": "How do you handle partnerships?",
-    "label": "collaboration"
-  },
-  {
-    "text": "Do you collaborate with others?",
-    "label": "collaboration"
-  },
-  {
-    "text": "Do you stay updated with trends?",
+    "text": "Do you take courses?",
     "label": "learning"
   },
   {
@@ -2808,19 +2660,23 @@
     "label": "learning"
   },
   {
-    "text": "What do you do to stay current?",
-    "label": "learning"
-  },
-  {
-    "text": "What do you do to stay current?",
-    "label": "learning"
-  },
-  {
-    "text": "Do you stay updated with trends?",
+    "text": "Do you like learning new tech?",
     "label": "learning"
   },
   {
     "text": "Do you take courses?",
+    "label": "learning"
+  },
+  {
+    "text": "How do you upgrade your skills?",
+    "label": "learning"
+  },
+  {
+    "text": "Tell me about your learning process.",
+    "label": "learning"
+  },
+  {
+    "text": "What do you do to stay current?",
     "label": "learning"
   },
   {
@@ -2832,11 +2688,11 @@
     "label": "learning"
   },
   {
-    "text": "Do you take courses?",
+    "text": "What do you do to stay current?",
     "label": "learning"
   },
   {
-    "text": "How do you learn new tools?",
+    "text": "Do you stay updated with trends?",
     "label": "learning"
   },
   {
@@ -2844,35 +2700,11 @@
     "label": "learning"
   },
   {
-    "text": "Do you like learning new tech?",
+    "text": "Tell me about your learning process.",
     "label": "learning"
   },
   {
-    "text": "Do you take courses?",
-    "label": "learning"
-  },
-  {
-    "text": "How do you upgrade your skills?",
-    "label": "learning"
-  },
-  {
-    "text": "Do you like learning new tech?",
-    "label": "learning"
-  },
-  {
-    "text": "Do you stay updated with trends?",
-    "label": "learning"
-  },
-  {
-    "text": "Do you take courses?",
-    "label": "learning"
-  },
-  {
-    "text": "How do you upgrade your skills?",
-    "label": "learning"
-  },
-  {
-    "text": "How do you upgrade your skills?",
+    "text": "How do you learn new tools?",
     "label": "learning"
   },
   {
@@ -2884,7 +2716,7 @@
     "label": "learning"
   },
   {
-    "text": "Do you like learning new tech?",
+    "text": "How do you upgrade your skills?",
     "label": "learning"
   },
   {
@@ -2892,19 +2724,7 @@
     "label": "learning"
   },
   {
-    "text": "Do you stay updated with trends?",
-    "label": "learning"
-  },
-  {
-    "text": "How do you learn new tools?",
-    "label": "learning"
-  },
-  {
-    "text": "Do you stay updated with trends?",
-    "label": "learning"
-  },
-  {
-    "text": "How do you keep improving?",
+    "text": "Tell me about your learning process.",
     "label": "learning"
   },
   {
@@ -2920,111 +2740,31 @@
     "label": "learning"
   },
   {
-    "text": "Can you describe your career?",
-    "label": "work_experiences"
+    "text": "How do you keep improving?",
+    "label": "learning"
   },
   {
-    "text": "What are your experience",
-    "label": "work_experiences"
+    "text": "Do you take courses?",
+    "label": "learning"
   },
   {
-    "text": "Can you describe your career?",
-    "label": "work_experiences"
+    "text": "How do you keep improving?",
+    "label": "learning"
   },
   {
-    "text": "Your experiences",
-    "label": "work_experiences"
+    "text": "How do you learn new tools?",
+    "label": "learning"
   },
   {
-    "text": "What is your professional background?",
-    "label": "work_experiences"
-  },
-  {
-    "text": "Can you describe your career?",
-    "label": "work_experiences"
-  },
-  {
-    "text": "Your experience",
-    "label": "work_experiences"
+    "text": "What do you do to stay current?",
+    "label": "learning"
   },
   {
     "text": "What have you worked on as a developer?",
     "label": "work_experiences"
   },
   {
-    "text": "Your experience",
-    "label": "work_experiences"
-  },
-  {
-    "text": "What jobs have you done?",
-    "label": "work_experiences"
-  },
-  {
-    "text": "What jobs have you done?",
-    "label": "work_experiences"
-  },
-  {
-    "text": "Your experience",
-    "label": "work_experiences"
-  },
-  {
-    "text": "Your experience",
-    "label": "work_experiences"
-  },
-  {
-    "text": "Can you share your work history?",
-    "label": "work_experiences"
-  },
-  {
-    "text": "What are your experiences",
-    "label": "work_experiences"
-  },
-  {
-    "text": "What jobs have you done?",
-    "label": "work_experiences"
-  },
-  {
-    "text": "What are your experiences",
-    "label": "work_experiences"
-  },
-  {
-    "text": "What have you worked on as a developer?",
-    "label": "work_experiences"
-  },
-  {
-    "text": "What are your experiences",
-    "label": "work_experiences"
-  },
-  {
-    "text": "Your experience",
-    "label": "work_experiences"
-  },
-  {
     "text": "Your experiences",
-    "label": "work_experiences"
-  },
-  {
-    "text": "What companies have you worked for?",
-    "label": "work_experiences"
-  },
-  {
-    "text": "Can you share your work history?",
-    "label": "work_experiences"
-  },
-  {
-    "text": "Your experiences",
-    "label": "work_experiences"
-  },
-  {
-    "text": "Can you describe your career?",
-    "label": "work_experiences"
-  },
-  {
-    "text": "What are your experience",
-    "label": "work_experiences"
-  },
-  {
-    "text": "Your experience",
     "label": "work_experiences"
   },
   {
@@ -3032,7 +2772,51 @@
     "label": "work_experiences"
   },
   {
+    "text": "Your experiences",
+    "label": "work_experiences"
+  },
+  {
+    "text": "What jobs have you done?",
+    "label": "work_experiences"
+  },
+  {
+    "text": "Can you share your work history?",
+    "label": "work_experiences"
+  },
+  {
+    "text": "What are your experience",
+    "label": "work_experiences"
+  },
+  {
+    "text": "What are your experiences",
+    "label": "work_experiences"
+  },
+  {
     "text": "What companies have you worked for?",
+    "label": "work_experiences"
+  },
+  {
+    "text": "Can you share your work history?",
+    "label": "work_experiences"
+  },
+  {
+    "text": "What have you worked on as a developer?",
+    "label": "work_experiences"
+  },
+  {
+    "text": "Your experience",
+    "label": "work_experiences"
+  },
+  {
+    "text": "Can you share your work history?",
+    "label": "work_experiences"
+  },
+  {
+    "text": "Your experience",
+    "label": "work_experiences"
+  },
+  {
+    "text": "What is your professional background?",
     "label": "work_experiences"
   },
   {
@@ -3040,7 +2824,139 @@
     "label": "work_experiences"
   },
   {
+    "text": "Tell me about your work experience.",
+    "label": "work_experiences"
+  },
+  {
+    "text": "Where have you worked?",
+    "label": "work_experiences"
+  },
+  {
+    "text": "Where have you worked?",
+    "label": "work_experiences"
+  },
+  {
+    "text": "What is your professional background?",
+    "label": "work_experiences"
+  },
+  {
+    "text": "What are your experiences",
+    "label": "work_experiences"
+  },
+  {
+    "text": "Can you share your work history?",
+    "label": "work_experiences"
+  },
+  {
+    "text": "What have you worked on as a developer?",
+    "label": "work_experiences"
+  },
+  {
+    "text": "Can you share your work history?",
+    "label": "work_experiences"
+  },
+  {
+    "text": "Your experience",
+    "label": "work_experiences"
+  },
+  {
+    "text": "What are your experiences",
+    "label": "work_experiences"
+  },
+  {
+    "text": "Can you describe your career?",
+    "label": "work_experiences"
+  },
+  {
+    "text": "What companies have you worked for?",
+    "label": "work_experiences"
+  },
+  {
+    "text": "What companies have you worked for?",
+    "label": "work_experiences"
+  },
+  {
+    "text": "Tell me about your work experience.",
+    "label": "work_experiences"
+  },
+  {
+    "text": "What is your technical skill set?",
+    "label": "skills"
+  },
+  {
+    "text": "List your skills.",
+    "label": "skills"
+  },
+  {
+    "text": "List your skills.",
+    "label": "skills"
+  },
+  {
     "text": "What technologies do you know?",
+    "label": "skills"
+  },
+  {
+    "text": "What are your skills?",
+    "label": "skills"
+  },
+  {
+    "text": "What technologies do you know?",
+    "label": "skills"
+  },
+  {
+    "text": "What frameworks do you work with?",
+    "label": "skills"
+  },
+  {
+    "text": "List your skills.",
+    "label": "skills"
+  },
+  {
+    "text": "What are your skills?",
+    "label": "skills"
+  },
+  {
+    "text": "What are your skills?",
+    "label": "skills"
+  },
+  {
+    "text": "What frameworks do you work with?",
+    "label": "skills"
+  },
+  {
+    "text": "What tech stack do you use?",
+    "label": "skills"
+  },
+  {
+    "text": "List your skills.",
+    "label": "skills"
+  },
+  {
+    "text": "What programming languages and tools do you use?",
+    "label": "skills"
+  },
+  {
+    "text": "What frameworks do you work with?",
+    "label": "skills"
+  },
+  {
+    "text": "What is your technical skill set?",
+    "label": "skills"
+  },
+  {
+    "text": "What tech stack do you use?",
+    "label": "skills"
+  },
+  {
+    "text": "What technologies do you know?",
+    "label": "skills"
+  },
+  {
+    "text": "What are your skills?",
+    "label": "skills"
+  },
+  {
+    "text": "What is your technical skill set?",
     "label": "skills"
   },
   {
@@ -3056,18 +2972,6 @@
     "label": "skills"
   },
   {
-    "text": "What programming languages and tools do you use?",
-    "label": "skills"
-  },
-  {
-    "text": "What technologies do you know?",
-    "label": "skills"
-  },
-  {
-    "text": "What tech stack do you use?",
-    "label": "skills"
-  },
-  {
     "text": "What frameworks do you work with?",
     "label": "skills"
   },
@@ -3076,71 +2980,11 @@
     "label": "skills"
   },
   {
-    "text": "List your skills.",
-    "label": "skills"
-  },
-  {
-    "text": "What tech stack do you use?",
-    "label": "skills"
-  },
-  {
-    "text": "What frameworks do you work with?",
-    "label": "skills"
-  },
-  {
-    "text": "What programming languages and tools do you use?",
-    "label": "skills"
-  },
-  {
-    "text": "What tech stack do you use?",
-    "label": "skills"
-  },
-  {
-    "text": "What tech stack do you use?",
-    "label": "skills"
-  },
-  {
-    "text": "What is your technical skill set?",
-    "label": "skills"
-  },
-  {
-    "text": "What technologies do you know?",
-    "label": "skills"
-  },
-  {
-    "text": "What technologies do you know?",
-    "label": "skills"
-  },
-  {
-    "text": "What tech stack do you use?",
-    "label": "skills"
-  },
-  {
     "text": "What tech stack do you use?",
     "label": "skills"
   },
   {
     "text": "What technologies do you know?",
-    "label": "skills"
-  },
-  {
-    "text": "What technologies do you know?",
-    "label": "skills"
-  },
-  {
-    "text": "List your skills.",
-    "label": "skills"
-  },
-  {
-    "text": "What programming languages and tools do you use?",
-    "label": "skills"
-  },
-  {
-    "text": "List your skills.",
-    "label": "skills"
-  },
-  {
-    "text": "What tech stack do you use?",
     "label": "skills"
   },
   {
@@ -3148,15 +2992,11 @@
     "label": "skills"
   },
   {
-    "text": "List your skills.",
+    "text": "What frameworks do you work with?",
     "label": "skills"
   },
   {
-    "text": "What programming languages and tools do you use?",
-    "label": "skills"
-  },
-  {
-    "text": "What tech stack do you use?",
+    "text": "What frameworks do you work with?",
     "label": "skills"
   },
   {
