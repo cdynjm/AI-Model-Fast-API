@@ -470,7 +470,7 @@ questions = {
         " biya ka", " agi kayo", " tanga baya", " gagoha lagi",
         "tang ina mo", "puta", "ulol ka", "gago ka", "tarantado ka", "pakshet mo", "leche ka", "putang ina mo", "bobo ka"
     ],
-    
+
     "current_work": [
         "what is your work",
         "what is your current job",
@@ -488,21 +488,8 @@ questions = {
         "do you have work"
     ],
     "introduction": [
-        "Can you tell me about yourself?",
-        "Who are you?",
-        "Please introduce yourself.",
-        "What should I know about you?",
-        "Tell me about yourself.",
-        "Introduce yourself to me.",
-        "Who is JEM CDYN?",
-        "What is your name?",
-        "Your name please?",
-        "May I know your name?",
-        "Tell me your name.",
-        "What do you call yourself?",
-        "What is your bio?"
-        "tell me about you",
-        "who you are",
+        "Introduce yourself", "Who are you", "Tell me about yourself",
+        "What is your bio", "Who is JEM CDYN", "May I know your name",
     ],
     "projects": [
         "What are your projects?",
