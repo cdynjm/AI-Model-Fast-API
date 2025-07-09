@@ -28,7 +28,8 @@ topics = [
     "learning",
     "work_experiences",
     "current_work",
-    "offensive_words"
+    "offensive_words",
+    "sorry"
 ]
 
 greetings = ["greetings"]
@@ -391,6 +392,18 @@ def generate_response(label):
             "Let’s keep things respectful — I’m ready to assist you with anything else.",
             "Let’s switch to a better topic — how can I help with your project or questions?"
         ]
+    
+    if label == "sorry":
+        return [
+            "No worries! How can I assist you further?",
+            "It's okay! Feel free to ask me anything.",
+            "Don't worry about it. How can I help you today?",
+            "That's alright! Let me know if you have any questions.",
+            "No problem! I'm here whenever you need assistance.",
+            "It's okay, no need to apologize. What would you like to know?",
+            "No need to be sorry! I'm happy to help you.",
+            "All good! How can I assist you now?"
+        ]
 
     return [
         "I’m not sure how to answer that yet — feel free to ask me anything about my work, skills, or commission offers!",
@@ -429,6 +442,24 @@ for _ in range(50):
 
 
 questions = {
+    "sorry": [
+        "sorry",
+        "i'm sorry",
+        "my apologies",
+        "sorry about that",
+        "sorry for that",
+        "sorry if i bothered you",
+        "sorry for the trouble",
+        "please forgive me",
+        "i apologize",
+        "sorry for interrupting",
+        "excuse me",
+        "pardon me",
+        "sorry about this",
+        "i'm really sorry",
+        "sorry if i was wrong"
+    ],
+
     "offensive_words": [
         "fuck", "shit", "bitch", "asshole", "dick", "piss off", "bastard", "dumbass", "son of a bitch", "motherfucker",
         "idiot", "stupid", "jerk", "crap", "damn", "bloody", "screw you", "twat",
@@ -439,6 +470,7 @@ questions = {
         " biya ka", " agi kayo", " tanga baya", " gagoha lagi",
         "tang ina mo", "puta", "ulol ka", "gago ka", "tarantado ka", "pakshet mo", "leche ka", "putang ina mo", "bobo ka"
     ],
+    
     "current_work": [
         "what is your work",
         "what is your current job",

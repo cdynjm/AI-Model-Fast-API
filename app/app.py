@@ -126,7 +126,7 @@ def chat():
         label_index = probs.argmax()
         predicted_label = model.classes_[label_index]
 
-        threshold = 0.5
+        threshold = 0.3
 
         multi_labels = find_labels_multi_intent(input_text)
 

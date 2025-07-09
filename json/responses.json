@@ -562,6 +562,36 @@
     ]
   },
   {
+    "label": "sorry",
+    "response": [
+      "No worries! How can I assist you further?",
+      "It's okay! Feel free to ask me anything.",
+      "Don't worry about it. How can I help you today?",
+      "That's alright! Let me know if you have any questions.",
+      "No problem! I'm here whenever you need assistance.",
+      "It's okay, no need to apologize. What would you like to know?",
+      "No need to be sorry! I'm happy to help you.",
+      "All good! How can I assist you now?"
+    ],
+    "questions": [
+      "sorry",
+      "i'm sorry",
+      "my apologies",
+      "sorry about that",
+      "sorry for that",
+      "sorry if i bothered you",
+      "sorry for the trouble",
+      "please forgive me",
+      "i apologize",
+      "sorry for interrupting",
+      "excuse me",
+      "pardon me",
+      "sorry about this",
+      "i'm really sorry",
+      "sorry if i was wrong"
+    ]
+  },
+  {
     "label": "greetings",
     "response": [
       "Hi there! I\u2019m AI JEM \u2014 a custom chatbot version of Jemuel Cadayona, a passionate software developer from Southern Leyte, Philippines. I was created using Python with FastAPI and Flask, and trained with custom NLP workflows and scikit-learn on tailored datasets about Jemuel\u2019s work and information. Feel free to ask me about his skills, projects, or how you can collaborate with him!",
