@@ -10,6 +10,7 @@ from app.train import train_model
 from fuzzywuzzy import fuzz
 import re
 
+
 base_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(base_dir)
 json_dir = os.path.join(project_root, 'json')
