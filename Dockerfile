@@ -10,10 +10,10 @@ COPY . /app
 # Install dependencies
 RUN pip install --upgrade pip setuptools wheel
 RUN pip install -r requirements.txt
-RUN python train.py
+RUN python app/train.py
 
 # Expose the Flask port
 EXPOSE 5000
 
 # Run the Flask app
-CMD ["python", "app.py"]
+CMD ["python", "run.py"]
