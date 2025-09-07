@@ -1,14 +1,9 @@
 import os
 import shutil
 import traceback
-import json
-import random
+
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
-import joblib
-from app.train import train_model
-from fuzzywuzzy import fuzz
-import re
 
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
