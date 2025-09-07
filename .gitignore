@@ -7,3 +7,4 @@ venv/
 # Ignore __pycache__ and compiled files
 __pycache__/
 *.pyc
+logs/
