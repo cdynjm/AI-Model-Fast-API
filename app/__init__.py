@@ -7,7 +7,6 @@ import logging
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 import joblib
-from app.train import train_model
 from fuzzywuzzy import fuzz
 import re
 
@@ -118,31 +117,6 @@ def home():
     title = "Chatbot API"
     message = "The API is running smoothly 🚀"
     return render_template("home.html", title=title, message=message)
-
-@app.route('/train', methods=['GET'])
-def train():
-    try:
-        print("🚀 Starting training process...")
-        models_dir = os.path.join(os.path.dirname(__file__), "..", "models")
-
-        if os.path.exists(models_dir):
-            shutil.rmtree(models_dir)
-            print(f"🗑️ Cleared old models at: {models_dir}")
-
-        train_model()
-        print("✅ Training finished!")
-
-        return jsonify({
-            "status": "success",
-            "message": "Training complete. Old models cleared."
-        }), 200
-
-    except Exception as e:
-        logging.error("Error during training", exc_info=e)
-        return jsonify({
-            "status": "error",
-            "message": str(e)
-        }), 500
 
 @app.route('/chat', methods=['POST'])
 def chat():
