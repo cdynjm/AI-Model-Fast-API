@@ -1,6 +1,7 @@
 import os
 import shutil
 import traceback
+import sys, platform
 import json
 import random
 import logging
@@ -114,7 +115,7 @@ def get_response(label: str) -> str:
 # -----------------------------
 @app.route('/')
 def home():
-    title = "Chatbot API"
+    title = sys.version
     message = "The API is running smoothly 🚀"
     return render_template("home.html", title=title, message=message)
 
