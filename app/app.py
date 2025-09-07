@@ -155,3 +155,5 @@ def chat():
         'label': predicted_label,
         'probability': max_prob
     })
+
+application = app
