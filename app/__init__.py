@@ -2,6 +2,7 @@ import os
 import shutil
 import traceback
 import sys, platform
+import pickle
 import json
 import random
 import logging
@@ -48,10 +49,14 @@ CORS(app)
 # Load ML model and vectorizer
 # -----------------------------
 try:
-    model_path = os.path.join(project_root, 'models', 'chatbot_model.joblib')
-    vectorizer_path = os.path.join(project_root, 'models', 'vectorizer.joblib')
-    model = joblib.load(model_path)
-    vectorizer = joblib.load(vectorizer_path)
+    model_path = os.path.join(project_root, 'models', 'chatbot_model.pkl')
+    vectorizer_path = os.path.join(project_root, 'models', 'vectorizer.pkl')
+
+    with open(model_path, "rb") as f:
+        model = pickle.load(f)
+    with open(vectorizer_path, "rb") as f:
+        vectorizer = pickle.load(f)
+
 except Exception as e:
     logging.error("Failed to load model/vectorizer", exc_info=e)
     raise

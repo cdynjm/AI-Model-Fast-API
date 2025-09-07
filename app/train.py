@@ -1,9 +1,9 @@
 import os
 import json
 import pandas as pd
+import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-import joblib
 
 def train_model():
     try:
@@ -39,12 +39,14 @@ def train_model():
         models_dir = os.path.join(root_dir, "models")
         os.makedirs(models_dir, exist_ok=True)
         
-        model_path = os.path.join(models_dir, 'chatbot_model.joblib')
-        vectorizer_path = os.path.join(models_dir, 'vectorizer.joblib')
+        model_path = os.path.join(models_dir, 'chatbot_model.pkl')
+        vectorizer_path = os.path.join(models_dir, 'vectorizer.pkl')
         
-        # Use compress=3 and protocol compatible with Python 3.7/joblib 0.14
-        joblib.dump(model, model_path, compress=3, protocol=4)
-        joblib.dump(vectorizer, vectorizer_path, compress=3, protocol=4)
+        # Save with pickle (protocol 4 is safe for Python 3.6+)
+        with open(model_path, "wb") as f:
+            pickle.dump(model, f, protocol=4)
+        with open(vectorizer_path, "wb") as f:
+            pickle.dump(vectorizer, f, protocol=4)
         
         print(f"✅ Training complete. Files saved to {models_dir}")
         
